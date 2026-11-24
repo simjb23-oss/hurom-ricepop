@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
-// 휴롬 쌀참 · 구조 3D v7b (2026-11-25) — 몰드 서랍 구조 · 윗보 12 × 80 · 개스킷 · 펴개 숟가락
+// 휴롬 쌀참 · 구조 3D v8 (2026-11-25) — 몰드 서랍 구조 · 밀판 + 경사판(꺼내기) · 윗보 40 × 22 세움 · 바닥판 10t · 열 상자 116
 // 기준 구조: 검은 상판 · 위 열판 + 플러그 · ㅁ자 강철 틀 고정, 아래 피스톤만 바닥 모터가 20mm 올리고 내림(트레이째), 서랍은 사람이 당김.
 // 카세트 · 슬라이드 · 앞문 · 배출 슬롯 · 트레이 없음. 부품 번호 ①~⑭ = 2.5D 단면 · 층 분해와 같음. 단위 10cm. 22×22×20cm
 // 좌표: x 좌우 · y 위 · z 앞(+). 2.5D(mm) → 3D: x=(x−110)/100, y=z/100, z=(y−110)/100
@@ -87,21 +87,21 @@ const top = box(W + 0.02, 0.04, D + 0.02, 0.008, M.glass); glassG.add(top);
 [-0.72, -0.56].forEach(x => { const dot = cyl(0.025, 0.025, 0.01, M.band); dot.position.set(x, 0.022, D / 2 - 0.16); glassG.add(dot); });
 const digit = box(0.14, 0.01, 0.06, 0.003, M.band); digit.position.set(-0.36, 0.022, D / 2 - 0.16); glassG.add(digit);
 add(glassG, V(0, H - 0.02, 0), V(0, H + 2.3, 0), '⑭ 검은 불투명 내열 상판(유리 아님) · 숨은 터치 · 상태 불빛 · 숫자 — 창 없음 · 움직이지 않음', 3);
-// ⑬ ㅁ자 강철 틀 — 바닥판(z 14..22) + 기둥 2(x 50..62 · 158..170, z 22..132) + 윗보(z 132..144) 한 몸
+// ⑬ ㅁ자 강철 틀 — 바닥판 10t(z 12..22) + 기둥 2(x 50..62 · 158..170, z 22..132) + 윗보 40 × 22(z 132..154) 한 몸
 const frameG = new THREE.Group();
-const fBase = plain(1.2, 0.08, 0.92, M.frame); fBase.position.set(0, 0.18, 0); frameG.add(fBase);
+const fBase = plain(1.2, 0.10, 0.92, M.frame); fBase.position.set(0, 0.17, 0); frameG.add(fBase);
 [-0.54, 0.54].forEach(x => { const c = plain(0.12, 1.10, 0.12, M.frame); c.position.set(x, 0.77, -0.06); frameG.add(c); });
-const fBeam = plain(1.2, 0.12, 0.80, M.frame); fBeam.position.set(0, 1.38, 0); frameG.add(fBeam);
-add(frameG, V(0, 0, 0), V(-2.3, 0.3, 0), '⑬ ㅁ자 강철 틀 — 바닥판 8t · 기둥 12 × 12 두 개 · 윗보 12 × 80(눕힌 강판 · 굽힘 약 52MPa): 누르는 힘 1.4~4.2kN이 이 안에서 닫힘(위 열판은 윗보에, 토글 핀은 바닥판에)', 2);
+const fBeam = plain(1.2, 0.22, 0.40, M.frame); fBeam.position.set(0, 1.43, 0); frameG.add(fBeam);
+add(frameG, V(0, 0, 0), V(-2.3, 0.3, 0), '⑬ ㅁ자 강철 틀 — 바닥판 10t · 기둥 12 × 12 두 개 · 윗보 40 × 22 세운 강판(굽힘 약 31MPa): 누르는 힘 1.4~4.2kN이 이 안에서 닫힘(위 열판은 윗보에, 토글 핀은 바닥판에)', 2);
 // ⑧ 열 상자(단열) — 앞 벽에 서랍 구멍(z 76..108) · 받침 구멍 · 뒤 벽 위 김 구멍 2
-const hbY = 0.97; // 열 상자 중심 높이(z 44..150)
+const hbY = 1.02; // 열 상자 중심 높이(z 44..160)
 const heatBox = new THREE.Group();
 {
-  const w = 1.32, d = 1.0, h = 1.06, t = 0.06;
+  const w = 1.32, d = 1.0, h = 1.16, t = 0.06;
   const walls = [[0, 0, -d / 2 + t / 2, w, h, t], [-w / 2 + t / 2, 0, 0, t, h, d], [w / 2 - t / 2, 0, 0, t, h, d], [0, -h / 2 + t / 2, 0, w, t, d], [0, h / 2 - t / 2, 0, w, t, d],
-    [0, 0.305, d / 2 - t / 2, w, 0.39, t], [0, -0.30, d / 2 - t / 2, w, 0.18, t], [-0.59, -0.05, d / 2 - t / 2, 0.14, 0.32, t], [0.59, -0.05, d / 2 - t / 2, 0.14, 0.32, t]];
+    [0, 0.32, d / 2 - t / 2, w, 0.52, t], [0, -0.35, d / 2 - t / 2, w, 0.18, t], [-0.59, -0.10, d / 2 - t / 2, 0.14, 0.32, t], [0.59, -0.10, d / 2 - t / 2, 0.14, 0.32, t]];
   walls.forEach(([x, y, z, bw, bh, bd]) => { const m = plain(bw, bh, bd, M.insul); m.position.set(x, y, z); heatBox.add(m); });
-  [-0.1, 0.1].forEach(x => { const v = cyl(0.04, 0.04, 0.08, M.dark, 16); v.rotation.x = Math.PI / 2; v.position.set(x, 0.40, -d / 2 + t / 2); heatBox.add(v); });
+  [-0.1, 0.1].forEach(x => { const v = cyl(0.04, 0.04, 0.08, M.dark, 16); v.rotation.x = Math.PI / 2; v.position.set(x, 0.35, -d / 2 + t / 2); heatBox.add(v); });
 }
 add(heatBox, V(0, hbY, 0.05), V(0, hbY + 0.9, 0.05), '⑧ 열 상자 — 강판 1.5 + 단열 5mm · 앞 벽에 서랍 구멍 · 뒤 벽 위 김 구멍 Ø8 × 2', 2);
 // ⑦ 위 열판(z 118..132) + Ø59 플러그(104.5..118) · 속 시즈 히터 · NTC — 틀 윗보에 고정
@@ -121,21 +121,28 @@ const outerPl = box(1.08, 0.44, 0.08, 0.012, M.panel); outerPl.position.set(0, 0
 const handle = box(0.68, 0.035, 0.03, 0.01, M.handle); handle.position.set(0, 0.02, 1.115); drawerG.add(handle);
 const spoonH = box(0.3, 0.015, 0.03, 0.005, M.steel); spoonH.position.set(-0.3, -0.1, 0.52); drawerG.add(spoonH);
 const spoonB = box(0.36, 0.012, 0.16, 0.004, M.steel); spoonB.position.set(0.03, -0.1, 0.52); drawerG.add(spoonB);   // 납작한 펴개 끝(폭 = 틀 지름)
-add(drawerG, V(0, 0.94, 0), V(0, 0.94, 1.6), '⑥ 몰드 서랍 — 겉 앞판 + 단열 손잡이 · 46mm 공기층 버팀 · 안쪽 단열판(테두리 실리콘 개스킷) · 레일 프레임 · 잠금(완료 뒤 해제) · ⑫ 계량 겸 펴개 숟가락 클립', 1);
+add(drawerG, V(0, 0.94, 0), V(0, 0.94, 1.6), '⑥ 몰드 서랍 — 겉 앞판 + 단열 손잡이 · 46mm 공기층 버팀 · 안쪽 단열판(테두리 실리콘 개스킷) · 텔레스코픽 레일(완전 인출) · 잠금(완료 뒤 해제) · ⑫ 계량 겸 펴개 숟가락 클립', 1);
 // ⑥ 몰드 트레이 — Ø78 × 18 · 틀 Ø60 × 15 · 플랜지 Ø88 (서랍에서 들어서 분리)
 const trayG = new THREE.Group();
-const trayBody = cyl(0.39, 0.39, 0.18, M.mold); trayBody.position.y = -0.03; trayG.add(trayBody);
-const flange = cyl(0.44, 0.44, 0.06, M.mold); flange.position.y = 0.03; trayG.add(flange);
-const cavity = cyl(0.30, 0.30, 0.012, M.cavity); cavity.position.y = 0.062; trayG.add(cavity);
-const cracker = cyl(0.29, 0.29, 0.09, M.cracker); cracker.position.y = -0.03; cracker.visible = false; trayG.add(cracker);
-add(trayG, V(0, 0.91, 0), V(0, 1.55, 1.6), '⑥ 몰드 트레이 — Ø6 오목 틀 15mm · 세라믹 코팅 · 서랍에서 들어서 씻음(재료가 닿는 유일한 그릇)', 1);
+const trayBody = cyl(0.39, 0.39, 0.21, M.mold); trayBody.position.y = 0; trayG.add(trayBody);
+const ejector = cyl(0.29, 0.29, 0.03, M.steel); ejector.position.y = -0.06; trayG.add(ejector);                 // 밀판 Ø58 × 3(틀 바닥)
+const ejPin = cyl(0.02, 0.02, 0.05, M.dark); ejPin.position.set(0, -0.1, -0.27); trayG.add(ejPin);                // 밀판 뒤 핀(2mm 아래 돌출)
+const flange = cyl(0.44, 0.44, 0.06, M.mold); flange.position.y = 0.075; trayG.add(flange);
+const cavity = cyl(0.30, 0.30, 0.012, M.cavity); cavity.position.y = 0.105; trayG.add(cavity);
+const cracker = cyl(0.29, 0.29, 0.09, M.cracker); cracker.position.y = 0.06; cracker.rotation.x = -0.2; cracker.visible = false; trayG.add(cracker);
+add(trayG, V(0, 0.895, 0), V(0, 1.55, 1.6), '⑥ 몰드 트레이 — Ø6 오목 틀 15mm · 바닥은 밀판 Ø58(뒤 핀) · 세라믹 코팅 · 트레이 · 밀판을 들어서 씻음', 1);
+// ⑥ 경사판(고정 · 몸체 앞 레일 밑) — 서랍을 끝까지 빼면 밀판 뒤 핀을 12mm 올림
+const rampG = new THREE.Group();
+const r1 = plain(0.12, 0.10, 0.16, M.frame); r1.position.set(0, -0.05, 0.08); rampG.add(r1);
+const r2 = plain(0.12, 0.19, 0.16, M.frame); r2.position.set(0, -0.005, 0.24); rampG.add(r2);
+add(rampG, V(0, 0.80, 0.70), V(0, 0.80, 0.70), '⑥ 경사판(고정 · 레일 앞 밑) — 서랍을 끝까지 빼면 밀판 뒤 핀을 12mm 올려 떡뻥 뒤가 틀 위로', 1);
 // ⑤ 아래 열판 = 받침(속 히터 · 퓨즈) + 피스톤 Ø70 (20mm 오르내림 · 트레이째 들어 올림)
 const lower = new THREE.Group(); lower.add(box(0.80, 0.12, 0.72, 0.02, M.plate));
 const piston = cyl(0.35, 0.35, 0.08, M.plate); piston.position.y = 0.10; lower.add(piston);
 const face = cyl(0.35, 0.35, 0.012, M.heat); face.position.y = 0.145; lower.add(face);
 const lRod = cyl(0.03, 0.03, 0.78, M.htr); lRod.rotation.z = Math.PI / 2; lRod.position.set(0, 0.0, -0.1); lower.add(lRod);
 const fuse = box(0.06, 0.08, 0.08, 0.005, M.htr); fuse.position.set(0.43, 0.0, -0.26); lower.add(fuse);
-add(lower, V(0, 0.66, 0), V(0, 0.66, 0), '⑤ 아래 열판 = 피스톤 Ø70 · 받침 속 시즈 히터 450W · 온도 퓨즈 250°C — 이것만 20mm 오르내림(트레이째)', 2);
+add(lower, V(0, 0.63, 0), V(0, 0.63, 0), '⑤ 아래 열판 = 피스톤 Ø70(윗면 뒤쪽 핀 홈) · 받침 속 시즈 히터 450W · 온도 퓨즈 250°C — 이것만 20mm 오르내림(트레이째)', 2);
 // ④ 토글 링크 · 래치 스프링 · 리밋 2 · 푸시 로드 (바닥 칸 · 핀은 틀 바닥판)
 const linkG = new THREE.Group();
 const l2 = cyl(0.03, 0.03, 0.26, M.motor); l2.position.set(-0.08, 0, 0); l2.rotation.z = 0.7; linkG.add(l2);
@@ -156,7 +163,7 @@ const panLip = box(0.88, 0.06, 0.04, 0.01, M.steel); panLip.position.set(0, 0.0,
 add(panG, V(0, 0.53, 0.02), V(0, 0.53, 2.2), '② 부스러기 받침 — 열 상자 바닥 · 식은 뒤 앞으로 당겨 비움', 1);
 // ⑨ 제어 보드 · ① 바닥 무게판
 add(box(0.03, 0.8, 1.0, 0.005, M.board), V(-0.95, 1.0, -0.1), V(-2.5, 1.0, -0.1), '⑨ 제어 보드 · 온도 · 기울기 · 서랍 잠금 · 자동 꺼짐', 3);
-add(box(W - 0.2, 0.05, D - 0.2, 0.01, M.weight), V(0, 0.11, 0), V(0, -1.1, 0), '① 바닥 무게판 + 미끄럼 방지 고무 · 기울기 센서', 3);
+add(box(W - 0.2, 0.05, D - 0.2, 0.01, M.weight), V(0, 0.09, 0), V(0, -1.1, 0), '① 바닥 무게판 + 미끄럼 방지 고무 · 기울기 센서', 3);
 
 /* ---------- 라벨 ---------- */
 const labelEls = parts.map(p => { const e = document.createElement('div'); e.className = 'xv-label'; e.textContent = p.label; labelLayer.appendChild(e); return e; });
