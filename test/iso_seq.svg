@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1100 330" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
+<pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#8a5d12" stroke-width="1.1" opacity=".55"/></pattern>
+<linearGradient id="glassT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset=".5" stop-color="#101014"/><stop offset="1" stop-color="#2c2c32"/></linearGradient>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d19a3c"/></marker>
+<marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6a6a70"/></marker>
+</defs>
+<g transform="translate(20,0)">
+<rect x="0" y="14" width="248" height="300" rx="16" fill="#fff" stroke="#e6e1d7"/>
+<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">① 잠금 · 누르기</text>
+<rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="190" y="58" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
+<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
+<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="126" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="140" width="128" height="3" fill="#d19a3c"/>
+<rect x="100" y="144" width="48" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c"/>
+<path d="M124 174 v22 M124 196 l-18 18 M124 196 l18 18" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/><text x="124" y="232" font-size="11" fill="#6a6a70" text-anchor="middle">사점 잠금</text>
+<text x="18" y="246" font-size="12" fill="#6a6a70">덮개 잠김(인터록) → 토글이 사점에서 몰드를 닫아 유지</text>
+<text x="18" y="264" font-size="12" fill="#6a6a70">열판 200~230°C</text>
+<text x="18" y="282" font-size="12" fill="#6a6a70">8~10초</text>
+</g>
+<text x="278" y="150" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
+<g transform="translate(288,0)">
+<rect x="0" y="14" width="248" height="300" rx="16" fill="#fff" stroke="#e6e1d7"/>
+<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">② 2~3mm 순간 개방</text>
+<rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="190" y="58" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
+<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
+<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="121" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="135" width="128" height="3" fill="#d19a3c"/>
+<ellipse cx="124" cy="146" rx="42" ry="9" fill="#fff3dc" stroke="#d19a3c"/>
+<line x1="174.0" y1="146.0" x2="184.0" y2="146.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="159.4" y1="160.1" x2="166.4" y2="165.8" stroke="#d19a3c" stroke-width="2"/>
+<line x1="124.0" y1="166.0" x2="124.0" y2="174.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="88.6" y1="160.1" x2="81.6" y2="165.8" stroke="#d19a3c" stroke-width="2"/>
+<line x1="74.0" y1="146.0" x2="64.0" y2="146.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="88.6" y1="131.9" x2="81.6" y2="126.2" stroke="#d19a3c" stroke-width="2"/>
+<line x1="124.0" y1="126.0" x2="124.0" y2="118.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="159.4" y1="131.9" x2="166.4" y2="126.2" stroke="#d19a3c" stroke-width="2"/>
+<text x="124" y="110" font-size="13" font-weight="800" fill="#8a5d12" text-anchor="middle">2~3mm · 뻥</text>
+<path d="M124 174 v18 M124 192 l-14 20 M124 192 l14 20" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="200" y1="140" x2="200" y2="118" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="132" font-size="11" fill="#8a5d12">스프링</text>
+<text x="18" y="246" font-size="12" fill="#6a6a70">래치 해제 → 위 열판이 스프링으로 2~3mm만 튐 → 쌀이 「뻥」 부풉니다</text>
+<text x="18" y="264" font-size="12" fill="#6a6a70">잠긴 열 상자 안에서만</text>
+</g>
+<text x="546" y="150" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
+<g transform="translate(556,0)">
+<rect x="0" y="14" width="248" height="300" rx="16" fill="#fff" stroke="#e6e1d7"/>
+<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">③ 천천히 열기</text>
+<rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="190" y="58" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
+<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
+<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="86" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="100" width="128" height="3" fill="#d19a3c"/>
+<ellipse cx="124" cy="150" rx="44" ry="8" fill="#fff3dc" stroke="#d19a3c"/>
+<path d="M124 174 v18 M124 192 l-14 20 M124 192 l14 20" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="200" y1="150" x2="200" y2="96" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="126" font-size="11" fill="#8a5d12">모터</text>
+<text x="18" y="246" font-size="12" fill="#6a6a70">모터가 0.5~1초에 걸쳐 끝까지 올립니다</text>
+<text x="18" y="264" font-size="12" fill="#6a6a70">리밋 스위치가 열림 위치를 확인</text>
+</g>
+<text x="814" y="150" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
+<g transform="translate(824,0)">
+<rect x="0" y="14" width="248" height="300" rx="16" fill="#fff" stroke="#e6e1d7"/>
+<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">④ 배출 · 다음 장</text>
+<rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="190" y="58" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
+<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
+<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="86" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="100" width="128" height="3" fill="#d19a3c"/>
+<ellipse cx="44" cy="150" rx="30" ry="7" fill="#fff3dc" stroke="#d19a3c"/>
+<rect x="150" y="142" width="8" height="16" rx="2" fill="#55585e"/><line x1="150" y1="150" x2="92" y2="150" stroke="#55585e" stroke-width="2" marker-end="url(#arrg)"/>
+<path d="M20 150 h-4" stroke="#8a8a90"/><rect x="2" y="150" width="34" height="14" fill="none" stroke="#8a8a90" stroke-dasharray="3 2"/>
+<rect x="60" y="76" width="128" height="14" rx="3" fill="#8a8f96"/>
+<path d="M124 174 v18 M124 192 l-14 20 M124 192 l14 20" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<text x="18" y="246" font-size="12" fill="#6a6a70">밀대가 떡뻥을 앞 슬롯 → 가림판 뒤 트레이로</text>
+<text x="18" y="264" font-size="12" fill="#6a6a70">계량 3g + 0.5mL 안개 → 다시 ①</text>
+</g>
+</svg>

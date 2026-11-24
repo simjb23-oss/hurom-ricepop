@@ -2,9 +2,9 @@ import * as THREE from 'three';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
-// 휴롬 간식 메이커 · 구조 3D v1 (2026-11-24)
+// 휴롬 쌀참 · 구조 3D v2 (2026-11-24)
 // 디자인 언어 = 휴롬 식재료 세척기: 네모 큐브 · 검은 강화유리 상판 · 가운데 창 · 유리 아래 얇은 흰 띠 · 숨은 터치
-// 단위 10cm. 간식 메이커 22×22×20cm, 세척기 39×34×32cm(참고로 왼쪽에 둠)
+// 단위 10cm. 쌀참 22×22×20cm, 세척기 39×34×32cm(참고로 왼쪽에 둠)
 const canvas = document.getElementById('xv-canvas');
 const labelLayer = document.getElementById('xv-labels');
 const stepEls = [...document.querySelectorAll('.xv-step')];
@@ -89,6 +89,12 @@ const cassG = new THREE.Group();
 const cass = box(0.56, 0.5, 0.32, 0.02, M.clear); cassG.add(cass);
 const rice = box(0.5, 0.3, 0.26, 0.02, M.rice); rice.position.y = -0.08; cassG.add(rice);
 add(cassG, V(0.55, H - 0.32, -0.72), V(0.55, H + 1.5, -1.9), '④ 곡물 카세트(약 200g · 60장) · 분리 세척', 1);
+// 4b 물통 · 펌프(뒤 왼쪽)
+const tankG = new THREE.Group();
+tankG.add(box(0.4, 0.5, 0.32, 0.02, M.clear));
+const water = box(0.34, 0.26, 0.26, 0.02, new THREE.MeshStandardMaterial({ color: 0x8fbfe0, transparent: true, opacity: 0.8 })); water.position.y = -0.08; tankG.add(water);
+const pump = box(0.24, 0.14, 0.16, 0.02, M.dark); pump.position.set(0, -0.32, 0.12); tankG.add(pump);
+add(tankG, V(-0.55, H - 0.32, -0.72), V(-1.3, H + 0.9, -1.6), '⑯ 물통 50mL · 마이크로 펌프 0.5mL/장 · 분리 세척', 1);
 // 5 계량 슬라이드
 add(box(0.3, 0.05, 0.2, 0.01, M.steel), V(0.3, H - 0.62, -0.5), V(1.8, H - 0.62, -1.1), '⑤ 계량 슬라이드 · 한 장 3g', 3);
 // 열 상자(안쪽) — 6 위 열판 · 7 몰드 · 8 아래 열판
