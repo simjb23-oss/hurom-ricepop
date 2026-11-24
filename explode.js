@@ -38,6 +38,7 @@ const M = {
   mold: new THREE.MeshStandardMaterial({ color: 0xdfe3e6, metalness: 0.3, roughness: 0.55 }),
   cracker: new THREE.MeshStandardMaterial({ color: 0xfff6e6, roughness: 0.95 }),
   dark: new THREE.MeshStandardMaterial({ color: 0x3a3d43, metalness: 0.3, roughness: 0.6 }),
+  htr: new THREE.MeshStandardMaterial({ color: 0xc8503c, metalness: 0.3, roughness: 0.5, emissive: 0x7a2a1c, emissiveIntensity: 0.4 }),
   motor: new THREE.MeshStandardMaterial({ color: 0x55585e, metalness: 0.5, roughness: 0.5 }),
   board: new THREE.MeshStandardMaterial({ color: 0x1f6b3a, roughness: 0.6 }),
   guard: new THREE.MeshPhysicalMaterial({ color: 0x2b2f35, roughness: 0.3, transparent: true, opacity: 0.55, depthWrite: false }),
@@ -89,8 +90,8 @@ const cass = box(0.56, 0.58, 0.46, 0.02, M.clear); cassG.add(cass);
 const rice = box(0.5, 0.3, 0.4, 0.02, M.rice); rice.position.y = -0.08; cassG.add(rice);
 add(cassG, V(0.58, H - 0.51, -0.75), V(0.58, H + 1.5, -1.9), '⑫ 곡물 카세트(약 200g · 60장) · 분리 세척', 1);
 const slideG = new THREE.Group(); const funnel = box(0.3, 0.26, 0.24, 0.01, M.steel); funnel.position.set(0, 0.16, -0.46); slideG.add(funnel);
-slideG.add(box(0.3, 0.06, 0.7, 0.01, M.steel));
-add(slideG, V(0, 0.91, -0.35), V(1.9, 0.91, -1.1), '⑫ 계량 슬라이드 · 한 장 3g — 뒤 벽 틈으로 몰드 위까지', 3);
+slideG.add(box(0.3, 0.06, 0.7, 0.01, M.steel)); const cup = box(0.24, 0.06, 0.14, 0.01, M.dark); cup.position.set(0, 0.0, 0.26); slideG.add(cup);
+add(slideG, V(0, 0.83, -0.35), V(1.9, 0.83, -1.1), '⑫ 계량 슬라이드 · 앞머리 컵 3g — 밀어내기 겸용(떡뻥을 슬롯으로 밀고, 컵이 가운데서 낙하)', 3);
 // ⑧ 열 상자(단열) — 앞면 없음(= 앞문)
 const hbY = 0.97; // 열 상자 중심 높이(z 44..150)
 const heatBox = new THREE.Group();
@@ -111,19 +112,21 @@ const hinge = box(0.02, 0.9, 0.02, 0.005, M.dark); hinge.position.set(-0.49, 0.0
 add(doorG, V(0, hbY, 0.05 + 0.47), V(0, hbY, 0.05 + 1.6), '⑬ 앞문 — 겉 패널 + 안쪽 단열판 한 몸 · 배출 슬롯 · 가림판 플랩 · 왼쪽 경첩 · 인터록(식어야 열림)', 1);
 // ⑦ 위 열판(고정, 천장 기둥 2)
 const upper = new THREE.Group(); upper.add(box(0.96, 0.14, 0.8, 0.02, M.plate)); const uh = box(0.92, 0.02, 0.76, 0.005, M.heat); uh.position.y = -0.08; upper.add(uh);
+const uRod = cyl(0.03, 0.03, 1.02, M.htr); uRod.rotation.z = Math.PI / 2; uRod.position.set(0, 0.0, -0.1); upper.add(uRod);
 [-0.34, 0.34].forEach(x => { const post = cyl(0.04, 0.04, 0.26, M.steel); post.position.set(x, 0.2, 0); upper.add(post); });
-add(upper, V(0, hbY + 0.14, 0.05), V(0, hbY + 1.5, 0.05), '⑦ 위 열판 · 200~230°C · 온도 센서 — 고정', 2);
+add(upper, V(0, hbY + 0.14, 0.05), V(0, hbY + 1.5, 0.05), '⑦ 위 열판 220°C · 속 시즈 히터 450W(빨강 · 양 끝 단자) · NTC 상한 230°C — 고정', 2);
 // ⑥ 몰드 링(위 열판 아래 끼움 · 고정) — 앞문으로 뺌
 const moldG = new THREE.Group();
 const moldRing = new THREE.Mesh(new THREE.TorusGeometry(0.31, 0.03, 16, 48), M.mold); moldRing.rotation.x = Math.PI / 2; moldG.add(moldRing);
 add(moldG, V(0, hbY + 0.02, 0.05), V(0, hbY - 0.25, 1.7), '⑥ 몰드 링 Ø6 · 세라믹 코팅 — 앞문 열고 빼서 씻음', 1);
-// ⑤ 아래 열판 = 받침 + 피스톤 Ø6 + 히터 면 + 밀대 (움직임) + 떡뻥
+// ⑤ 아래 열판 = 받침(속 히터) + 피스톤 Ø6 + 히터 면 + 배출 턱 (움직임) + 떡뻥
 const lower = new THREE.Group(); lower.add(box(0.96, 0.12, 0.8, 0.02, M.plate));
 const piston = cyl(0.3, 0.3, 0.08, M.plate); piston.position.y = 0.10; lower.add(piston);
 const face = cyl(0.3, 0.3, 0.02, M.heat); face.position.y = 0.15; lower.add(face);
 const cracker = cyl(0.29, 0.29, 0.04, M.cracker); cracker.position.y = 0.18; lower.add(cracker);
-const pusher = box(0.88, 0.14, 0.04, 0.01, M.dark); pusher.position.set(0, 0.13, -0.38); lower.add(pusher);
-add(lower, V(0, hbY - 0.11, 0.05), V(0, hbY - 0.11, 0.05), '⑤ 아래 열판 = 피스톤 Ø6 · 온도 퓨즈 · 밀대 — 이것만 25mm 오르내림', 2);
+const lRod = cyl(0.03, 0.03, 1.02, M.htr); lRod.rotation.z = Math.PI / 2; lRod.position.set(0, 0.0, -0.1); lower.add(lRod);
+const chute = box(0.6, 0.02, 0.12, 0.005, M.plate); chute.position.set(0, 0.15, 0.46); lower.add(chute);
+add(lower, V(0, hbY - 0.11, 0.05), V(0, hbY - 0.11, 0.05), '⑤ 아래 열판 = 피스톤 Ø6 · 속 시즈 히터 450W · 온도 퓨즈 250°C · 배출 턱(앞) — 이것만 25mm 오르내림', 2);
 // ④ 토글 링크 · 래치 스프링 · 리밋 2 · 푸시 로드 (열 상자 바닥 아래 칸)
 const linkG = new THREE.Group();
 const l2 = cyl(0.03, 0.03, 0.26, M.motor); l2.position.set(-0.08, 0, 0); l2.rotation.z = 0.7; linkG.add(l2);

@@ -1,12 +1,57 @@
-<svg viewBox="0 0 1340 400" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
+<svg viewBox="0 0 1622 400" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
 <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#8a5d12" stroke-width="1.1" opacity=".55"/></pattern>
 <linearGradient id="glassT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset=".5" stop-color="#101014"/><stop offset="1" stop-color="#2c2c32"/></linearGradient>
 <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d19a3c"/></marker>
 <marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6a6a70"/></marker>
+<marker id="arrh" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c8503c"/></marker>
 </defs>
 <g transform="translate(14,0)">
 <rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
+<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">⓪ 쌀 넣기 3g</text>
+<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">220°C 예열 뒤 · 1초</text>
+<rect x="36" y="62" width="180" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="192" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
+<rect x="30" y="62" width="8" height="176" rx="2" fill="#e7d9c2" stroke="#b9b2a2"/>
+<rect x="29" y="150" width="10" height="20" fill="#fff" stroke="#8a5d12" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="2" y="170" width="30" height="4" rx="1" fill="#dfe3e6" stroke="#9aa3ad"/>
+<text x="22" y="86" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text><text x="22" y="126" font-size="9" fill="#6a6a70" text-anchor="middle">문</text>
+<rect x="80" y="62" width="6" height="42" fill="#b9bec4"/><rect x="168" y="62" width="6" height="42" fill="#b9bec4"/>
+<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="76" y="107" width="100" height="6" rx="3" fill="#c8503c"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
+<rect x="96" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/><rect x="150" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/>
+<text x="188" y="113" font-size="9.5" fill="#6a6a70">고정</text>
+<rect x="200" y="145" width="17" height="8" fill="#fff" stroke="#8a8f96" stroke-width=".6" stroke-dasharray="2 2"/>
+<rect x="70" y="176" width="112" height="12" rx="3" fill="#8a8f96"/><rect x="76" y="179" width="100" height="6" rx="3" fill="#c8503c"/>
+<rect x="102" y="164" width="48" height="12" fill="#8a8f96"/><rect x="102" y="163" width="48" height="3" fill="#d19a3c"/>
+<rect x="40" y="163" width="56" height="3" fill="#8a8f96"/>
+<rect x="176" y="167" width="4" height="6" fill="#e06c5a"/>
+<line x1="126" y1="188" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<path d="M126 252 l-16 8 l16 8 M126 252 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<rect x="204" y="62" width="10" height="84" fill="#fff" stroke="#8a8f96" stroke-width=".6" stroke-dasharray="2 2"/>
+<circle cx="207" cy="70" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="211" cy="84" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="207" cy="98" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="211" cy="112" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="207" cy="126" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<text x="198" y="82" font-size="9.5" fill="#6a6a70" text-anchor="end">카세트에서 ↓</text>
+<rect x="92" y="146" width="125" height="6" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/>
+<rect x="116" y="143" width="20" height="9" fill="none" stroke="#4a4e55" stroke-width="1.2"/><rect x="118" y="144" width="16" height="4" fill="#f3eedf"/>
+<circle cx="124" cy="156" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="128" cy="159" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="124" cy="162" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<line x1="126" y1="154" x2="126" y2="158" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2" marker-end="url(#arr)"/>
+<line x1="216" y1="139" x2="150" y2="139" stroke="#55585e" stroke-width="1.6" marker-end="url(#arrg)"/><text x="196" y="135" font-size="9.5" fill="#6a6a70" text-anchor="end">슬라이드 →</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">카세트 → 깔때기 → 슬라이드 앞머리 컵</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">피스톤 내려간 25mm 틈으로 들어옴</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">컵이 가운데서 바닥 열려 3g 낙하</text>
+<text x="16" y="366" font-size="11.5" fill="#6a6a70">슬라이드 후진 → ①</text>
+</g>
+<text x="274" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
+<g transform="translate(282,0)">
+<rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
 <text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">① 올려서 잠금</text>
+<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">220°C · 0.5초</text>
 <rect x="36" y="62" width="180" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="192" y="50" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
 <rect x="30" y="62" width="8" height="176" rx="2" fill="#e7d9c2" stroke="#b9b2a2"/>
@@ -14,32 +59,35 @@
 <rect x="2" y="170" width="30" height="4" rx="1" fill="#dfe3e6" stroke="#9aa3ad"/>
 <text x="22" y="86" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text><text x="22" y="126" font-size="9" fill="#6a6a70" text-anchor="middle">문</text>
 <rect x="80" y="62" width="6" height="42" fill="#b9bec4"/><rect x="168" y="62" width="6" height="42" fill="#b9bec4"/>
-<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
+<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="76" y="107" width="100" height="6" rx="3" fill="#c8503c"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
 <rect x="96" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/><rect x="150" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/>
 <text x="188" y="113" font-size="9.5" fill="#6a6a70">고정</text>
-<rect x="200" y="133" width="16" height="7" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/>
-<rect x="70" y="136" width="112" height="12" rx="3" fill="#8a8f96"/>
+<rect x="200" y="145" width="17" height="8" fill="#fff" stroke="#8a8f96" stroke-width=".6" stroke-dasharray="2 2"/>
+<rect x="70" y="136" width="112" height="12" rx="3" fill="#8a8f96"/><rect x="76" y="139" width="100" height="6" rx="3" fill="#c8503c"/>
 <rect x="102" y="124" width="48" height="12" fill="#8a8f96"/><rect x="102" y="123" width="48" height="3" fill="#d19a3c"/>
-<rect x="176" y="122" width="6" height="14" fill="#4a4e55"/>
+<rect x="40" y="123" width="56" height="3" fill="#8a8f96"/>
+<rect x="176" y="127" width="4" height="6" fill="#e06c5a"/>
+<line x1="126" y1="148" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<path d="M126 252 v8 M126 260 l-14 14 M126 260 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<rect x="204" y="146" width="13" height="6" fill="#b9bec4"/>
 <circle cx="108" cy="120" r="2.2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
 <circle cx="115" cy="120" r="2.2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
 <circle cx="122" cy="120" r="2.2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
 <circle cx="129" cy="120" r="2.2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
 <circle cx="136" cy="120" r="2.2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
 <circle cx="143" cy="120" r="2.2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<line x1="126" y1="148" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<path d="M126 252 v8 M126 260 l-14 14 M126 260 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
 <text x="152" y="268" font-size="10.5" fill="#6a6a70">사점 잠금</text><line x1="200" y1="184" x2="200" y2="150" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="170" font-size="11" fill="#8a5d12">올림</text>
-<text x="16" y="322" font-size="11.5" fill="#6a6a70">모터가 피스톤을 올려 링 안으로</text>
-<text x="16" y="338" font-size="11.5" fill="#6a6a70">토글 사점에서 잠김</text>
-<text x="16" y="354" font-size="11.5" fill="#6a6a70">낟알 3g은 링 안</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">모터가 피스톤을 올려 링 안으로 6mm</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">토글 사점에서 잠김 · 쌀 3g은 링 안</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">위 열판 · 링은 제자리</text>
 </g>
-<text x="274" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
-<g transform="translate(282,0)">
+<text x="542" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
+<g transform="translate(550,0)">
 <rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
 <text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">② 누르기 8~10초</text>
+<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">220°C · 8~10초</text>
 <rect x="36" y="62" width="180" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="192" y="50" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
 <rect x="30" y="62" width="8" height="176" rx="2" fill="#e7d9c2" stroke="#b9b2a2"/>
@@ -47,32 +95,40 @@
 <rect x="2" y="170" width="30" height="4" rx="1" fill="#dfe3e6" stroke="#9aa3ad"/>
 <text x="22" y="86" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text><text x="22" y="126" font-size="9" fill="#6a6a70" text-anchor="middle">문</text>
 <rect x="80" y="62" width="6" height="42" fill="#b9bec4"/><rect x="168" y="62" width="6" height="42" fill="#b9bec4"/>
-<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
+<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="76" y="107" width="100" height="6" rx="3" fill="#c8503c"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
 <rect x="96" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/><rect x="150" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/>
 <text x="188" y="113" font-size="9.5" fill="#6a6a70">고정</text>
-<rect x="200" y="133" width="16" height="7" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/>
-<rect x="70" y="136" width="112" height="12" rx="3" fill="#8a8f96"/>
+<rect x="200" y="145" width="17" height="8" fill="#fff" stroke="#8a8f96" stroke-width=".6" stroke-dasharray="2 2"/>
+<rect x="70" y="136" width="112" height="12" rx="3" fill="#8a8f96"/><rect x="76" y="139" width="100" height="6" rx="3" fill="#c8503c"/>
 <rect x="102" y="124" width="48" height="12" fill="#8a8f96"/><rect x="102" y="123" width="48" height="3" fill="#d19a3c"/>
-<rect x="176" y="122" width="6" height="14" fill="#4a4e55"/>
+<rect x="40" y="123" width="56" height="3" fill="#8a8f96"/>
+<rect x="176" y="127" width="4" height="6" fill="#e06c5a"/>
+<line x1="126" y1="148" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<path d="M126 252 v8 M126 260 l-14 14 M126 260 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<rect x="204" y="146" width="13" height="6" fill="#b9bec4"/>
 <rect x="104" y="120" width="44" height="3" fill="#e9dcc0" stroke="#d19a3c" stroke-width=".6"/>
 <path d="M110 118 q3 -6 0 -12" fill="none" stroke="#d19a3c" stroke-width="1.6" opacity=".8"/>
 <path d="M120 118 q3 -6 0 -12" fill="none" stroke="#d19a3c" stroke-width="1.6" opacity=".8"/>
 <path d="M130 118 q3 -6 0 -12" fill="none" stroke="#d19a3c" stroke-width="1.6" opacity=".8"/>
 <path d="M140 118 q3 -6 0 -12" fill="none" stroke="#d19a3c" stroke-width="1.6" opacity=".8"/>
-<line x1="126" y1="148" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<path d="M126 252 v8 M126 260 l-14 14 M126 260 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<line x1="112" y1="99" x2="112" y2="120" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="126" y1="99" x2="126" y2="120" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="140" y1="99" x2="140" y2="120" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="112" y1="146" x2="112" y2="125" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="126" y1="146" x2="126" y2="125" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="140" y1="146" x2="140" y2="125" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
 <line x1="200" y1="174" x2="200" y2="150" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="166" font-size="11" fill="#8a5d12">누름</text>
-<text x="16" y="322" font-size="11.5" fill="#6a6a70">열판 200~230°C</text>
-<text x="16" y="338" font-size="11.5" fill="#6a6a70">링 안에서 압력이 오름</text>
-<text x="16" y="354" font-size="11.5" fill="#6a6a70">위 열판</text>
-<text x="16" y="370" font-size="11.5" fill="#6a6a70">링은 제자리</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">히터 450W 판 두 장이 바로 닿아 데움</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">링 안이 막혀 물기가 끓어 압력 ↑</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">증기 · 바람 없음 · 위 열판 · 링은 제자리</text>
 </g>
-<text x="542" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
-<g transform="translate(550,0)">
+<text x="810" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
+<g transform="translate(818,0)">
 <rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
 <text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">③ 2~3mm 순간 하강</text>
+<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">220°C · 0.1초</text>
 <rect x="36" y="62" width="180" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="192" y="50" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
 <rect x="30" y="62" width="8" height="176" rx="2" fill="#e7d9c2" stroke="#b9b2a2"/>
@@ -80,13 +136,19 @@
 <rect x="2" y="170" width="30" height="4" rx="1" fill="#dfe3e6" stroke="#9aa3ad"/>
 <text x="22" y="86" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text><text x="22" y="126" font-size="9" fill="#6a6a70" text-anchor="middle">문</text>
 <rect x="80" y="62" width="6" height="42" fill="#b9bec4"/><rect x="168" y="62" width="6" height="42" fill="#b9bec4"/>
-<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
+<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="76" y="107" width="100" height="6" rx="3" fill="#c8503c"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
 <rect x="96" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/><rect x="150" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/>
 <text x="188" y="113" font-size="9.5" fill="#6a6a70">고정</text>
-<rect x="200" y="133" width="16" height="7" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/>
-<rect x="70" y="140" width="112" height="12" rx="3" fill="#8a8f96"/>
+<rect x="200" y="145" width="17" height="8" fill="#fff" stroke="#8a8f96" stroke-width=".6" stroke-dasharray="2 2"/>
+<rect x="70" y="140" width="112" height="12" rx="3" fill="#8a8f96"/><rect x="76" y="143" width="100" height="6" rx="3" fill="#c8503c"/>
 <rect x="102" y="128" width="48" height="12" fill="#8a8f96"/><rect x="102" y="127" width="48" height="3" fill="#d19a3c"/>
-<rect x="176" y="126" width="6" height="14" fill="#4a4e55"/>
+<rect x="40" y="127" width="56" height="3" fill="#8a8f96"/>
+<rect x="176" y="131" width="4" height="6" fill="#e06c5a"/>
+<line x1="126" y1="152" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<path d="M126 252 v8 M126 260 l-14 14 M126 260 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<rect x="204" y="146" width="13" height="6" fill="#b9bec4"/>
 <rect x="103" y="119" width="46" height="8" rx="4" fill="#fff3dc" stroke="#d19a3c"/>
 <line x1="162.0" y1="123.0" x2="172.0" y2="123.0" stroke="#d19a3c" stroke-width="2"/>
 <line x1="153.6" y1="130.7" x2="161.2" y2="135.9" stroke="#d19a3c" stroke-width="2"/>
@@ -98,48 +160,16 @@
 <line x1="132.3" y1="111.2" x2="134.0" y2="103.3" stroke="#d19a3c" stroke-width="2"/>
 <line x1="153.6" y1="115.3" x2="161.2" y2="110.1" stroke="#d19a3c" stroke-width="2"/>
 <text x="60" y="172" font-size="13" font-weight="800" fill="#8a5d12">2~3mm · 뻥</text>
-<line x1="126" y1="152" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<path d="M126 252 v8 M126 260 l-14 14 M126 260 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
 <line x1="200" y1="138" x2="200" y2="162" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="154" font-size="11" fill="#8a5d12">스프링</text>
-<text x="16" y="322" font-size="11.5" fill="#6a6a70">래치 해제</text>
-<text x="16" y="338" font-size="11.5" fill="#6a6a70">스프링이 피스톤을 2~3mm 툭</text>
-<text x="16" y="354" font-size="11.5" fill="#6a6a70">압력이 한순간에 풀려 「뻥」</text>
-<text x="16" y="370" font-size="11.5" fill="#6a6a70">잠긴 열 상자 안</text>
-</g>
-<text x="810" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
-<g transform="translate(818,0)">
-<rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
-<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">④ 천천히 내리기</text>
-<rect x="36" y="62" width="180" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
-<rect x="192" y="50" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
-<rect x="30" y="62" width="8" height="176" rx="2" fill="#e7d9c2" stroke="#b9b2a2"/>
-<rect x="29" y="150" width="10" height="20" fill="#fff" stroke="#8a5d12" stroke-width="1" stroke-dasharray="3 2"/>
-<rect x="2" y="170" width="30" height="4" rx="1" fill="#dfe3e6" stroke="#9aa3ad"/>
-<text x="22" y="86" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text><text x="22" y="126" font-size="9" fill="#6a6a70" text-anchor="middle">문</text>
-<rect x="80" y="62" width="6" height="42" fill="#b9bec4"/><rect x="168" y="62" width="6" height="42" fill="#b9bec4"/>
-<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
-<rect x="96" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/><rect x="150" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/>
-<text x="188" y="113" font-size="9.5" fill="#6a6a70">고정</text>
-<rect x="200" y="133" width="16" height="7" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/>
-<rect x="70" y="176" width="112" height="12" rx="3" fill="#8a8f96"/>
-<rect x="102" y="164" width="48" height="12" fill="#8a8f96"/><rect x="102" y="163" width="48" height="3" fill="#d19a3c"/>
-<rect x="176" y="162" width="6" height="14" fill="#4a4e55"/>
-<rect x="100" y="153" width="52" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c"/>
-<line x1="126" y1="188" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<path d="M126 252 l-16 8 l16 8 M126 252 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
-<line x1="200" y1="134" x2="200" y2="174" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="156" font-size="11" fill="#8a5d12">천천히</text>
-<text x="16" y="322" font-size="11.5" fill="#6a6a70">모터가 0.5~1초에 걸쳐 끝까지</text>
-<text x="16" y="338" font-size="11.5" fill="#6a6a70">떡뻥은 피스톤 위에 얹혀 링 밖으로</text>
-<text x="16" y="354" font-size="11.5" fill="#6a6a70">리밋 스위치 확인</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">래치 해제 · 스프링이 피스톤을 2~3mm 툭</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">압력이 한순간에 풀려 「뻥」</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">잠긴 열 상자 안에서</text>
 </g>
 <text x="1078" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
 <g transform="translate(1086,0)">
 <rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
-<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">⑤ 배출 · 다음 장</text>
+<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">④ 천천히 내리기</text>
+<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">220°C · 0.5~1초</text>
 <rect x="36" y="62" width="180" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="192" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
 <rect x="30" y="62" width="8" height="176" rx="2" fill="#e7d9c2" stroke="#b9b2a2"/>
@@ -147,28 +177,62 @@
 <rect x="2" y="170" width="30" height="4" rx="1" fill="#dfe3e6" stroke="#9aa3ad"/>
 <text x="22" y="86" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text><text x="22" y="126" font-size="9" fill="#6a6a70" text-anchor="middle">문</text>
 <rect x="80" y="62" width="6" height="42" fill="#b9bec4"/><rect x="168" y="62" width="6" height="42" fill="#b9bec4"/>
-<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
+<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="76" y="107" width="100" height="6" rx="3" fill="#c8503c"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
 <rect x="96" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/><rect x="150" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/>
 <text x="188" y="113" font-size="9.5" fill="#6a6a70">고정</text>
-<rect x="200" y="133" width="16" height="7" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/>
-<rect x="70" y="176" width="112" height="12" rx="3" fill="#8a8f96"/>
+<rect x="200" y="145" width="17" height="8" fill="#fff" stroke="#8a8f96" stroke-width=".6" stroke-dasharray="2 2"/>
+<rect x="70" y="176" width="112" height="12" rx="3" fill="#8a8f96"/><rect x="76" y="179" width="100" height="6" rx="3" fill="#c8503c"/>
 <rect x="102" y="164" width="48" height="12" fill="#8a8f96"/><rect x="102" y="163" width="48" height="3" fill="#d19a3c"/>
-<rect x="176" y="162" width="6" height="14" fill="#4a4e55"/>
-<rect x="44" y="153" width="52" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c"/>
-<rect x="8" y="160" width="22" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c" opacity=".6"/>
-<line x1="150" y1="158" x2="100" y2="158" stroke="#55585e" stroke-width="2" marker-end="url(#arrg)"/>
-<rect x="104" y="154" width="46" height="4" fill="#4a4e55"/>
-<rect x="112" y="133" width="104" height="7" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/><rect x="118" y="134" width="14" height="5" fill="#f3eedf"/>
-<circle cx="124" cy="146" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="124" cy="152" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="124" cy="158" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<text x="196" y="156" font-size="9.5" fill="#6a6a70" text-anchor="end">계량 3g</text>
+<rect x="40" y="163" width="56" height="3" fill="#8a8f96"/>
+<rect x="176" y="167" width="4" height="6" fill="#e06c5a"/>
 <line x1="126" y1="188" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
 <path d="M126 252 l-16 8 l16 8 M126 252 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
 <line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
 <rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
-<text x="16" y="322" font-size="11.5" fill="#6a6a70">밀대가 떡뻥을 앞 슬롯으로</text>
-<text x="16" y="338" font-size="11.5" fill="#6a6a70">플랩 밀고 트레이로</text>
-<text x="16" y="354" font-size="11.5" fill="#6a6a70">슬라이드가 다음 3g을 떨어뜨림</text>
+<rect x="204" y="146" width="13" height="6" fill="#b9bec4"/>
+<rect x="100" y="153" width="52" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c"/>
+<line x1="200" y1="134" x2="200" y2="174" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="156" font-size="11" fill="#8a5d12">천천히</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">모터가 0.5~1초에 걸쳐 끝까지</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">떡뻥은 피스톤 위에 얹혀 링 밖으로</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">배출 턱과 같은 높이 · 리밋 스위치 확인</text>
+</g>
+<text x="1346" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
+<g transform="translate(1354,0)">
+<rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
+<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">⑤ 배출 · 다음 장</text>
+<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">1초 · 떡뻥 100°C+</text>
+<rect x="36" y="62" width="180" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="192" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
+<rect x="30" y="62" width="8" height="176" rx="2" fill="#e7d9c2" stroke="#b9b2a2"/>
+<rect x="29" y="150" width="10" height="20" fill="#fff" stroke="#8a5d12" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="2" y="170" width="30" height="4" rx="1" fill="#dfe3e6" stroke="#9aa3ad"/>
+<text x="22" y="86" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text><text x="22" y="126" font-size="9" fill="#6a6a70" text-anchor="middle">문</text>
+<rect x="80" y="62" width="6" height="42" fill="#b9bec4"/><rect x="168" y="62" width="6" height="42" fill="#b9bec4"/>
+<rect x="70" y="102" width="112" height="16" rx="3" fill="#8a8f96"/><rect x="76" y="107" width="100" height="6" rx="3" fill="#c8503c"/><rect x="70" y="118" width="112" height="3" fill="#d19a3c"/>
+<rect x="96" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/><rect x="150" y="121" width="6" height="9" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".8"/>
+<text x="188" y="113" font-size="9.5" fill="#6a6a70">고정</text>
+<rect x="200" y="145" width="17" height="8" fill="#fff" stroke="#8a8f96" stroke-width=".6" stroke-dasharray="2 2"/>
+<rect x="70" y="176" width="112" height="12" rx="3" fill="#8a8f96"/><rect x="76" y="179" width="100" height="6" rx="3" fill="#c8503c"/>
+<rect x="102" y="164" width="48" height="12" fill="#8a8f96"/><rect x="102" y="163" width="48" height="3" fill="#d19a3c"/>
+<rect x="40" y="163" width="56" height="3" fill="#8a8f96"/>
+<rect x="176" y="167" width="4" height="6" fill="#e06c5a"/>
+<line x1="126" y1="188" x2="126" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<path d="M126 252 l-16 8 l16 8 M126 252 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="126" y1="276" x2="126" y2="288" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<rect x="92" y="146" width="125" height="6" fill="#b9bec4" stroke="#8a8f96" stroke-width=".6"/>
+<rect x="116" y="143" width="20" height="9" fill="none" stroke="#4a4e55" stroke-width="1.2"/><rect x="118" y="144" width="16" height="4" fill="#f3eedf"/>
+<circle cx="124" cy="156" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="128" cy="159" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="124" cy="162" r="2" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<line x1="126" y1="154" x2="126" y2="158" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2" marker-end="url(#arr)"/>
+<line x1="216" y1="139" x2="150" y2="139" stroke="#55585e" stroke-width="1.6" marker-end="url(#arrg)"/><text x="196" y="135" font-size="9.5" fill="#6a6a70" text-anchor="end">슬라이드 →</text>
+<rect x="40" y="153" width="52" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c"/>
+<rect x="8" y="160" width="22" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c" opacity=".6"/>
+<line x1="100" y1="148" x2="60" y2="148" stroke="#55585e" stroke-width="2" marker-end="url(#arrg)"/>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">슬라이드 앞머리가 떡뻥을 배출 턱 → 슬롯으로</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">플랩 밀고 트레이로</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">같은 움직임으로 컵 3g 가운데 낙하</text>
+<text x="16" y="366" font-size="11.5" fill="#6a6a70">후진 → ①</text>
 </g>
 </svg>

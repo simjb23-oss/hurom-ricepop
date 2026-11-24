@@ -3,6 +3,7 @@
 <linearGradient id="glassT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset=".5" stop-color="#101014"/><stop offset="1" stop-color="#2c2c32"/></linearGradient>
 <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d19a3c"/></marker>
 <marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6a6a70"/></marker>
+<marker id="arrh" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c8503c"/></marker>
 </defs>
 <polygon points="465.1,792.7 480.0,801.3 480.0,794.4 465.1,785.8" fill="#333338" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="494.9,792.7 480.0,801.3 480.0,794.4 494.9,785.8" fill="#29292d" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -47,6 +48,9 @@
 <polygon points="414.5,705.0 486.0,746.2 486.0,735.9 414.5,694.6" fill="#8a8f96" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="545.5,711.8 486.0,746.2 486.0,735.9 545.5,701.5" fill="#71757b" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="474.0,660.2 545.5,701.5 486.0,735.9 414.5,694.6" fill="#9fa3a8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="450.2,677.4 515.7,715.3 515.7,712.7 450.2,674.9" fill="#c8503c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="520.2,712.7 515.7,715.3 515.7,712.7 520.2,710.1" fill="#a44131" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="454.7,672.3 520.2,710.1 515.7,712.7 450.2,674.9" fill="#d16f5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="502.3,711.0 495.8,713.9 495.8,707.0 502.3,704.1" fill="#888d94" stroke="#8a8f96" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
 <polygon points="495.8,713.9 488.2,715.7 488.2,708.8 495.8,707.0" fill="#8d9298" stroke="#8a8f96" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
 <polygon points="488.2,715.7 480.0,716.3 480.0,709.4 488.2,708.8" fill="#8f949a" stroke="#8a8f96" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
@@ -80,9 +84,9 @@
 <polygon points="529.2,719.6 533.6,722.2 533.6,715.3 529.2,712.7" fill="#e06c5a" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="539.6,718.7 533.6,722.2 533.6,715.3 539.6,711.8" fill="#b75849" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="535.1,709.3 539.6,711.8 533.6,715.3 529.2,712.7" fill="#e58677" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="472.6,664.5 538.1,702.4 538.1,690.3 472.6,652.5" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="541.1,700.7 538.1,702.4 538.1,690.3 541.1,688.6" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="475.5,650.8 541.1,688.6 538.1,690.3 472.6,652.5" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="424.9,697.2 469.6,723.0 469.6,721.3 424.9,695.5" fill="#8a8f96" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="477.8,718.3 469.6,723.0 469.6,721.3 477.8,716.6" fill="#71757b" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="433.1,690.8 477.8,716.6 469.6,721.3 424.9,695.5" fill="#9fa3a8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="503.8,672.3 497.9,675.0 497.9,669.8 503.8,667.1" fill="#dbdfe2" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
 <polygon points="497.9,675.0 491.1,676.9 491.1,671.7 497.9,669.8" fill="#dfe3e6" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
 <polygon points="491.1,676.9 483.8,677.9 483.8,672.7 491.1,671.7" fill="#e0e4e7" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
@@ -136,6 +140,9 @@
 <polygon points="414.5,619.0 486.0,660.2 486.0,648.2 414.5,606.9" fill="#8a8f96" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="545.5,625.8 486.0,660.2 486.0,648.2 545.5,613.8" fill="#71757b" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="474.0,572.5 545.5,613.8 486.0,648.2 414.5,606.9" fill="#9fa3a8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="450.2,589.7 515.7,627.6 515.7,625.0 450.2,587.1" fill="#c8503c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="520.2,625.0 515.7,627.6 515.7,625.0 520.2,622.4" fill="#a44131" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="454.7,584.6 520.2,622.4 515.7,625.0 450.2,587.1" fill="#d16f5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="529.2,633.6 533.6,636.2 533.6,629.3 529.2,626.7" fill="#d19a3c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="539.6,632.7 533.6,636.2 533.6,629.3 539.6,625.8" fill="#ab7e31" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="535.1,623.3 539.6,625.8 533.6,629.3 529.2,626.7" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -212,12 +219,15 @@
 <polygon points="547.0,241.4 582.8,262.1 582.8,236.3 547.0,215.6" fill="#f3eedf" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="611.1,245.7 582.8,262.1 582.8,236.3 611.1,219.9" fill="#c7c3b6" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="575.3,199.3 611.1,219.9 582.8,236.3 547.0,215.6" fill="#f5f1e4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="514.3,248.3 536.6,261.2 536.6,238.8 514.3,225.9" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="554.5,250.9 536.6,261.2 536.6,238.8 554.5,228.5" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
+<polygon points="514.3,256.9 536.6,269.8 536.6,238.8 514.3,225.9" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
+<polygon points="554.5,259.5 536.6,269.8 536.6,238.8 554.5,228.5" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
 <polygon points="532.1,215.6 554.5,228.5 536.6,238.8 514.3,225.9" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="468.8,273.7 491.2,286.6 491.2,281.4 468.8,268.5" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="543.3,256.5 491.2,286.6 491.2,281.4 543.3,251.3" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="521.0,238.4 543.3,251.3 491.2,281.4 468.8,268.5" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="468.8,280.5 491.2,293.4 491.2,288.3 468.8,275.4" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="543.3,263.4 491.2,293.4 491.2,288.3 543.3,258.2" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="521.0,245.3 543.3,258.2 491.2,288.3 468.8,275.4" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="469.6,282.7 487.4,293.0 487.4,287.9 469.6,277.5" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="497.9,287.0 487.4,293.0 487.4,287.9 497.9,281.8" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="480.0,271.5 497.9,281.8 487.4,287.9 469.6,277.5" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="313.2,175.2 480.0,271.5 480.0,268.1 313.2,171.8" fill="#303036" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="646.8,175.2 480.0,271.5 480.0,268.1 646.8,171.8" fill="#0c0c0f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="480.0,75.4 646.8,171.8 480.0,268.1 313.2,171.8" fill="url(#glassT)" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -231,7 +241,7 @@
 <text x="700.0" y="48.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑭ 검은 불투명 내열 상판 · 터치 · 상태 불빛 · 카세트 덮개</text>
 <circle cx="590.2" cy="204.4" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="590.2,204.4 678.0,108.0 692.0,108.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="112.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 곡물 카세트 · 깔때기 · 계량 슬라이드 3g</text>
+<text x="700.0" y="112.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 곡물 카세트 · 깔때기 · 계량 슬라이드 3g(밀어내기 겸용)</text>
 <circle cx="556.0" cy="399.7" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="556.0,399.7 678.0,232.0 692.0,232.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="700.0" y="236.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑩ 몸체 · 흰 띠 · 김 슬릿 · 앞문 자리(점선)</text>
@@ -246,13 +256,13 @@
 <text x="700.0" y="420.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑧ 열 상자 — 강판 + 단열 5mm(앞 = 앞문)</text>
 <circle cx="515.7" cy="637.9" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="515.7,637.9 678.0,486.0 692.0,486.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="490.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 위 열판 · 히터 · 센서 — 고정(기둥 2)</text>
+<text x="700.0" y="490.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 위 열판 220°C · 속 시즈 히터 450W(빨강) · NTC — 고정</text>
 <circle cx="503.8" cy="668.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="503.8,668.8 678.0,542.0 692.0,542.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="700.0" y="546.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 몰드 링 Ø6(위 열판 아래) + 떡뻥 · 옆은 칩 몰드</text>
 <circle cx="496.4" cy="705.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="496.4,705.8 678.0,596.0 692.0,596.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="600.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 아래 열판 = 피스톤 Ø6 · 퓨즈 · 밀대 — 오르내림</text>
+<text x="700.0" y="600.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 아래 열판 = 피스톤 Ø6 · 속 히터 450W · 퓨즈 · 배출 턱 — 오르내림</text>
 <circle cx="487.4" cy="802.1" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="487.4,802.1 678.0,656.0 692.0,656.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="700.0" y="660.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >④ 토글 링크 · 래치 스프링 · 리밋 2 · 푸시 로드</text>
