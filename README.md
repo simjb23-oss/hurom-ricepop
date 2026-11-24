@@ -1,0 +1,8 @@
+# 휴롬 간식 메이커 — 신제품 기획 제안서
+
+쌀 한 칸, 버튼 하나, 첨가물 없는 아이 간식. 곡물 떡뻥 + 휴롬 원액기 찌꺼기 칩 두 모드.
+
+- 페이지: https://simjb23-oss.github.io/hurom-ricepop/
+- 디자인 보드(Figma): https://www.figma.com/design/JeHF6ltyqlQTJdEbAcmmjv
+- `index.html` 기획서 · `explode.js` 구조 3D(three.js) · `img/` 실사 컨셉(AI 생성) · `test/shot.py` 캡처 스크립트
+- 3D 쿼리: `?p=0~1`(분해 진행) · `?ang=<도>` · `?color=black|white|cream|sage|lavender` · `?nowasher` · `?nolabel`
