@@ -65,7 +65,7 @@
 <text x="974" y="356" font-size="13.5" font-weight="800" fill="#8a5d12">③ 2~3mm 순간 하강</text><text x="974" y="378" font-size="11.5" fill="#6a6a70">압력이 한꺼번에 빠지며 「뻥」 · 부피 5~8배</text>
 <rect x="30" y="424" width="560" height="72" rx="12" fill="#fbe9e4"/>
 <text x="48" y="452" font-size="13.5" font-weight="800" fill="#c8503c">칩 모드 — 같은 열판 170~180°C · 60~80초 · 순간 하강 없음</text>
-<text x="48" y="474" font-size="11.5" fill="#6a6a70">곡물가루 70~80% + 찌꺼기 20~30% 반죽을 접시 몰드(피스톤 위)에 얹어 얇게 눌러 굽기 · 전병 원리</text>
+<text x="48" y="474" font-size="11.5" fill="#6a6a70">반죽은 칩 카세트 → 슬라이드 컵 8g → 몰드 링 가운데(쌀과 같은 길) · 얇게 눌러 굽기 · 전병 원리 · 같은 슬롯으로 배출</text>
 <rect x="610" y="424" width="560" height="72" rx="12" fill="#f3efe6"/>
 <text x="628" y="452" font-size="13.5" font-weight="800" fill="#15151a">전기 — 220V 직결 · 약 1kW = 시즈 히터 450W × 2 + 모터 · 제어</text>
 <text x="628" y="474" font-size="11.5" fill="#6a6a70">켜고 약 3분 데우면 「예열 완료」 불빛 · 온도 제어 NTC 2 + 온도 퓨즈 250°C 2중 차단</text>

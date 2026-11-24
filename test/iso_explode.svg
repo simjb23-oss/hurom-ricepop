@@ -119,21 +119,6 @@
 <polygon points="514.6,682.8 511.0,687.8 511.0,679.2 514.6,674.2" fill="#dcd2be" stroke="#fff3dc" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
 <polygon points="511.0,687.8 505.3,692.1 505.3,683.5 511.0,679.2" fill="#ede2cd" stroke="#fff3dc" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
 <polygon points="505.3,683.5 497.9,686.7 489.3,688.8 480.0,689.5 470.7,688.8 462.1,686.7 454.7,683.5 449.0,679.2 445.4,674.2 444.2,668.8 445.4,663.5 449.0,658.5 454.7,654.2 462.1,650.9 470.7,648.9 480.0,648.2 489.3,648.9 497.9,650.9 505.3,654.2 511.0,658.5 514.6,663.5 515.8,668.8 514.6,674.2 511.0,679.2" fill="#fff5e2" stroke="#2b2b30" stroke-width="0.8" stroke-linejoin="round" opacity="1" />
-<polygon points="578.3,715.3 571.3,718.4 571.3,714.9 578.3,711.8" fill="#dce0e3" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="571.3,718.4 563.2,720.3 563.2,716.9 571.3,714.9" fill="#dfe3e6" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="563.2,720.3 554.5,721.0 554.5,717.5 563.2,716.9" fill="#e0e4e7" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="554.5,721.0 545.8,720.3 545.8,716.9 554.5,717.5" fill="#e0e4e7" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="545.8,720.3 537.6,718.4 537.6,714.9 545.8,716.9" fill="#dfe3e6" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="537.6,718.4 530.6,715.3 530.6,711.8 537.6,714.9" fill="#dce0e3" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="530.6,715.3 525.3,711.2 525.3,707.8 530.6,711.8" fill="#cfd3d6" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="525.3,711.2 521.9,706.6 521.9,703.1 525.3,707.8" fill="#c0c4c6" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="521.9,706.6 520.8,701.5 520.8,698.1 521.9,703.1" fill="#afb3b5" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="520.8,701.5 521.9,696.5 521.9,693.0 520.8,698.1" fill="#9ea1a3" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="587.0,696.5 588.2,701.5 588.2,698.1 587.0,693.0" fill="#9ea1a3" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="588.2,701.5 587.0,706.6 587.0,703.1 588.2,698.1" fill="#afb3b5" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="587.0,706.6 583.7,711.2 583.7,707.8 587.0,703.1" fill="#c0c4c6" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="583.7,711.2 578.3,715.3 578.3,711.8 583.7,707.8" fill="#cfd3d6" stroke="#dfe3e6" stroke-width="0.3" stroke-linejoin="round" opacity="1" />
-<polygon points="578.3,711.8 571.3,714.9 563.2,716.9 554.5,717.5 545.8,716.9 537.6,714.9 530.6,711.8 525.3,707.8 521.9,703.1 520.8,698.1 521.9,693.0 525.3,688.4 530.6,684.3 537.6,681.2 545.8,679.3 554.5,678.6 563.2,679.3 571.3,681.2 578.3,684.3 583.7,688.4 587.0,693.0 588.2,698.1 587.0,703.1 583.7,707.8" fill="#e4e8ea" stroke="#2b2b30" stroke-width="0.8" stroke-linejoin="round" opacity="1" />
 <polygon points="414.5,620.7 486.0,662.0 486.0,660.2 414.5,619.0" fill="#d19a3c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="545.5,627.6 486.0,662.0 486.0,660.2 545.5,625.8" fill="#ab7e31" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="474.0,584.6 545.5,625.8 486.0,660.2 414.5,619.0" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -241,7 +226,7 @@
 <text x="700.0" y="48.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑭ 검은 불투명 내열 상판 · 터치 · 상태 불빛 · 카세트 덮개</text>
 <circle cx="590.2" cy="204.4" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="590.2,204.4 678.0,108.0 692.0,108.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="112.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 곡물 카세트 · 깔때기 · 계량 슬라이드 3g(밀어내기 겸용)</text>
+<text x="700.0" y="112.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 카세트(곡물 · 칩 갈아 끼움) · 깔때기 · 계량 슬라이드 3g/8g(밀어내기 겸용)</text>
 <circle cx="556.0" cy="399.7" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="556.0,399.7 678.0,232.0 692.0,232.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="700.0" y="236.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑩ 몸체 · 흰 띠 · 김 슬릿 · 앞문 자리(점선)</text>
@@ -259,7 +244,7 @@
 <text x="700.0" y="490.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 위 열판 220°C · 속 시즈 히터 450W(빨강) · NTC — 고정</text>
 <circle cx="503.8" cy="668.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="503.8,668.8 678.0,542.0 692.0,542.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="546.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 몰드 링 Ø6(위 열판 아래) + 떡뻥 · 옆은 칩 몰드</text>
+<text x="700.0" y="546.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 몰드 링 Ø6(위 열판 아래) + 떡뻥 — 칩도 같은 링</text>
 <circle cx="496.4" cy="705.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="496.4,705.8 678.0,596.0 692.0,596.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="700.0" y="600.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 아래 열판 = 피스톤 Ø6 · 속 히터 450W · 퓨즈 · 배출 턱 — 오르내림</text>
@@ -281,4 +266,4 @@
 <circle cx="345.9" cy="460.7" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="345.9,460.7 302.0,786.0 288.0,786.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="280.0" y="790.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑬ 트레이(앞) · 가림판 플랩</text>
-<text x="480.0" y="962.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >아래에서 위로 쌓는 순서 = 조립 순서. 사람이 떼어 씻는 것은 ⑥ 몰드 링 · ⑫ 카세트 · ② 서랍 · ⑬ 트레이 네 가지뿐입니다.</text></svg>
+<text x="480.0" y="962.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >아래에서 위로 쌓는 순서 = 조립 순서. 사람이 떼어 씻는 것은 ⑥ 몰드 링 · ⑫ 카세트(곡물 · 칩) · ② 서랍 · ⑬ 트레이 네 자리뿐입니다.</text></svg>

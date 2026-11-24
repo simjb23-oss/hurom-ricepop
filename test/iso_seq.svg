@@ -46,6 +46,7 @@
 <text x="16" y="334" font-size="11.5" fill="#6a6a70">피스톤 내려간 25mm 틈으로 들어옴</text>
 <text x="16" y="350" font-size="11.5" fill="#6a6a70">컵이 가운데서 바닥 열려 3g 낙하</text>
 <text x="16" y="366" font-size="11.5" fill="#6a6a70">슬라이드 후진 → ①</text>
+<text x="16" y="382" font-size="11.5" fill="#6a6a70">칩: 칩 카세트 → 넓은 컵 8g · 같은 길</text>
 </g>
 <text x="274" y="170" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
 <g transform="translate(282,0)">

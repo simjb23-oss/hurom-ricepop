@@ -84,11 +84,11 @@ const top = box(W + 0.02, 0.04, D + 0.02, 0.008, M.glass); glassG.add(top);
 const digit = box(0.14, 0.01, 0.06, 0.003, M.band); digit.position.set(0.1, 0.022, D / 2 - 0.16); glassG.add(digit);
 const flap = box(0.7, 0.02, 0.58, 0.005, M.glass); flap.position.set(0.61, 0.03, -0.77); glassG.add(flap);
 add(glassG, V(0, H - 0.02, 0), V(0, H + 2.3, 0), '⑭ 검은 불투명 내열 상판(유리 아님) · 숨은 터치 · 상태 불빛 · 카세트 덮개 — 창 없음 · 움직이지 않음', 3);
-// ⑫ 곡물 카세트 + 깔때기 + 계량 슬라이드
+// ⑫ 카세트(곡물 · 칩 갈아 끼움) + 깔때기 + 계량 슬라이드
 const cassG = new THREE.Group();
 const cass = box(0.56, 0.58, 0.46, 0.02, M.clear); cassG.add(cass);
 const rice = box(0.5, 0.3, 0.4, 0.02, M.rice); rice.position.y = -0.08; cassG.add(rice);
-add(cassG, V(0.58, H - 0.51, -0.75), V(0.58, H + 1.5, -1.9), '⑫ 곡물 카세트(약 200g · 60장) · 분리 세척', 1);
+add(cassG, V(0.58, H - 0.51, -0.75), V(0.58, H + 1.5, -1.9), '⑫ 카세트 — 곡물(약 200g · 60장) · 칩 카세트(반죽 짜는 통 + 넓은 컵 8g)로 갈아 끼움 · 분리 세척', 1);
 const slideG = new THREE.Group(); const funnel = box(0.3, 0.26, 0.24, 0.01, M.steel); funnel.position.set(0, 0.16, -0.46); slideG.add(funnel);
 slideG.add(box(0.3, 0.06, 0.7, 0.01, M.steel)); const cup = box(0.24, 0.06, 0.14, 0.01, M.dark); cup.position.set(0, 0.0, 0.26); slideG.add(cup);
 add(slideG, V(0, 0.83, -0.35), V(1.9, 0.83, -1.1), '⑫ 계량 슬라이드 · 앞머리 컵 3g — 밀어내기 겸용(떡뻥을 슬롯으로 밀고, 컵이 가운데서 낙하)', 3);

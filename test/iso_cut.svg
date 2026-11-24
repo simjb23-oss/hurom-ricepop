@@ -252,7 +252,7 @@
 <text x="850.0" y="71.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >창 없음(위 열판이 고정이라 창을 내도 안 보임) · 유리 아님</text>
 <circle cx="752.3" cy="169.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="752.3,169.0 828.0,100.0 842.0,100.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="104.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 곡물 카세트 200g → 깔때기 → 계량 컵 3g</text>
+<text x="850.0" y="104.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 카세트 200g → 깔때기 → 계량 컵 3g(칩 카세트로 갈아 끼움 · 8g)</text>
 <text x="850.0" y="119.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >점선 화살 = 쌀 길 · 카세트에서 슬라이드 컵으로</text>
 <circle cx="682.1" cy="338.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="682.1,338.5 828.0,148.0 842.0,148.0" fill="none" stroke="#9a948a" stroke-width="1"/>
@@ -265,7 +265,7 @@
 <circle cx="601.6" cy="308.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="601.6,308.5 828.0,236.0 842.0,236.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="850.0" y="240.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 몰드 링 Ø6 · 세라믹 — 위 열판 아래 끼움(고정)</text>
-<text x="850.0" y="255.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >앞문 열고 돌려 빼서 씻음 · 칩은 접시 몰드를 피스톤 위에</text>
+<text x="850.0" y="255.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >앞문 열고 돌려 빼서 씻음 · 칩도 같은 링 안에서 얇게 눌러 굽기</text>
 <circle cx="588.6" cy="346.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="588.6,346.0 828.0,286.0 842.0,286.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="850.0" y="290.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 아래 열판 = 피스톤 Ø6 · 퓨즈 250°C — 이것만 25mm 오르내림</text>
@@ -286,7 +286,7 @@
 <text x="850.0" y="464.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >③ 승강 모터(웜) — 바닥 오른쪽 · 정전에도 자기 잠금</text>
 <circle cx="573.0" cy="400.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="573.0,400.0 828.0,500.0 842.0,500.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="504.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >② 부스러기 서랍 — 앞으로 당겨 비움 · 열선에서 50mm 이상</text>
+<text x="850.0" y="504.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >② 부스러기 서랍 — 앞으로 당겨 비움 · 히터에서 50mm 이상</text>
 <circle cx="684.7" cy="488.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="684.7,488.5 828.0,540.0 842.0,540.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="850.0" y="544.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >① 바닥 무게판 + 고무발 · 기울기 센서</text>
