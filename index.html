@@ -16,7 +16,7 @@ a{color:inherit}
 nav{position:fixed;inset:0 0 auto 0;z-index:20;backdrop-filter:blur(14px) saturate(160%);background:rgba(22,22,26,.72);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:54px}
 nav b{font-weight:800;font-size:15px}
-nav b span{color:rgba(255,255,255,.55);font-weight:400;margin-left:8px;font-size:13px}
+nav b span{color:rgba(255,255,255,.45);font-weight:400;margin-left:8px;font-size:11px}
 nav ul{display:flex;gap:18px;list-style:none;font-size:12.5px}
 nav a{color:rgba(255,255,255,.7);text-decoration:none}
 nav a:hover{color:#fff}
@@ -143,16 +143,29 @@ td b{font-weight:800}
 .dec>div:before{counter-increment:d;content:counter(d);width:40px;height:40px;border-radius:50%;background:var(--acc);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
 .dec b{display:block;font-size:18px;font-weight:800;margin-bottom:4px}
 .dec p{font-size:14.5px;color:var(--sub)}
-.sources{font-size:13px;color:var(--sub);line-height:1.8}
+.sources{font-size:11px;color:#9a948a;line-height:1.7}
 .sources li{margin-left:20px}
-footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--paper2);border-top:1px solid var(--line)}
+footer{padding:28px 0 44px;font-size:11px;color:#9a948a;background:var(--paper2);border-top:1px solid var(--line)}
+footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
+#sources .kicker{font-size:11px;margin-bottom:8px}
+#sources .cap{font-size:10.5px;color:#9a948a}
+.rec{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px}
+.rec .card{padding:22px}
+.rec .card strong{font-size:18px}
+.rec .card p{font-size:13.5px}
+.rec .card em{display:block;font-style:normal;font-size:12px;color:var(--acc);font-weight:800;margin-top:8px}
+.rec h3{grid-column:1/-1;font-size:15px;font-weight:800;color:var(--sub);margin:12px 0 -6px}
+.sum{margin-top:36px;padding:22px 26px;border-radius:18px;background:var(--acc-soft);border:1px solid rgba(209,154,60,.3);display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.sum div{font-size:14px;line-height:1.55}
+.sum b{display:block;color:#8a5d12;font-size:13px;margin-bottom:4px}
+@media(max-width:860px){.rec{grid-template-columns:1fr 1fr}.sum{grid-template-columns:1fr 1fr}}
 .rv{opacity:0;transform:translateY(22px)}
 @media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}}
 </style>
 </head>
 <body>
 <nav><div class="wrap"><b>휴롬 쌀참 <span>신제품 기획 제안서</span></b>
-<ul><li><a href="#problem">문제</a></li><li><a href="#safety">안전</a></li><li><a href="#design">디자인</a></li><li><a href="#how">사용</a></li><li><a href="#modes">두 모드</a></li><li><a href="#cutaway">구조</a></li><li><a href="#structure">3D</a></li><li><a href="#clean">세척</a></li><li><a href="#spec">사양</a></li><li><a href="#biz">사업성</a></li><li><a href="#decide">결정</a></li></ul></div></nav>
+<ul><li><a href="#problem">문제</a></li><li><a href="#safety">안전</a></li><li><a href="#design">디자인</a></li><li><a href="#how">사용</a></li><li><a href="#modes">두 모드</a></li><li><a href="#recipe">레시피</a></li><li><a href="#cutaway">구조</a></li><li><a href="#structure">3D</a></li><li><a href="#clean">세척</a></li><li><a href="#spec">사양</a></li><li><a href="#biz">사업성</a></li><li><a href="#decide">결정</a></li></ul></div></nav>
 
 <header class="hero" id="top">
   <div class="wrap">
@@ -209,16 +222,16 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <section id="safety" class="light">
   <div class="wrap">
     <div class="rv"><div class="kicker">03 · 안전 — 디자인보다 먼저</div>
-    <h2>열과 압력을 쓰는 아이 간식 기계.<br>그래서 <b>안전 8가지</b>가 필수 사양입니다.</h2>
+    <h2>열과 압력을 쓰는 간식 기계.<br>그래서 <b>안전 8가지</b>가 필수 사양입니다.</h2>
     <p class="lead">업소용 「뻥」 기계의 위험(순간 개방 · 뜨거운 겉면 · 소음)을 하나씩 설계로 없앱니다. 아래 8가지는 ODM 견적 조건이기도 합니다.</p></div>
     <div class="safe">
-      <div class="rv"><i>1</i><b>뚜껑 잠금(인터록)</b><p>유리 뚜껑이 잠겨야만 가열. 가열 중엔 열리지 않고, 열판이 식어야 풀립니다.</p></div>
-      <div class="rv"><i>2</i><b>「뻥」은 상자 안에서만</b><p>부풀리는 데 필요한 순간 개방은 2~3mm, 잠긴 열 상자 안에서만. 그 뒤 모터가 천천히 끝까지 엽니다. 몰드와 손 사이엔 가림판.</p></div>
+      <div class="rv"><i>1</i><b>덮개 잠금(인터록)</b><p>뒤 덮개가 잠겨야만 가열. 가열 중엔 열리지 않고, 열판이 식어야 풀립니다. 유리 상판은 움직이지 않습니다.</p></div>
+      <div class="rv"><i>2</i><b>「뻥」은 상자 안에서만</b><p>부풀리는 데 필요한 순간 개방은 아래 판이 2~3mm 내려가는 것뿐, 잠긴 열 상자 안에서만. 그 뒤 모터가 천천히 끝까지 내립니다. 몰드와 손 사이엔 가림판.</p></div>
       <div class="rv"><i>3</i><b>겉면 쿨터치</b><p>이중벽 + 이중 유리 창. 손이 닿는 면은 60°C 이하(벤치 측정).</p></div>
       <div class="rv"><i>4</i><b>과열 차단 2중</b><p>온도 센서 제어 + 그게 고장 나도 끊는 온도 퓨즈.</p></div>
       <div class="rv"><i>5</i><b>자동 꺼짐 · 아이 잠금</b><p>안 쓰면 꺼지고, 시작은 터치 3초 길게.</p></div>
       <div class="rv"><i>6</i><b>넘어짐 방지</b><p>넓고 무거운 바닥 + 미끄럼 방지 고무. 기울면 바로 꺼짐.</p></div>
-      <div class="rv"><i>7</i><b>식품 안전</b><p>몰드 코팅은 PFAS 없는 세라믹. 칩 모드는 타지 않게 온도 상한(아크릴아마이드 관리).</p></div>
+      <div class="rv"><i>7</i><b>식품 안전</b><p>닿는 부품은 모두 떼어 씻고, 코팅은 PFAS 없는 세라믹, 고인 물 없음, 타지 않게 온도 상한. 14 칸에 10항목.</p></div>
       <div class="rv"><i>8</i><b>인증</b><p>KC 전기용품 안전(IEC 60335-1 · -2-9 계열) + 식품 접촉 재질 시험을 기획 단계 기준으로.</p></div>
     </div>
   </div>
@@ -227,19 +240,19 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <section id="design" class="dark">
   <div class="wrap">
     <div class="rv"><div class="kicker">04 · 디자인</div>
-    <h2>휴롬 식재료 세척기와 <b>같은 식구.</b><br>옆면 색만 고릅니다.</h2>
-    <p class="lead">세척기의 언어를 그대로 가져왔습니다 — 네모 큐브, 검은 강화유리 상판, 가운데 들여다보는 창, 유리 아래 얇은 흰 띠, 꺼지면 사라지는 터치와 숫자. 가열 제품인데도 금속과 열선은 밖에서 하나도 보이지 않습니다.</p></div>
-    <div class="photo rv"><img src="img/photo_family.jpg" alt="원액기 · 식재료 세척기 · 쌀참이 나란히 — 실사 컨셉(AI 생성)"></div>
-    <p class="cap rv">원액기 · 세척기 · 쌀참 한 세트 · 실사 컨셉(AI 생성). 크기만 작고(약 22 × 22 × 20cm) 언어는 같습니다.</p>
+    <h2>검은 유리 한 장 아래 <b>다 숨깁니다.</b><br>옆면 색만 고릅니다.</h2>
+    <p class="lead">네모 큐브, 검은 강화유리 상판, 가운데 들여다보는 창, 유리 아래 얇은 흰 띠, 꺼지면 사라지는 터치와 숫자. 가열 제품인데도 금속과 열선은 밖에서 하나도 보이지 않고, 겉에서 움직이는 것도 없습니다.</p></div>
+    <div class="photo rv"><img src="img/photo_family.jpg" alt="휴롬 원액기 옆 쌀참 — 실사 컨셉(AI 생성)"></div>
+    <p class="cap rv">휴롬 원액기 옆 쌀참 · 실사 컨셉(AI 생성). 약 22 × 22 × 20cm, 조리대 한 자리.</p>
     <div class="grid2">
       <div class="rv"><div class="photo" style="margin:0"><img src="img/photo_hero.jpg" alt="스튜디오 실사 컨셉"></div><p class="cap">앞 45° · 검은 유리 상판의 창으로 떡뻥이 부푸는 게 보입니다. 앞 슬롯은 가림판 뒤, 그 아래 부스러기 서랍.</p></div>
       <div class="rv"><div class="photo" style="margin:0"><img src="img/photo_top.jpg" alt="상판 디테일 실사 컨셉"></div><p class="cap">상판 · 이중 유리 창 + 유리 아래 터치(모드 ① ② · 시작)와 두 자리 숫자(예열 남은 초 · 만든 장수). 뒤쪽 작은 유리 덮개 아래 곡물 카세트.</p></div>
     </div>
     <div class="photo rv"><img src="img/photo_colors.jpg" alt="비스포크 옆면 패널 — 블랙 · 크림 · 세이지 · 라벤더"></div>
-    <p class="cap rv">비스포크 · 옆면 패널을 갈아 끼웁니다. 기본 블랙 · 화이트, 아이 간식 기계답게 크림 · 세이지 · 라벤더. 3D 칸에서 색을 바꿔 볼 수 있습니다.</p>
+    <p class="cap rv">비스포크 · 옆면 패널을 갈아 끼웁니다. 기본 크림, 블랙 · 화이트 · 세이지 · 라벤더. 3D 칸에서 색을 바꿔 볼 수 있습니다.</p>
     <div class="grid4">
-      <div class="card rv"><small>형태</small><strong>세척기와 같은 큐브</strong><p>약 22 × 22 × 20cm. 나란히 두면 한 세트로 보이는 크기 비율.</p></div>
-      <div class="card rv"><small>상판</small><strong>검은 강화유리 + 이중 유리 창</strong><p>창으로 떡뻥이 부푸는 10초가 보입니다. 창은 이중 유리라 만져도 따뜻한 정도.</p></div>
+      <div class="card rv"><small>형태</small><strong>손바닥 두 뼘 큐브</strong><p>약 22 × 22 × 20cm. 조리대 위 한 자리, 원액기 옆에 두면 한 줄로 섭니다.</p></div>
+      <div class="card rv"><small>상판</small><strong>검은 강화유리 + 이중 유리 창</strong><p>창으로 떡뻥이 부푸는 10초가 보입니다. 창은 이중 유리라 만져도 따뜻한 정도. 상판은 움직이지 않습니다.</p></div>
       <div class="card rv"><small>띠 · 터치</small><strong>흰 띠, 숨은 터치</strong><p>유리 아래 터치 3개(모드 ① ② · 시작)와 숫자 2자리. 꺼지면 매끈한 유리판만 남습니다.</p></div>
       <div class="card rv"><small>불빛</small><strong>따뜻한 점 → 흰 점</strong><p>예열 중 따뜻한 색, 완료되면 흰색. 빨간 경고등 느낌은 쓰지 않습니다.</p></div>
     </div>
@@ -251,8 +264,8 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
     <div class="rv"><div class="kicker">05 · 사용</div>
     <h2>재료 한 칸, 터치, 간식.<br><b>세 단계</b>뿐입니다.</h2></div>
     <div class="steps">
-      <figure class="rv"><img src="img/photo_top.jpg" alt="1 재료 한 칸"><figcaption><b><i>1</i>재료 한 칸</b><p>상판 뒤 덮개를 열고 곡물 카세트에 쌀·현미·귀리를 채웁니다(약 60장 분량). 칩 모드는 찌꺼기 + 곡물가루 반죽을 칩 몰드에 한 숟갈.</p></figcaption></figure>
-      <figure class="rv"><img src="img/photo_use.jpg" alt="2 터치"><figcaption><b><i>2</i>터치 3초</b><p>예열 3분 뒤 시작을 누르면 10초. 창으로 부푸는 게 보이고, 떡뻥은 앞 슬롯으로 나옵니다. 칩은 뚜껑을 열면 몰드 위에.</p></figcaption></figure>
+      <figure class="rv"><img src="img/photo_top.jpg" alt="1 재료 한 칸"><figcaption><b><i>1</i>재료 한 칸</b><p>쌀·현미·귀리를 10분 불려 물기를 빼고, 상판 뒤 덮개를 열어 곡물 카세트에 채웁니다(약 60장 분량). 칩 모드는 곡물가루 + 찌꺼기 반죽을 칩 몰드에 한 숟갈.</p></figcaption></figure>
+      <figure class="rv"><img src="img/photo_use.jpg" alt="2 터치"><figcaption><b><i>2</i>터치 3초</b><p>예열 3분 뒤 시작을 누르면 10초. 창으로 부푸는 게 보이고, 떡뻥은 앞 슬롯으로 나옵니다. 칩은 뒤 덮개를 열면 몰드 위에.</p></figcaption></figure>
       <figure class="rv"><img src="img/photo_kid.jpg" alt="3 간식"><figcaption><b><i>3</i>간식</b><p>바로 먹습니다. 식으면 더 바삭해지고, 남으면 밀폐통에 이틀.</p></figcaption></figure>
     </div>
   </div>
@@ -266,24 +279,56 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
     <div class="photo rv"><img src="img/photo_menu.jpg" alt="쌀 · 현미 · 당근 찌꺼기 떡뻥"></div>
     <div class="grid2">
       <div class="card rv"><small>① 곡물 떡뻥 모드</small><strong>마른 쌀을 부풀립니다</strong><ul>
-        <li>재료: 쌀 · 현미 · 흑미 · 귀리(낟알). 낟알 속 수분(14~16%)이 터지며 부풉니다. 모자라면 한 장에 0.5mL 안개를 뿌립니다.</li>
-        <li>열판 2장 200~230°C, 8~10초 가압 → 2~3mm 순간 개방(뻥, 상자 안) → 모터가 천천히 열어 배출.</li>
+        <li>재료: 쌀 · 현미 · 흑미 · 귀리(낟알). 10분 불려 물기를 뺀 낟알 속 수분이 한순간 터지며 부풉니다. 물을 따로 넣지 않습니다.</li>
+        <li>열판 2장 200~230°C, 8~10초 누름 → 아래 판이 2~3mm 순간 하강(뻥, 상자 안) → 모터가 천천히 내려 배출.</li>
         <li>한 장 Ø6cm · 약 3g. 연속 10장 2분. 미니 몰드(Ø3 × 7구)는 옵션.</li></ul></div>
       <div class="card rv"><small>② 찌꺼기 칩 모드</small><strong>곡물에 찌꺼기를 20~30% 섞어 굽습니다</strong><ul>
         <li>재료: 쌀 · 귀리(가루 또는 낟알) 70~80% + 원액기 찌꺼기(당근·사과·케일) 20~30%. 찌꺼기 100%는 말린 찌꺼기를 쓰는 별도 안으로 둡니다. 비율 · 시간은 벤치에서 정합니다.</li>
-        <li>칩 몰드(얕은 접시형)에 한 숟갈 → 뚜껑 닫기 → 온도 상한을 둔 저온으로 60~90초.</li>
-        <li>「버리던 찌꺼기가 아이 간식이 된다」 — 원액기 고객에게만 할 수 있는 이야기입니다.</li></ul></div>
+        <li>칩 몰드(얕은 접시형)에 한 숟갈 → 덮개 닫기 → 상한 190°C 저온으로 60~90초. 타지 않습니다.</li>
+        <li>「버리던 찌꺼기가 간식이 된다」 — 원액기 고객에게만 할 수 있는 이야기입니다.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="recipe" class="light">
+  <div class="wrap">
+    <div class="rv"><div class="kicker">07 · 레시피</div>
+    <h2>쌀 한 종류로 시작해서,<br><b>찌꺼기 네 가지</b>까지.</h2>
+    <p class="lead">떡뻥은 낟알을 10분 불려 물기를 빼고 카세트에 넣기만 합니다. 칩은 곡물가루 70~80%에 원액기 찌꺼기 20~30%를 섞어 한 숟갈. 소금 · 설탕은 넣지 않아도 되고, 넣고 싶으면 반죽에 한 꼬집. 비율 · 시간은 벤치에서 확정합니다.</p></div>
+    <div class="rec">
+      <h3 class="rv">① 곡물 떡뻥 — 낟알 그대로, 한 장 3g</h3>
+      <div class="card rv"><small>기본</small><strong>쌀</strong><p>백미 100%. 가장 잘 부풀고 담백합니다. 처음 쓰는 집의 첫 레시피.</p><em>10분 불림 · 200~230°C · 8~10초</em></div>
+      <div class="card rv"><small>고소</small><strong>현미 · 귀리</strong><p>현미 70 + 귀리 30. 식이섬유가 많고 고소합니다. 귀리는 압착 귀리가 아니라 낟알.</p><em>15분 불림 · 230°C · 10초</em></div>
+      <div class="card rv"><small>단백질</small><strong>흑미 · 검은콩</strong><p>흑미 80 + 검은콩 20. 보라색 떡뻥. 콩은 미리 볶아 넣습니다. 콩 알레르기 표시.</p><em>15분 불림 · 230°C · 10초</em></div>
+      <div class="card rv"><small>아이 인기</small><strong>쌀 · 옥수수</strong><p>쌀 80 + 마른 옥수수 20. 팝콘 향이 납니다. 옥수수는 작은 알(팝콘용)만.</p><em>10분 불림 · 230°C · 10초</em></div>
+      <h3 class="rv">② 찌꺼기 칩 — 곡물가루 70~80% + 찌꺼기 20~30%, 한 숟갈 8g</h3>
+      <div class="card rv"><small>달콤</small><strong>당근 칩</strong><p>쌀가루 70 + 당근 찌꺼기 30. 주황색, 당근 단맛. 가장 실패가 적습니다.</p><em>180°C · 70초</em></div>
+      <div class="card rv"><small>디저트</small><strong>사과 · 시나몬 칩</strong><p>쌀가루 75 + 사과 찌꺼기 25 + 시나몬 한 꼬집. 갈변이 빠르니 짠 뒤 바로.</p><em>170°C · 60초</em></div>
+      <div class="card rv"><small>짭짤</small><strong>케일 · 셀러리 칩</strong><p>귀리가루 75 + 초록 찌꺼기 25 + 소금 한 꼬집. 어른 간식, 맥주 안주.</p><em>180°C · 80초</em></div>
+      <div class="card rv"><small>눈길</small><strong>비트 칩</strong><p>쌀가루 75 + 비트 찌꺼기 25. 분홍색. 색이 진해 아이들이 먼저 집습니다.</p><em>180°C · 70초</em></div>
+    </div>
+    <div class="sum rv">
+      <div><b>불린 쌀</b>10분 불려 체에 10분. 카세트에 남은 쌀은 당일 사용, 남으면 냉장.</div>
+      <div><b>찌꺼기</b>짠 뒤 2시간 안에, 냉장은 24시간. 반죽은 그날 다 씁니다.</div>
+      <div><b>보관</b>식으면 더 바삭. 밀폐통에 떡뻥 이틀 · 칩 하루.</div>
+      <div><b>알레르기 · 아이</b>콩 · 견과 · 밀이 든 레시피는 표시. 3세 이하는 쪼개서 줍니다.</div>
     </div>
   </div>
 </section>
 
 <section id="cutaway" class="light">
   <div class="wrap">
-    <div class="rv"><div class="kicker">07 · 구조 2.5D</div>
-    <h2>뜨거운 것은 모두 <b>유리 아래</b>,<br>손이 닿는 것은 모두 바깥.</h2>
-    <p class="lead">앞뒤 가운데를 잘라 본 2.5D 단면입니다. 안쪽 열 상자(열판 · 몰드 · 토글 링크)와 그것을 띄워 감싼 바깥 껍데기 — 사이의 공기층 10mm + 단열 5mm, 그리고 이중 유리가 쿨터치를 만듭니다. 사람이 떼는 것은 몰드 · 카세트 · 물통 · 서랍 · 트레이뿐입니다.</p></div>
+    <div class="rv"><div class="kicker">08 · 구조 2.5D</div>
+    <h2>움직이는 것은 <b>아래 판 하나.</b><br>유리는 움직이지 않습니다.</h2>
+    <p class="lead">유리 상판과 위 열판은 고정입니다. 바닥 모터가 아래 열판(몰드)을 올려 누르고, 2~3mm 툭 내려 부풀리고, 천천히 끝까지 내립니다. 쌀은 뒤 카세트에서 떨어지고 떡뻥은 앞 슬롯으로 나옵니다. 씻을 때만 뒤 덮개를 들어 몰드를 빼고, 물은 어디에도 고이지 않습니다.</p></div>
+    <div class="sum rv">
+      <div><b>고정</b>검은 유리 상판 · 안쪽 유리 · 위 열판(천장에 매달림)</div>
+      <div><b>움직임</b>아래 열판 + 몰드만 25mm 오르내림 · 바닥 모터 → 토글 링크</div>
+      <div><b>재료 길</b>뒤 카세트 → 계량 3g → 몰드 → 앞 슬롯 → 가림판 뒤 트레이</div>
+      <div><b>사람이 떼는 것</b>몰드 · 카세트 · 서랍 · 트레이 네 가지</div>
+    </div>
     <div class="cut rv">
-      <h3>단면 — 앞뒤 가운데를 잘라 봄</h3>
+      <h3>단면 — 앞뒤 가운데를 잘라 봄 (아래 판이 내려간 상태)</h3>
       <svg viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
 <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#8a5d12" stroke-width="1.1" opacity=".55"/></pattern>
 <linearGradient id="glassT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset=".5" stop-color="#101014"/><stop offset="1" stop-color="#2c2c32"/></linearGradient>
@@ -324,23 +369,15 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="435.3,301.0 439.2,303.2 439.2,183.2 435.3,181.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
 <polygon points="504.1,265.8 439.2,303.2 439.2,183.2 504.1,145.8" fill="#266439" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="500.2,143.5 504.1,145.8 439.2,183.2 435.3,181.0" fill="#549167" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="528.8,244.0 562.6,263.5 562.6,212.5 528.8,193.0" fill="#5a5e66" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="601.6,241.0 562.6,263.5 562.6,212.5 601.6,190.0" fill="#494d53" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="567.8,170.5 601.6,190.0 562.6,212.5 528.8,193.0" fill="#777a81" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="469.1,356.5 650.9,461.5 650.9,419.5 469.1,314.5" fill="#ffffff" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="469.1,356.5 650.9,461.5 650.9,419.5 469.1,314.5" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
-<polygon points="731.5,415.0 650.9,461.5 650.9,419.5 731.5,373.0" fill="#d1d1d1" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="549.6,268.0 731.5,373.0 650.9,419.5 469.1,314.5" fill="#efefef" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="515.8,149.5 567.8,179.5 567.8,92.5 515.8,62.5" fill="#dcecf7" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
-<polygon points="627.5,145.0 567.8,179.5 567.8,92.5 627.5,58.0" fill="#b4c1ca" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
-<polygon points="575.6,28.0 627.5,58.0 567.8,92.5 515.8,62.5" fill="#e2eff8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
-<polygon points="526.2,146.5 567.8,170.5 567.8,131.5 526.2,107.5" fill="#8fbfe0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="617.2,142.0 567.8,170.5 567.8,131.5 617.2,103.0" fill="#759cb7" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="575.6,79.0 617.2,103.0 567.8,131.5 526.2,107.5" fill="#a3cae5" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="497.6,190.0 528.8,208.0 528.8,187.0 497.6,169.0" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="549.6,196.0 528.8,208.0 528.8,187.0 549.6,175.0" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="518.4,157.0 549.6,175.0 528.8,187.0 497.6,169.0" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polyline points="513.2,187.0 495.0,197.5 599.0,200.5 601.6,214.0" fill="none" stroke="#6a6a70" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polygon points="469.1,356.5 612.0,439.0 612.0,397.0 469.1,314.5" fill="#ffffff" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="469.1,356.5 612.0,439.0 612.0,397.0 469.1,314.5" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
+<polygon points="692.5,392.5 612.0,439.0 612.0,397.0 692.5,350.5" fill="#d1d1d1" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="549.6,268.0 692.5,350.5 612.0,397.0 469.1,314.5" fill="#efefef" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="635.3,440.5 692.5,473.5 692.5,425.5 635.3,392.5" fill="#5a5e66" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="744.5,443.5 692.5,473.5 692.5,425.5 744.5,395.5" fill="#494d53" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="687.3,362.5 744.5,395.5 692.5,425.5 635.3,392.5" fill="#777a81" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polyline points="661.3,401.5 573.0,380.5" fill="none" stroke="#5a5e66" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polyline points="573.0,380.5 573.0,341.5" fill="none" stroke="#5a5e66" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
 <polygon points="666.5,236.5 739.3,278.5 739.3,191.5 666.5,149.5" fill="#dcecf7" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
 <polygon points="799.0,244.0 739.3,278.5 739.3,191.5 799.0,157.0" fill="#b4c1ca" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
 <polygon points="726.3,115.0 799.0,157.0 739.3,191.5 666.5,149.5" fill="#e2eff8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
@@ -350,7 +387,7 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="653.5,271.0 692.5,293.5 692.5,284.5 653.5,262.0" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="718.5,278.5 692.5,293.5 692.5,284.5 718.5,269.5" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="679.5,247.0 718.5,269.5 692.5,284.5 653.5,262.0" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polyline points="696.4,268.8 625.0,218.5 617.2,223.0" fill="none" stroke="#6a6a70" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polyline points="696.4,268.8 625.0,224.5 617.2,229.0" fill="none" stroke="#6a6a70" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
 <polygon points="531.4,275.5 702.9,374.5 702.9,224.5 531.4,125.5" fill="#e7d9c2" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="710.7,370.0 702.9,374.5 702.9,224.5 710.7,220.0" fill="#bdb19f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="539.2,121.0 710.7,220.0 702.9,224.5 531.4,125.5" fill="#ebdfcc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -362,31 +399,33 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="482.1,313.0 637.9,403.0 637.9,395.5 482.1,305.5" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
 <polygon points="695.1,370.0 637.9,403.0 637.9,395.5 695.1,362.5" fill="#bdb19f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="539.2,272.5 695.1,362.5 637.9,395.5 482.1,305.5" fill="#d4c7b2" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polyline points="545.7,226.8 470.4,270.2 573.0,329.5 573.0,308.5" fill="none" stroke="#5a5e66" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
-<polyline points="554.8,298.0 573.0,326.5 591.2,319.0" fill="none" stroke="#5a5e66" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
-<polygon points="632.7,383.5 643.1,389.5 643.1,380.5 632.7,374.5" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="653.5,383.5 643.1,389.5 643.1,380.5 653.5,374.5" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="643.1,368.5 653.5,374.5 643.1,380.5 632.7,374.5" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="632.7,358.0 643.1,364.0 643.1,355.0 632.7,349.0" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="653.5,358.0 643.1,364.0 643.1,355.0 653.5,349.0" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="643.1,343.0 653.5,349.0 643.1,355.0 632.7,349.0" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="497.6,280.0 622.4,352.0 622.4,334.0 497.6,262.0" fill="#8a8f96" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="497.6,280.0 622.4,352.0 622.4,334.0 497.6,262.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
-<polygon points="674.3,322.0 622.4,352.0 622.4,334.0 674.3,304.0" fill="#71757b" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="549.6,232.0 674.3,304.0 622.4,334.0 497.6,262.0" fill="#9fa3a8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="497.6,262.0 622.4,334.0 622.4,331.0 497.6,259.0" fill="#d19a3c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="674.3,304.0 622.4,334.0 622.4,331.0 674.3,301.0" fill="#ab7e31" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="549.6,229.0 674.3,301.0 622.4,331.0 497.6,259.0" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="645.7,335.5 653.5,340.0 653.5,328.0 645.7,323.5" fill="#e06c5a" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="663.9,334.0 653.5,340.0 653.5,328.0 663.9,322.0" fill="#b75849" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="656.1,317.5 663.9,322.0 653.5,328.0 645.7,323.5" fill="#e58677" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="508.0,265.0 612.0,325.0 612.0,307.0 508.0,247.0" fill="#dfe3e6" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="508.0,265.0 612.0,325.0 612.0,307.0 508.0,247.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
-<polygon points="653.5,301.0 612.0,325.0 612.0,307.0 653.5,283.0" fill="#b6babc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="549.6,223.0 653.5,283.0 612.0,307.0 508.0,247.0" fill="#e4e8ea" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="518.4,268.0 601.6,316.0 601.6,304.0 518.4,256.0" fill="#fff3dc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="632.7,298.0 601.6,316.0 601.6,304.0 632.7,286.0" fill="#d1c7b4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="549.6,238.0 632.7,286.0 601.6,304.0 518.4,256.0" fill="#fff3dc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polyline points="573.0,341.5 549.6,331.0 573.0,341.5" fill="none" stroke="#5a5e66" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polyline points="573.0,341.5 596.4,358.0 573.0,341.5" fill="none" stroke="#5a5e66" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polygon points="632.7,382.0 643.1,388.0 643.1,379.0 632.7,373.0" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="653.5,382.0 643.1,388.0 643.1,379.0 653.5,373.0" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="643.1,367.0 653.5,373.0 643.1,379.0 632.7,373.0" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="632.7,340.0 643.1,346.0 643.1,337.0 632.7,331.0" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="653.5,340.0 643.1,346.0 643.1,337.0 653.5,331.0" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="643.1,325.0 653.5,331.0 643.1,337.0 632.7,331.0" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polyline points="625.0,365.5 625.0,371.5" fill="none" stroke="#d19a3c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="3 2" />
+<polygon points="497.6,313.0 622.4,385.0 622.4,367.0 497.6,295.0" fill="#8a8f96" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="497.6,313.0 622.4,385.0 622.4,367.0 497.6,295.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
+<polygon points="674.3,355.0 622.4,385.0 622.4,367.0 674.3,337.0" fill="#71757b" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="549.6,265.0 674.3,337.0 622.4,367.0 497.6,295.0" fill="#9fa3a8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="497.6,295.0 622.4,367.0 622.4,364.0 497.6,292.0" fill="#d19a3c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="674.3,337.0 622.4,367.0 622.4,364.0 674.3,334.0" fill="#ab7e31" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="549.6,262.0 674.3,334.0 622.4,364.0 497.6,292.0" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="645.7,368.5 653.5,373.0 653.5,361.0 645.7,356.5" fill="#e06c5a" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="663.9,367.0 653.5,373.0 653.5,361.0 663.9,355.0" fill="#b75849" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="656.1,350.5 663.9,355.0 653.5,361.0 645.7,356.5" fill="#e58677" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="508.0,298.0 612.0,358.0 612.0,340.0 508.0,280.0" fill="#dfe3e6" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="508.0,298.0 612.0,358.0 612.0,340.0 508.0,280.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
+<polygon points="653.5,334.0 612.0,358.0 612.0,340.0 653.5,316.0" fill="#b6babc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="549.6,256.0 653.5,316.0 612.0,340.0 508.0,280.0" fill="#e4e8ea" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="518.4,301.0 601.6,349.0 601.6,337.0 518.4,289.0" fill="#fff3dc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="632.7,331.0 601.6,349.0 601.6,337.0 632.7,319.0" fill="#d1c7b4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="549.6,271.0 632.7,319.0 601.6,337.0 518.4,289.0" fill="#fff3dc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polyline points="505.4,293.5 505.4,242.5" fill="none" stroke="#d19a3c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-start="url(#arr)" marker-end="url(#arr)"/>
 <polygon points="497.6,241.0 622.4,313.0 622.4,310.0 497.6,238.0" fill="#d19a3c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="674.3,283.0 622.4,313.0 622.4,310.0 674.3,280.0" fill="#ab7e31" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="549.6,208.0 674.3,280.0 622.4,310.0 497.6,238.0" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -397,6 +436,12 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="645.7,293.5 653.5,298.0 653.5,286.0 645.7,281.5" fill="#d19a3c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="663.9,292.0 653.5,298.0 653.5,286.0 663.9,280.0" fill="#ab7e31" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="656.1,275.5 663.9,280.0 653.5,286.0 645.7,281.5" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="513.2,226.0 523.6,232.0 523.6,190.0 513.2,184.0" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="534.0,226.0 523.6,232.0 523.6,190.0 534.0,184.0" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="523.6,178.0 534.0,184.0 523.6,190.0 513.2,184.0" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="601.6,277.0 612.0,283.0 612.0,241.0 601.6,235.0" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="622.4,277.0 612.0,283.0 612.0,241.0 622.4,235.0" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="612.0,229.0 622.4,235.0 612.0,241.0 601.6,235.0" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="637.9,403.0 645.7,407.5 645.7,257.5 637.9,253.0" fill="#e7d9c2" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="637.9,403.0 645.7,407.5 645.7,257.5 637.9,253.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
 <polygon points="702.9,374.5 645.7,407.5 645.7,257.5 702.9,224.5" fill="#bdb19f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -469,76 +514,73 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polyline points="658.7,325.0 705.5,352.0" fill="none" stroke="#6a6a70" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-start="url(#arrg)" marker-end="url(#arrg)"/>
 <circle cx="560.0" cy="133.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="560.0,133.0 828.0,56.0 842.0,56.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="60.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >① 검은 강화유리 상판 4mm · 이중 유리 창</text>
-<text x="850.0" y="75.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >꺼져 있으면 매끈한 유리판 · 창으로 부푸는 걸 봅니다</text>
+<text x="850.0" y="60.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑭ 검은 강화유리 상판 4mm · 이중 유리 창 — 움직이지 않음</text>
+<text x="850.0" y="75.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >꺼져 있으면 매끈한 유리판 · 씻을 때만 뒤 덮개를 듭니다</text>
 <circle cx="741.9" cy="118.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="741.9,118.0 828.0,104.0 842.0,104.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="108.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >② 뒤 덮개 · 덮개 잠금(솔레노이드)</text>
-<text x="850.0" y="123.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >카세트 · 물통 자리 · 열판이 식어야 열립니다</text>
+<text x="850.0" y="108.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑭ 뒤 덮개 · 덮개 잠금(솔레노이드)</text>
+<text x="850.0" y="123.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >카세트 · 몰드 꺼내는 자리 · 열판이 식어야 열립니다</text>
 <circle cx="752.3" cy="169.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="752.3,169.0 828.0,152.0 842.0,152.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="156.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >③ 곡물 카세트 200g(60장) · 계량 슬라이드 3g</text>
-<text x="850.0" y="171.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >마른 낟알만 · 분리 세척</text>
+<text x="850.0" y="156.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 곡물 카세트 200g(60장) · 계량 슬라이드 3g</text>
+<text x="850.0" y="171.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >불린 쌀 · 분리 세척</text>
 <circle cx="682.1" cy="338.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="682.1,338.5 828.0,200.0 842.0,200.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="204.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >④ 이중벽 공기층 10mm + 단열 5mm</text>
-<text x="850.0" y="219.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >겉면 60°C 이하 · 흰 무광 그대로</text>
+<text x="850.0" y="204.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑩ 이중벽 공기층 10mm + ⑧ 단열 5mm</text>
+<text x="850.0" y="219.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >겉면 60°C 이하</text>
 <circle cx="654.8" cy="286.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="654.8,286.8 828.0,248.0 842.0,248.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="252.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 위 열판 200~230°C · 온도 센서(NTC)</text>
-<circle cx="612.0" cy="316.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="612.0,316.0 828.0,286.0 842.0,286.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="290.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 몰드 Ø6 · 세라믹 코팅 · 원터치 분리</text>
-<text x="850.0" y="305.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >떡뻥용 · 칩용 바꿔 끼움 · 식기세척기</text>
-<circle cx="654.8" cy="328.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="654.8,328.8 828.0,334.0 842.0,334.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="338.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 아래 열판 · 온도 퓨즈(2중 차단)</text>
-<circle cx="643.1" cy="353.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="643.1,353.5 828.0,372.0 842.0,372.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="376.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑧ 리밋 스위치 2 — 닫힘 · 열림 위치</text>
-<circle cx="560.0" cy="328.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="560.0,328.0 828.0,410.0 842.0,410.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="414.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑨ 토글 링크 — 사점 잠금 · 2~3mm 순간 개방</text>
-<text x="850.0" y="429.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >그 뒤 모터가 천천히 끝까지</text>
-<circle cx="573.0" cy="329.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="573.0,329.5 828.0,448.0 842.0,448.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="452.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑩ 푸시 로드 · 밀대 — 모터에서 열 상자로</text>
-<circle cx="650.9" cy="440.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="650.9,440.5 828.0,496.0 842.0,496.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="500.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑪ 부스러기 서랍 — 앞으로 당겨 비움</text>
+<text x="850.0" y="252.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 위 열판 200~230°C · 온도 센서 — 고정(천장에 매달림)</text>
+<circle cx="612.0" cy="349.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="612.0,349.0 828.0,296.0 842.0,296.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="850.0" y="300.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 몰드 Ø6 · 세라믹 코팅 · 위로 들면 분리</text>
+<text x="850.0" y="315.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >떡뻥용 · 칩용 바꿔 끼움</text>
+<circle cx="654.8" cy="361.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="654.8,361.8 828.0,344.0 842.0,344.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="850.0" y="348.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 아래 열판 · 온도 퓨즈 — 이것만 25mm 오르내림</text>
+<text x="850.0" y="363.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >그림은 내려간(열린) 상태</text>
+<circle cx="643.1" cy="376.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="643.1,376.0 828.0,392.0 842.0,392.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="850.0" y="396.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >④ 리밋 스위치 2 — 닫힘 · 열림 위치</text>
+<circle cx="573.0" cy="341.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="573.0,341.5 828.0,430.0 842.0,430.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="850.0" y="434.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >④ 토글 링크 — 사점 잠금 · 래치 스프링 2~3mm 순간 하강</text>
+<text x="850.0" y="449.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >그 뒤 모터가 천천히 끝까지 내림</text>
+<circle cx="718.5" cy="419.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="718.5,419.5 828.0,476.0 842.0,476.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="850.0" y="480.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >③ 기어 모터(웜) — 바닥 오른쪽, 서랍 옆</text>
+<text x="850.0" y="495.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >크랭크 → 푸시 로드 → 토글 · 정전에도 자기 잠금</text>
+<circle cx="612.0" cy="418.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="612.0,418.0 828.0,522.0 842.0,522.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="850.0" y="526.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >② 부스러기 서랍 — 앞으로 당겨 비움</text>
 <circle cx="684.7" cy="488.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="684.7,488.5 828.0,536.0 842.0,536.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="540.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 바닥 무게판 + 미끄럼 방지 고무 · 기울기 센서</text>
-<circle cx="560.0" cy="109.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="560.0,109.0 322.0,88.0 308.0,88.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="300.0" y="92.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑬ 물통 50mL · 마이크로 펌프</text>
-<text x="300.0" y="107.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="end" >한 장에 0.5mL 안개 · 분리 세척</text>
+<polyline points="684.7,488.5 828.0,562.0 842.0,562.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="850.0" y="566.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >① 바닥 무게판 + 고무발 · 기울기 센서</text>
 <circle cx="692.5" cy="92.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="692.5,92.5 322.0,146.0 308.0,146.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="300.0" y="150.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑭ 뒤 김 슬릿(위) — 김은 뒤로만</text>
+<text x="300.0" y="150.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑩ 뒤 김 슬릿(위) — 김은 뒤로만</text>
 <circle cx="436.6" cy="241.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="436.6,241.8 322.0,232.0 308.0,232.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="300.0" y="236.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑮ 제어 보드 — 온도 · 기울기 · 인터록 · 자동 꺼짐</text>
+<text x="300.0" y="236.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑨ 제어 보드 — 온도 · 기울기 · 인터록 · 자동 꺼짐</text>
 <circle cx="614.6" cy="179.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="614.6,179.5 322.0,286.0 308.0,286.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="300.0" y="290.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >열 상자 안쪽 유리(붕규산) — 창의 안쪽 겹</text>
+<text x="300.0" y="290.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑧ 열 상자 윗판 · 안쪽 유리(붕규산) — 창의 안쪽 겹</text>
+<circle cx="505.4" cy="251.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="505.4,251.5 322.0,396.0 308.0,396.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="300.0" y="400.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >움직임 ↕ 25mm — 아래 판만</text>
 <circle cx="417.1" cy="391.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="417.1,391.0 322.0,466.0 308.0,466.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="300.0" y="470.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑯ 앞 배출 슬롯 · 가림판 · 트레이</text>
+<text x="300.0" y="470.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑬ 앞 배출 슬롯 · 가림판 · 트레이</text>
 <text x="300.0" y="485.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="end" >점선 = 잘라낸 앞 절반 · 떡뻥은 가림판 뒤로 나옵니다</text>
-<circle cx="561.3" cy="208.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="561.3,208.8 322.0,396.0 308.0,396.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="300.0" y="400.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑩ 기어 모터(웜) — 왼쪽 공기층 뒤</text>
-<text x="300.0" y="415.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="end" >높이를 안 먹는 자리</text>
 <circle cx="365.1" cy="149.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="365.1,149.5 322.0,516.0 308.0,516.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="300.0" y="520.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >유리 아래 터치 3 · 숫자 2자리(앞)</text>
 <text x="600.0" y="712.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >바깥 220 × 220 × 200mm · 열 상자 132 × 100 × 100mm(단열 포함) · 절단면은 앞뒤 가운데(y = 110) · 빗금 = 잘린 면</text>
-<text x="600.0" y="732.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >220V 900W~1kW · 바닥부터 적층: 고무발 6 · 무게판 6 · 서랍 28 · 링크 공간 32 · 열 상자 100 · 공기층 18 · 유리 4 = 194mm(여유 6mm)</text></svg>
+<text x="600.0" y="732.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >220V 900W~1kW · 바닥부터: 고무발 6 · 무게판 6 · 서랍 · 모터 칸 60 · 열 상자 100 · 공기층 18 · 유리 4 = 194mm(여유 6mm)</text></svg>
     </div>
     <div class="cut rv">
-      <h3>동작 순서 — 잠금 → 누르기 → 2~3mm 순간 개방 → 천천히 열기 → 배출</h3>
-      <p class="cap" style="margin:0 0 14px">떡뻥은 압력이 한순간에 풀려야 부풉니다. 그래서 「순간」은 잠긴 열 상자 안에서 2~3mm만, 「천천히」는 그다음에 모터가 맡습니다. 둘을 나누면 쌀은 부풀고 밖으로는 튀는 힘이 나가지 않습니다.</p>
+      <h3>동작 순서 — 올려서 잠금 → 누르기 → 2~3mm 순간 하강 → 천천히 내리기 → 배출</h3>
+      <p class="cap" style="margin:0 0 14px">떡뻥은 압력이 한순간에 풀려야 부풉니다. 그래서 「순간」은 잠긴 열 상자 안에서 아래 판이 2~3mm 내려가는 것뿐이고, 「천천히」는 그다음에 모터가 맡습니다. 위 열판과 유리는 처음부터 끝까지 제자리입니다.</p>
       <svg viewBox="0 0 1100 330" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
 <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#8a5d12" stroke-width="1.1" opacity=".55"/></pattern>
 <linearGradient id="glassT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset=".5" stop-color="#101014"/><stop offset="1" stop-color="#2c2c32"/></linearGradient>
@@ -547,56 +589,73 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 </defs>
 <g transform="translate(20,0)">
 <rect x="0" y="14" width="248" height="300" rx="16" fill="#fff" stroke="#e6e1d7"/>
-<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">① 잠금 · 누르기</text>
+<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">① 올려서 잠금 · 누르기</text>
 <rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="190" y="58" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
-<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
-<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
-<rect x="60" y="126" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="140" width="128" height="3" fill="#d19a3c"/>
-<rect x="100" y="144" width="48" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c"/>
-<path d="M124 174 v22 M124 196 l-18 18 M124 196 l18 18" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/><text x="124" y="232" font-size="11" fill="#6a6a70" text-anchor="middle">사점 잠금</text>
-<text x="18" y="246" font-size="12" fill="#6a6a70">덮개 잠김(인터록) → 토글이 사점에서 몰드를 닫아 유지</text>
-<text x="18" y="264" font-size="12" fill="#6a6a70">열판 200~230°C</text>
-<text x="18" y="282" font-size="12" fill="#6a6a70">8~10초</text>
+<rect x="70" y="72" width="6" height="26" fill="#b9bec4"/><rect x="172" y="72" width="6" height="26" fill="#b9bec4"/>
+<rect x="60" y="96" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="110" width="128" height="3" fill="#d19a3c"/>
+<text x="196" y="106" font-size="10" fill="#6a6a70">고정</text>
+<rect x="76" y="113" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="130" width="128" height="3" fill="#d19a3c"/><rect x="60" y="131" width="128" height="14" rx="3" fill="#8a8f96"/>
+<rect x="100" y="117" width="48" height="10" rx="5" fill="#fff3dc" stroke="#d19a3c"/>
+<path d="M124 145 v10 M124 155 l-14 14 M124 155 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/><text x="150" y="165" font-size="11" fill="#6a6a70">사점 잠금</text>
+<line x1="124" y1="161" x2="124" y2="226" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="104" y="222" width="40" height="14" rx="4" fill="#5a5e66"/><text x="150" y="233" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<line x1="200" y1="161" x2="200" y2="129" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="147" font-size="11" fill="#8a5d12">올림</text>
+<text x="18" y="254" font-size="12" fill="#6a6a70">덮개 잠김(인터록)</text>
+<text x="18" y="271" font-size="12" fill="#6a6a70">모터가 아래 판을 올려 토글 사점 고정</text>
+<text x="18" y="288" font-size="12" fill="#6a6a70">열판 200~230°C</text>
+<text x="18" y="305" font-size="12" fill="#6a6a70">8~10초 누름</text>
 </g>
 <text x="278" y="150" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
 <g transform="translate(288,0)">
 <rect x="0" y="14" width="248" height="300" rx="16" fill="#fff" stroke="#e6e1d7"/>
-<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">② 2~3mm 순간 개방</text>
+<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">② 2~3mm 순간 하강</text>
 <rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="190" y="58" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
-<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
-<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
-<rect x="60" y="121" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="135" width="128" height="3" fill="#d19a3c"/>
-<ellipse cx="124" cy="146" rx="42" ry="9" fill="#fff3dc" stroke="#d19a3c"/>
-<line x1="174.0" y1="146.0" x2="184.0" y2="146.0" stroke="#d19a3c" stroke-width="2"/>
-<line x1="159.4" y1="160.1" x2="166.4" y2="165.8" stroke="#d19a3c" stroke-width="2"/>
-<line x1="124.0" y1="166.0" x2="124.0" y2="174.0" stroke="#d19a3c" stroke-width="2"/>
-<line x1="88.6" y1="160.1" x2="81.6" y2="165.8" stroke="#d19a3c" stroke-width="2"/>
-<line x1="74.0" y1="146.0" x2="64.0" y2="146.0" stroke="#d19a3c" stroke-width="2"/>
-<line x1="88.6" y1="131.9" x2="81.6" y2="126.2" stroke="#d19a3c" stroke-width="2"/>
-<line x1="124.0" y1="126.0" x2="124.0" y2="118.0" stroke="#d19a3c" stroke-width="2"/>
-<line x1="159.4" y1="131.9" x2="166.4" y2="126.2" stroke="#d19a3c" stroke-width="2"/>
-<text x="124" y="110" font-size="13" font-weight="800" fill="#8a5d12" text-anchor="middle">2~3mm · 뻥</text>
-<path d="M124 174 v18 M124 192 l-14 20 M124 192 l14 20" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="200" y1="140" x2="200" y2="118" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="132" font-size="11" fill="#8a5d12">스프링</text>
-<text x="18" y="246" font-size="12" fill="#6a6a70">래치 해제 → 위 열판이 스프링으로 2~3mm만 튐 → 쌀이 「뻥」 부풉니다</text>
-<text x="18" y="264" font-size="12" fill="#6a6a70">잠긴 열 상자 안에서만</text>
+<rect x="70" y="72" width="6" height="26" fill="#b9bec4"/><rect x="172" y="72" width="6" height="26" fill="#b9bec4"/>
+<rect x="60" y="96" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="110" width="128" height="3" fill="#d19a3c"/>
+<text x="196" y="106" font-size="10" fill="#6a6a70">고정</text>
+<rect x="76" y="117" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="134" width="128" height="3" fill="#d19a3c"/><rect x="60" y="135" width="128" height="14" rx="3" fill="#8a8f96"/>
+<ellipse cx="124" cy="125" rx="42" ry="8" fill="#fff3dc" stroke="#d19a3c"/>
+<line x1="174.0" y1="125.0" x2="184.0" y2="125.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="159.4" y1="137.7" x2="166.4" y2="143.4" stroke="#d19a3c" stroke-width="2"/>
+<line x1="124.0" y1="143.0" x2="124.0" y2="151.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="88.6" y1="137.7" x2="81.6" y2="143.4" stroke="#d19a3c" stroke-width="2"/>
+<line x1="74.0" y1="125.0" x2="64.0" y2="125.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="88.6" y1="112.3" x2="81.6" y2="106.6" stroke="#d19a3c" stroke-width="2"/>
+<line x1="124.0" y1="107.0" x2="124.0" y2="99.0" stroke="#d19a3c" stroke-width="2"/>
+<line x1="159.4" y1="112.3" x2="166.4" y2="106.6" stroke="#d19a3c" stroke-width="2"/>
+<text x="60" y="169" font-size="13" font-weight="800" fill="#8a5d12" text-anchor="start">2~3mm · 뻥</text>
+<path d="M124 149 l-16 8 l16 8 M124 149 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="124" y1="165" x2="124" y2="226" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="104" y="222" width="40" height="14" rx="4" fill="#5a5e66"/><text x="150" y="233" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<line x1="200" y1="121" x2="200" y2="147" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="139" font-size="11" fill="#8a5d12">스프링</text>
+<text x="18" y="254" font-size="12" fill="#6a6a70">래치 해제</text>
+<text x="18" y="271" font-size="12" fill="#6a6a70">아래 판이 스프링으로 2~3mm만 툭 내려감</text>
+<text x="18" y="288" font-size="12" fill="#6a6a70">쌀이 「뻥」 부풉니다</text>
+<text x="18" y="305" font-size="12" fill="#6a6a70">잠긴 열 상자 안에서만</text>
 </g>
 <text x="546" y="150" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
 <g transform="translate(556,0)">
 <rect x="0" y="14" width="248" height="300" rx="16" fill="#fff" stroke="#e6e1d7"/>
-<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">③ 천천히 열기</text>
+<text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">③ 천천히 내리기</text>
 <rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="190" y="58" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
-<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
-<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
-<rect x="60" y="86" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="100" width="128" height="3" fill="#d19a3c"/>
-<ellipse cx="124" cy="150" rx="44" ry="8" fill="#fff3dc" stroke="#d19a3c"/>
-<path d="M124 174 v18 M124 192 l-14 20 M124 192 l14 20" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="200" y1="150" x2="200" y2="96" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="126" font-size="11" fill="#8a5d12">모터</text>
-<text x="18" y="246" font-size="12" fill="#6a6a70">모터가 0.5~1초에 걸쳐 끝까지 올립니다</text>
-<text x="18" y="264" font-size="12" fill="#6a6a70">리밋 스위치가 열림 위치를 확인</text>
+<rect x="70" y="72" width="6" height="26" fill="#b9bec4"/><rect x="172" y="72" width="6" height="26" fill="#b9bec4"/>
+<rect x="60" y="96" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="110" width="128" height="3" fill="#d19a3c"/>
+<text x="196" y="106" font-size="10" fill="#6a6a70">고정</text>
+<rect x="76" y="149" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="166" width="128" height="3" fill="#d19a3c"/><rect x="60" y="167" width="128" height="14" rx="3" fill="#8a8f96"/>
+<ellipse cx="124" cy="157" rx="44" ry="8" fill="#fff3dc" stroke="#d19a3c"/>
+<path d="M124 181 l-16 8 l16 8 M124 181 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="124" y1="197" x2="124" y2="226" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="104" y="222" width="40" height="14" rx="4" fill="#5a5e66"/><text x="150" y="233" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<line x1="200" y1="127" x2="200" y2="163" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="206" y="147" font-size="11" fill="#8a5d12">천천히</text>
+<text x="18" y="254" font-size="12" fill="#6a6a70">모터가 0.5~1초에 걸쳐</text>
+<text x="18" y="271" font-size="12" fill="#6a6a70">아래 판을 끝까지 내립니다</text>
+<text x="18" y="288" font-size="12" fill="#6a6a70">리밋 스위치가 열림 위치 확인</text>
 </g>
 <text x="814" y="150" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
 <g transform="translate(824,0)">
@@ -604,22 +663,27 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <text x="18" y="44" font-size="15" font-weight="800" fill="#15151a">④ 배출 · 다음 장</text>
 <rect x="36" y="70" width="176" height="150" rx="8" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
 <rect x="190" y="58" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M195 58 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
-<rect x="60" y="160" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="158" width="128" height="3" fill="#d19a3c"/>
-<rect x="76" y="140" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
-<rect x="60" y="86" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="100" width="128" height="3" fill="#d19a3c"/>
-<ellipse cx="44" cy="150" rx="30" ry="7" fill="#fff3dc" stroke="#d19a3c"/>
-<rect x="150" y="142" width="8" height="16" rx="2" fill="#55585e"/><line x1="150" y1="150" x2="92" y2="150" stroke="#55585e" stroke-width="2" marker-end="url(#arrg)"/>
-<path d="M20 150 h-4" stroke="#8a8a90"/><rect x="2" y="150" width="34" height="14" fill="none" stroke="#8a8a90" stroke-dasharray="3 2"/>
-<rect x="60" y="76" width="128" height="14" rx="3" fill="#8a8f96"/>
-<path d="M124 174 v18 M124 192 l-14 20 M124 192 l14 20" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<text x="18" y="246" font-size="12" fill="#6a6a70">밀대가 떡뻥을 앞 슬롯 → 가림판 뒤 트레이로</text>
-<text x="18" y="264" font-size="12" fill="#6a6a70">계량 3g + 0.5mL 안개 → 다시 ①</text>
+<rect x="70" y="72" width="6" height="26" fill="#b9bec4"/><rect x="172" y="72" width="6" height="26" fill="#b9bec4"/>
+<rect x="60" y="96" width="128" height="14" rx="3" fill="#8a8f96"/><rect x="60" y="110" width="128" height="3" fill="#d19a3c"/>
+<text x="196" y="106" font-size="10" fill="#6a6a70">고정</text>
+<rect x="76" y="149" width="96" height="18" rx="4" fill="#dfe3e6" stroke="#9aa3ad"/>
+<rect x="60" y="166" width="128" height="3" fill="#d19a3c"/><rect x="60" y="167" width="128" height="14" rx="3" fill="#8a8f96"/>
+<ellipse cx="44" cy="158" rx="30" ry="7" fill="#fff3dc" stroke="#d19a3c"/>
+<rect x="150" y="150" width="8" height="16" rx="2" fill="#55585e"/><line x1="150" y1="158" x2="92" y2="158" stroke="#55585e" stroke-width="2" marker-end="url(#arrg)"/>
+<rect x="2" y="158" width="34" height="14" fill="none" stroke="#8a8a90" stroke-dasharray="3 2"/>
+<circle cx="124" cy="143" r="3" fill="#f3eedf" stroke="#b9b2a2"/><line x1="124" y1="86" x2="124" y2="139" stroke="#b9b2a2" stroke-width="1" stroke-dasharray="2 2"/>
+<path d="M124 181 l-16 8 l16 8 M124 181 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="124" y1="197" x2="124" y2="226" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<rect x="104" y="222" width="40" height="14" rx="4" fill="#5a5e66"/><text x="150" y="233" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<text x="18" y="254" font-size="12" fill="#6a6a70">밀대가 떡뻥을 앞 슬롯으로</text>
+<text x="18" y="271" font-size="12" fill="#6a6a70">가림판 뒤 트레이에 떨어짐</text>
+<text x="18" y="288" font-size="12" fill="#6a6a70">계량 3g 투입 → 다시 ①</text>
 </g>
 </svg>
     </div>
     <div class="cut rv">
-      <h3>층 분해 — 아래에서 위로 쌓는 순서</h3>
-      <svg viewBox="0 0 1000 960" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
+      <h3>층 분해 — 아래에서 위로 쌓는 순서 · 부품 번호 ①~⑭는 3D와 같음</h3>
+      <svg viewBox="0 0 1000 980" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
 <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#8a5d12" stroke-width="1.1" opacity=".55"/></pattern>
 <linearGradient id="glassT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset=".5" stop-color="#101014"/><stop offset="1" stop-color="#2c2c32"/></linearGradient>
 <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d19a3c"/></marker>
@@ -640,26 +704,28 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="337.0,854.6 480.0,937.2 480.0,932.0 337.0,849.4" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="623.0,854.6 480.0,937.2 480.0,932.0 623.0,849.4" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="480.0,766.9 623.0,849.4 480.0,932.0 337.0,849.4" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="368.3,817.6 472.6,877.8 472.6,853.7 368.3,793.5" fill="#ffffff" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="584.3,813.3 472.6,877.8 472.6,853.7 584.3,789.2" fill="#d1d1d1" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="480.0,729.0 584.3,789.2 472.6,853.7 368.3,793.5" fill="#efefef" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="395.1,829.7 439.8,855.5 439.8,846.9 395.1,821.1" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="442.8,853.7 439.8,855.5 439.8,846.9 442.8,845.1" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="398.1,819.3 442.8,845.1 439.8,846.9 395.1,821.1" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="506.8,723.0 536.6,740.2 536.6,711.0 506.8,693.8" fill="#5a5e66" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="560.4,726.5 536.6,740.2 536.6,711.0 560.4,697.2" fill="#494d53" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="530.6,680.0 560.4,697.2 536.6,711.0 506.8,693.8" fill="#777a81" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polyline points="529.2,720.4 480.0,748.8 480.0,736.8" fill="none" stroke="#5a5e66" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
-<polyline points="469.6,730.8 480.0,747.1 490.4,742.8" fill="none" stroke="#5a5e66" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
-<polygon points="514.3,779.8 520.2,783.2 520.2,778.1 514.3,774.6" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="526.2,779.8 520.2,783.2 520.2,778.1 526.2,774.6" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="520.2,771.2 526.2,774.6 520.2,778.1 514.3,774.6" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="514.3,765.2 520.2,768.6 520.2,763.4 514.3,760.0" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="526.2,765.2 520.2,768.6 520.2,763.4 526.2,760.0" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="520.2,756.6 526.2,760.0 520.2,763.4 514.3,760.0" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="371.3,744.5 373.5,745.8 373.5,677.0 371.3,675.7" fill="#2f7a46" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="448.0,702.8 373.5,745.8 373.5,677.0 448.0,634.0" fill="#266439" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="445.7,632.7 448.0,634.0 373.5,677.0 371.3,675.7" fill="#549167" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="362.3,821.1 444.3,868.4 444.3,844.3 362.3,797.0" fill="#ffffff" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="556.0,803.9 444.3,868.4 444.3,844.3 556.0,779.8" fill="#d1d1d1" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="474.0,732.5 556.0,779.8 444.3,844.3 362.3,797.0" fill="#efefef" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="381.7,828.8 418.9,850.3 418.9,841.7 381.7,820.2" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="421.9,848.6 418.9,850.3 418.9,841.7 421.9,840.0" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="384.7,818.5 421.9,840.0 418.9,841.7 381.7,820.2" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="523.2,829.7 556.0,848.6 556.0,821.1 523.2,802.1" fill="#5a5e66" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="585.8,831.4 556.0,848.6 556.0,821.1 585.8,803.9" fill="#494d53" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="553.0,784.9 585.8,803.9 556.0,821.1 523.2,802.1" fill="#777a81" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polyline points="538.1,807.3 487.4,795.3 487.4,771.2" fill="none" stroke="#5a5e66" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polyline points="487.4,748.8 469.6,717.9 487.4,723.0" fill="none" stroke="#5a5e66" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polyline points="487.4,748.8 505.3,738.5 487.4,723.0" fill="none" stroke="#5a5e66" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polyline points="517.2,766.0 517.2,740.2" fill="none" stroke="#d19a3c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="3 2" />
+<polygon points="514.3,776.3 520.2,779.8 520.2,774.6 514.3,771.2" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="526.2,776.3 520.2,779.8 520.2,774.6 526.2,771.2" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="520.2,767.7 526.2,771.2 520.2,774.6 514.3,771.2" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="514.3,757.4 520.2,760.9 520.2,755.7 514.3,752.3" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="526.2,757.4 520.2,760.9 520.2,755.7 526.2,752.3" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="520.2,748.8 526.2,752.3 520.2,755.7 514.3,752.3" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="371.3,741.9 373.5,743.2 373.5,674.4 371.3,673.1" fill="#2f7a46" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="448.0,700.2 373.5,743.2 373.5,674.4 448.0,631.4" fill="#266439" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="445.7,630.1 448.0,631.4 373.5,674.4 371.3,673.1" fill="#549167" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="414.5,700.7 486.0,741.9 486.0,731.6 414.5,690.3" fill="#8a8f96" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="545.5,707.5 486.0,741.9 486.0,731.6 545.5,697.2" fill="#71757b" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="474.0,655.9 545.5,697.2 486.0,731.6 414.5,690.3" fill="#9fa3a8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -687,6 +753,12 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="529.2,633.6 533.6,636.2 533.6,629.3 529.2,626.7" fill="#d19a3c" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="539.6,632.7 533.6,636.2 533.6,629.3 539.6,625.8" fill="#ab7e31" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="535.1,623.3 539.6,625.8 533.6,629.3 529.2,626.7" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="453.2,594.9 459.1,598.3 459.1,574.2 453.2,570.8" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="465.1,594.9 459.1,598.3 459.1,574.2 465.1,570.8" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="459.1,567.4 465.1,570.8 459.1,574.2 453.2,570.8" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="503.8,624.1 509.8,627.6 509.8,603.5 503.8,600.0" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="515.7,624.1 509.8,627.6 509.8,603.5 515.7,600.0" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="509.8,596.6 515.7,600.0 509.8,603.5 503.8,600.0" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="463.6,533.8 561.9,590.6 561.9,504.6 463.6,447.8" fill="#e8dcc6" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="566.4,588.0 561.9,590.6 561.9,504.6 566.4,502.0" fill="#bdb19f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="468.1,445.2 566.4,502.0 561.9,504.6 463.6,447.8" fill="#ebdfcc" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -727,6 +799,7 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="319.1,273.2 480.0,366.1 480.0,361.0 319.1,268.1" fill="#f4f1ea" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="640.9,273.2 480.0,366.1 480.0,361.0 640.9,268.1" fill="#c8c5bf" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="480.0,175.2 640.9,268.1 480.0,361.0 319.1,268.1" fill="#f5f3ed" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="526.2,227.7 585.8,262.1 585.8,255.2 526.2,220.8" fill="#2b2b30" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="0.85" />
 <polygon points="299.8,420.3 302.7,422.0 302.7,267.2 299.8,265.5" fill="#ebe4d6" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="454.7,334.3 302.7,422.0 302.7,267.2 454.7,179.5" fill="#c0baaf" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="451.7,177.8 454.7,179.5 302.7,267.2 299.8,265.5" fill="#eee8dd" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -748,15 +821,6 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polygon points="533.6,264.6 556.0,277.5 556.0,272.4 533.6,259.5" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="570.9,268.9 556.0,277.5 556.0,272.4 570.9,263.8" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="548.5,250.9 570.9,263.8 556.0,272.4 533.6,259.5" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="454.7,193.3 484.5,210.5 484.5,160.6 454.7,143.4" fill="#dcecf7" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
-<polygon points="518.7,190.7 484.5,210.5 484.5,160.6 518.7,140.8" fill="#b4c1ca" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
-<polygon points="488.9,123.6 518.7,140.8 484.5,160.6 454.7,143.4" fill="#e2eff8" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.85" />
-<polygon points="460.6,191.5 484.5,205.3 484.5,182.9 460.6,169.2" fill="#8fbfe0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="512.8,189.0 484.5,205.3 484.5,182.9 512.8,166.6" fill="#759cb7" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="488.9,152.8 512.8,166.6 484.5,182.9 460.6,169.2" fill="#a3cae5" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="444.3,216.5 462.1,226.8 462.1,214.8 444.3,204.4" fill="#4a4e55" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="474.0,219.9 462.1,226.8 462.1,214.8 474.0,207.9" fill="#3c3f45" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="456.2,197.6 474.0,207.9 462.1,214.8 444.3,204.4" fill="#6a6d73" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="313.2,175.2 480.0,271.5 480.0,268.1 313.2,171.8" fill="#303036" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="646.8,175.2 480.0,271.5 480.0,268.1 646.8,171.8" fill="#0c0c0f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="480.0,75.4 646.8,171.8 480.0,268.1 313.2,171.8" fill="url(#glassT)" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -774,50 +838,50 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <polyline points="480.0,854.6 480.0,166.6" fill="none" stroke="#b8b2a6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" stroke-dasharray="3 6" />
 <circle cx="480.0" cy="171.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="480.0,171.8 678.0,44.0 692.0,44.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="48.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑩ 검은 강화유리 상판 · 창 · 터치 · 뒤 덮개</text>
+<text x="700.0" y="48.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑭ 검은 강화유리 상판 · 창 · 터치 · 뒤 덮개 — 고정</text>
 <circle cx="590.2" cy="204.4" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="590.2,204.4 678.0,108.0 692.0,108.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="112.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑨ 곡물 카세트 · 계량 슬라이드 3g</text>
-<circle cx="480.0" cy="170.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="480.0,170.0 302.0,108.0 288.0,108.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="280.0" y="112.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑨ 물통 50mL · 마이크로 펌프</text>
+<text x="700.0" y="112.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑫ 곡물 카세트 · 계량 슬라이드 3g</text>
 <circle cx="556.0" cy="399.7" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="556.0,399.7 678.0,232.0 692.0,232.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="236.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑧ 몸체(안쪽 구조) · 흰 띠</text>
+<text x="700.0" y="236.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑩ 몸체 · 흰 띠 · 뒤 김 슬릿</text>
 <circle cx="582.8" cy="415.1" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="582.8,415.1 678.0,268.0 692.0,268.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="272.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >옆 패널 4장 — 비스포크(갈아 끼움)</text>
+<text x="700.0" y="272.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑪ 옆 패널 4장 — 비스포크(갈아 끼움)</text>
 <circle cx="480.0" cy="472.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="480.0,472.8 302.0,376.0 288.0,376.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="280.0" y="380.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑦ 열 상자 윗판 · 안쪽 유리(붕규산)</text>
+<text x="280.0" y="380.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑧ 열 상자 윗판 · 안쪽 유리(붕규산)</text>
 <circle cx="529.2" cy="564.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="529.2,564.8 678.0,416.0 692.0,416.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="420.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 열 상자 — 강판 1.5 + 단열 5mm</text>
+<text x="700.0" y="420.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑧ 열 상자 — 강판 1.5 + 단열 5mm</text>
 <circle cx="515.7" cy="637.9" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="515.7,637.9 678.0,486.0 692.0,486.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="490.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 위 열판 · 히터 · 온도 센서</text>
+<text x="700.0" y="490.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 위 열판 · 히터 · 온도 센서 — 고정(기둥 2)</text>
 <circle cx="509.8" cy="675.7" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="509.8,675.7 678.0,542.0 692.0,542.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="546.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 몰드 Ø6 + 떡뻥 · 옆은 칩 몰드(얕은 접시)</text>
+<text x="700.0" y="546.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑥ 몰드 Ø6 + 떡뻥 · 옆은 칩 몰드(얕은 접시)</text>
 <circle cx="515.7" cy="719.6" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="515.7,719.6 678.0,596.0 692.0,596.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="600.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >④ 아래 열판 · 히터 · 온도 퓨즈</text>
-<circle cx="520.2" cy="770.3" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="520.2,770.3 678.0,656.0 692.0,656.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="660.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >③ 토글 링크 · 기어 모터 · 리밋 스위치 2</text>
+<text x="700.0" y="600.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 아래 열판 · 히터 · 온도 퓨즈 — 오르내림</text>
+<circle cx="520.2" cy="772.9" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="520.2,772.9 678.0,656.0 692.0,656.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="700.0" y="660.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >④ 토글 링크 · 래치 스프링 · 리밋 스위치 2</text>
 <circle cx="409.2" cy="689.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="409.2,689.0 302.0,616.0 288.0,616.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="280.0" y="620.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >③ 제어 보드</text>
-<circle cx="532.1" cy="831.4" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="532.1,831.4 678.0,716.0 692.0,716.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="280.0" y="620.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑨ 제어 보드</text>
+<circle cx="554.5" cy="816.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="554.5,816.8 678.0,752.0 692.0,752.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="700.0" y="756.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >③ 기어 모터 — 바닥 오른쪽, 서랍 옆</text>
+<circle cx="509.8" cy="818.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="509.8,818.5 678.0,716.0 692.0,716.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="700.0" y="720.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >② 부스러기 서랍</text>
 <circle cx="551.5" cy="893.3" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="551.5,893.3 678.0,786.0 692.0,786.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="700.0" y="790.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >① 바닥 무게판 · 고무발 4</text>
+<polyline points="551.5,893.3 678.0,796.0 692.0,796.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="700.0" y="800.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >① 바닥 무게판 · 고무발 4</text>
 <circle cx="344.4" cy="836.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="344.4,836.5 302.0,786.0 288.0,786.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="280.0" y="790.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑪ 가림판 · 트레이(앞)</text>
-<text x="480.0" y="940.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >아래에서 위로 쌓는 순서 = 조립 순서. 사람이 떼는 것은 ⑤ 몰드 · ⑨ 카세트 · 물통 · ② 서랍 · ⑪ 트레이 다섯 가지뿐입니다.</text></svg>
+<text x="280.0" y="790.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >⑬ 가림판 · 트레이(앞)</text>
+<text x="480.0" y="962.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >아래에서 위로 쌓는 순서 = 조립 순서. 사람이 떼어 씻는 것은 ⑥ 몰드 · ⑫ 카세트 · ② 서랍 · ⑬ 트레이 네 가지뿐입니다.</text></svg>
     </div>
   </div>
 </section>
@@ -825,13 +889,13 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 <section id="structure">
   <div class="xv-sticky">
     <div class="xv-text">
-      <div class="xv-step on"><div class="kicker">08 · 3D · 세척기 옆에</div><h2>세척기와 같은 식구,<br>크기만 작게.</h2><p>왼쪽이 휴롬 식재료 세척기, 오른쪽이 간식 메이커입니다. 검은 유리 상판 · 창 · 흰 띠가 같습니다. 드래그로 돌려 보고, 아래 단추로 옆면 색을 바꿔 보세요. 스크롤을 내리면 열립니다.</p></div>
-      <div class="xv-step"><div class="kicker">08 · 3D · 떼는 것</div><h2>씻는 건 다섯 가지뿐.</h2><p>곡물 카세트 · 물통 · 몰드 · 서랍 · 트레이. 모두 물이 닿아도 되는 부품이고, 몸체엔 물이 들어갈 틈이 없습니다. 유리 뚜껑을 열면 몰드가 위로 딸깍 빠집니다.</p></div>
-      <div class="xv-step"><div class="kicker">08 · 3D · 열 상자</div><h2>뜨거운 것은 상자 하나에.</h2><p>위·아래 열판, 몰드, 토글 링크, 리밋 스위치가 단열 5mm 상자에 들어 있고, 상자는 껍데기에서 10mm 띄워져 있습니다. 센서와 퓨즈가 열판 옆에 붙습니다.</p></div>
-      <div class="xv-step"><div class="kicker">08 · 3D · 분해</div><h2>부품 16개.</h2><p>옆 패널 · 유리 상판(창 포함) · 흰 띠 몸체 · 곡물 카세트 · 계량 슬라이드 · 물통 · 펌프 · 열판 2 · 몰드 · 토글 링크 · 모터 · 가림판 · 트레이 · 서랍 · 제어 보드 · 바닥 무게판. 220V 직결이라 어댑터가 없습니다.</p></div>
+      <div class="xv-step on"><div class="kicker">09 · 3D · 겉모습</div><h2>검은 유리 한 장,<br>흰 띠 한 줄.</h2><p>약 22 × 22 × 20cm. 검은 강화유리 상판 가운데 창, 유리 아래 흰 띠, 옆면 패널. 드래그로 돌려 보고, 아래 단추로 옆면 색을 바꿔 보세요. 스크롤을 내리면 열립니다.</p></div>
+      <div class="xv-step"><div class="kicker">09 · 3D · 떼는 것</div><h2>씻는 건 네 가지뿐.</h2><p>곡물 카세트 · 몰드 · 서랍 · 트레이. 모두 물이 닿아도 되는 부품이고, 몸체엔 물이 들어갈 틈이 없습니다. 뒤 덮개를 들면 몰드가 위로 딸깍 빠집니다.</p></div>
+      <div class="xv-step"><div class="kicker">09 · 3D · 열 상자</div><h2>뜨거운 것은 상자 하나에,<br>움직이는 건 아래 판만.</h2><p>위 열판은 상자 천장에 매달려 고정, 아래 열판 + 몰드만 바닥 모터와 토글 링크로 25mm 오르내립니다(그림에서 천천히 움직입니다). 상자는 단열 5mm, 껍데기에서 10mm 띄워져 있습니다.</p></div>
+      <div class="xv-step"><div class="kicker">09 · 3D · 분해</div><h2>부품 14개.</h2><p>① 무게판 · ② 서랍 · ③ 모터 · ④ 토글 링크 · ⑤ 아래 열판 · ⑥ 몰드 · ⑦ 위 열판 · ⑧ 열 상자 · ⑨ 보드 · ⑩ 몸체 · ⑪ 옆 패널 · ⑫ 카세트 · ⑬ 가림판 · 트레이 · ⑭ 유리 상판. 번호는 2.5D 그림과 같습니다. 220V 직결이라 어댑터가 없습니다.</p></div>
     </div>
     <div class="xv-stage"><canvas id="xv-canvas" aria-label="쌀참 구조 3D"></canvas><div id="xv-labels"></div>
-      <div class="xv-colors" role="group" aria-label="옆면 패널 색"><button data-xv-color="black" class="on"><i style="background:#1c1c1f"></i>블랙</button><button data-xv-color="white"><i style="background:#f4f4f1"></i>화이트</button><button data-xv-color="cream"><i style="background:#eadfc9"></i>크림</button><button data-xv-color="sage"><i style="background:#a9b8a3"></i>세이지</button><button data-xv-color="lavender"><i style="background:#c3b6d6"></i>라벤더</button></div>
+      <div class="xv-colors" role="group" aria-label="옆면 패널 색"><button data-xv-color="cream" class="on"><i style="background:#eadfc9"></i>크림</button><button data-xv-color="black"><i style="background:#1c1c1f"></i>블랙</button><button data-xv-color="white"><i style="background:#f4f4f1"></i>화이트</button><button data-xv-color="sage"><i style="background:#a9b8a3"></i>세이지</button><button data-xv-color="lavender"><i style="background:#c3b6d6"></i>라벤더</button></div>
       <div class="xv-hint">드래그: 돌리기 · 스크롤: 분해</div></div>
   </div>
   <div class="xv-spacer"></div>
@@ -841,39 +905,38 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 
 <section id="clean" class="dark">
   <div class="wrap">
-    <div class="rv"><div class="kicker">09 · 세척</div>
-    <h2>열판엔 물이 닿지 않아서,<br><b>씻을 게 다섯</b>뿐입니다.</h2>
-    <p class="lead">쌀은 마른 재료고, 열판은 몰드를 통해서만 재료를 만납니다. 몸체와 유리는 마른 행주로 닦고, 몰드 · 카세트 · 물통 · 서랍 · 트레이만 물로 씻습니다(몰드 · 카세트 · 서랍은 식기세척기).</p></div>
+    <div class="rv"><div class="kicker">10 · 세척</div>
+    <h2>열판엔 물이 닿지 않아서,<br><b>씻을 게 넷</b>뿐입니다.</h2>
+    <p class="lead">열판은 몰드를 통해서만 재료를 만나고, 기계 안에 물이 고이는 자리가 없습니다. 몸체와 유리는 마른 행주로 닦고, 몰드 · 카세트 · 서랍 · 트레이만 물로 씻습니다(넷 다 식기세척기).</p></div>
     <div class="photo rv"><img src="img/photo_wash.jpg" alt="유리 뚜껑을 열고 몰드를 빼는 장면 — 실사 컨셉(AI 생성)"></div>
-    <p class="cap rv">유리 뚜껑을 열고 몰드를 들어 올리는 장면 · 실사 컨셉(AI 생성). 사진의 7구 몰드는 미니(Ø3) 옵션, 기본은 Ø6 한 구.</p>
+    <p class="cap rv">뒤 덮개를 들고 몰드를 들어 올리는 장면 · 실사 컨셉(AI 생성).</p>
     <div class="grid3">
-      <div class="card rv"><small>몰드 2종(+미니)</small><strong>위에서 들면 딸깍</strong><p>떡뻥 몰드(Ø6)와 칩 몰드(얕은 접시), 미니 7구는 옵션. 알루미늄에 PFAS 없는 세라믹 코팅, 식기세척기 가능.</p></div>
+      <div class="card rv"><small>몰드 2종(+미니)</small><strong>위에서 들면 딸깍</strong><p>떡뻥 몰드(Ø6)와 칩 몰드(얕은 접시), 미니 7구는 옵션. 알루미늄에 PFAS 없는 세라믹 코팅, 식기세척기 가능. 긁힘 · 마모는 몰드만 교체.</p></div>
       <div class="card rv"><small>부스러기 서랍</small><strong>앞으로 당겨 비움</strong><p>떡뻥 가장자리 부스러기와 칩 모드 찌꺼기 가루가 모두 여기로 떨어집니다.</p></div>
-      <div class="card rv"><small>곡물 카세트 · 물통</small><strong>투명 · 같이 분리</strong><p>남은 쌀은 그대로 두거나 쏟아 담습니다. 물통 50mL는 한 장에 0.5mL 안개용, 같이 빼서 헹굽니다. 유리 덮개 아래라 벌레·먼지가 들어가지 않습니다.</p></div>
+      <div class="card rv"><small>곡물 카세트</small><strong>투명 · 들어서 분리</strong><p>불린 쌀은 당일 사용, 남으면 쏟아 냉장. 카세트는 헹궈 말립니다. 유리 덮개 아래라 벌레·먼지가 들어가지 않습니다.</p></div>
     </div>
   </div>
 </section>
 
 <section id="spec" class="light">
   <div class="wrap">
-    <div class="rv"><div class="kicker">10 · 사양 (목표치 · 벤치 전)</div>
+    <div class="rv"><div class="kicker">11 · 사양 (목표치 · 벤치 전)</div>
     <h2>220V 일반 콘센트에 꽂는<br><b>1kW</b> 작은 가전.</h2></div>
     <div class="tblwrap"><table class="rv">
       <tr><th style="width:22%">항목</th><th>목표 사양</th><th style="width:28%">왜</th></tr>
-      <tr><td><b>크기 · 무게</b></td><td>약 22 × 22 × 20cm · 약 3.8kg(바닥 무게판 포함)</td><td>세척기 옆 한 세트 비율 · 넘어짐 방지</td></tr>
+      <tr><td><b>크기 · 무게</b></td><td>약 22 × 22 × 20cm · 약 3.8kg(바닥 무게판 포함)</td><td>조리대 한 자리 · 넘어짐 방지</td></tr>
       <tr><td><b>전원</b></td><td>220V 직결 · 900W~1kW(열판 2장) · 대기 0.5W 이하</td><td>Ø6 몰드 10초 주기에 필요한 열량. 어댑터 없음</td></tr>
-      <tr><td><b>상판</b></td><td>검은 강화유리 4mm · 이중 유리 창 · 유리 아래 정전식 터치 3 + 숫자 2자리</td><td>세척기 디자인 언어 · 쿨터치</td></tr>
+      <tr><td><b>상판</b></td><td>검은 강화유리 4mm · 이중 유리 창 · 유리 아래 정전식 터치 3 + 숫자 2자리</td><td>쿨터치 · 겉에서 움직이는 부분 없음</td></tr>
       <tr><td><b>열판 · 열 상자</b></td><td>알루미늄 다이캐스트 + 시즈 히터 2장 · 200~230°C · NTC 2 + 온도 퓨즈 · 열 상자 강판 1.5 + 단열 5mm</td><td>팽화 온도 · 과열 2중 차단 · 겉면 온도</td></tr>
       <tr><td><b>몰드</b></td><td>떡뻥 Ø6cm(미니 Ø3 × 7구 옵션) · 칩 접시형 · 세라믹 코팅 · 원터치 분리</td><td>식품 접촉 · 세척</td></tr>
-      <tr><td><b>구동</b></td><td>기어드 모터(웜) + 토글 링크 + 래치 스프링 · 사점에서 닫힘 유지 → 2~3mm 순간 개방 → 모터 속도로 전체 개방 · 리밋 스위치 2</td><td>부풀리기엔 순간 개방이 필요 — 「뻥」은 상자 안에서만</td></tr>
-      <tr><td><b>곡물 카세트</b></td><td>투명 트라이탄 약 200g(60장) · 계량 슬라이드 3g(2단 홈)</td><td>연속 사용 · 마른 재료만</td></tr>
-      <tr><td><b>물통 · 펌프</b></td><td>50mL 분리형 · 마이크로 펌프 0.5mL/장(안개) · 낟알 수분 보정</td><td>팽화 수분 14~16% 맞추기</td></tr>
-      <tr><td><b>떡뻥 모드</b></td><td>예열 3분 · 8~10초/장 · 연속 10장 2분 · 쌀 · 현미 · 흑미 · 귀리 낟알</td><td>낟알 수분 14~16% · 모자라면 0.5mL 안개</td></tr>
-      <tr><td><b>칩 모드</b></td><td>곡물 70~80% + 찌꺼기 20~30% · 60~90초 · 온도 상한 설정</td><td>찌꺼기 100%는 수분 80%라 바삭해지지 않음 · 타지 않게(아크릴아마이드)</td></tr>
-      <tr><td><b>비스포크</b></td><td>옆 패널 교체(블랙 · 화이트 · 크림 · 세이지 · 라벤더)</td><td>아이 간식 기계 · 주방 색 맞춤</td></tr>
+      <tr><td><b>구동</b></td><td>바닥 기어드 모터(웜) + 토글 링크 + 래치 스프링 · 아래 열판만 25mm 오르내림 · 사점 잠금 → 2~3mm 순간 하강 → 모터 속도로 전체 하강 · 리밋 스위치 2 · 위 열판 · 유리 고정</td><td>부풀리기엔 순간 개방이 필요 — 「뻥」은 상자 안에서만 · 유리 쪽엔 움직이는 것 없음</td></tr>
+      <tr><td><b>곡물 카세트</b></td><td>투명 트라이탄 약 200g(60장) · 계량 슬라이드 3g(2단 홈 · 진동 1회)</td><td>연속 사용 · 불린 쌀</td></tr>
+      <tr><td><b>떡뻥 모드</b></td><td>예열 3분 · 8~10초/장 · 연속 10장 2분 · 쌀 · 현미 · 흑미 · 귀리 낟알(10분 불려 물기 뺌)</td><td>불린 낟알 속 수분이 터지며 팽화 · 물통 없음</td></tr>
+      <tr><td><b>칩 모드</b></td><td>곡물 70~80% + 찌꺼기 20~30% · 60~90초 · 상한 190°C</td><td>찌꺼기 100%는 수분 80%라 바삭해지지 않음 · 타지 않게(아크릴아마이드)</td></tr>
+      <tr><td><b>비스포크</b></td><td>옆 패널 교체(크림 · 블랙 · 화이트 · 세이지 · 라벤더)</td><td>주방 색 맞춤</td></tr>
       <tr><td><b>안전</b></td><td>덮개 잠금(솔레노이드 · 식은 뒤 해제) · 가림판 · 쿨터치 ≤60°C · 자동 꺼짐 · 기울기 차단 · 미끄럼 방지 고무</td><td>03 안전 8가지</td></tr>
       <tr><td><b>소음</b></td><td>개방 시 70dB 이하 목표 <span class="tag">첫 벤치 항목</span></td><td>업소용은 90dB 이상</td></tr>
-      <tr><td><b>인증</b></td><td>KC 전기용품 안전(IEC 60335-1 · -2-9) · 식품용 기구 · 용기 재질 시험</td><td>가열 조리 기구</td></tr>
+      <tr><td><b>인증</b></td><td>KC 전기용품 안전(IEC 60335-1 · -2-9) · 식품위생법 기구 · 용기 재질 용출 시험(알루미늄 · 세라믹 코팅 · 트라이탄)</td><td>가열 조리 기구 · 식품 접촉</td></tr>
       <tr><td><b>보증</b></td><td>본체 1년 · 열판 2년</td><td>—</td></tr>
     </table></div>
   </div>
@@ -881,7 +944,7 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 
 <section class="dark" id="gain">
   <div class="wrap">
-    <div class="rv"><div class="kicker">11 · 고객이 얻는 것</div>
+    <div class="rv"><div class="kicker">12 · 고객이 얻는 것</div>
     <h2>봉지 간식 → <b>쌀 한 칸.</b></h2></div>
     <div class="ba rv">
       <div><small>지금</small>
@@ -901,7 +964,7 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 
 <section id="biz" class="light">
   <div class="wrap">
-    <div class="rv"><div class="kicker">12 · 사업성 (모르는 숫자는 TBD)</div>
+    <div class="rv"><div class="kicker">13 · 사업성 (모르는 숫자는 TBD)</div>
     <h2>가정용 브랜드 제품이 없는 칸에<br><b>휴롬이 먼저</b> 들어갑니다.</h2></div>
     <div class="grid4">
       <div class="card rv"><small>목표 판매가</small><div class="num" style="font-size:40px">12.9<small>~14.9만</small></div><div class="numlbl">아이 간식 월 3만 원 쓰는 집이면 5개월에 회수.</div></div>
@@ -921,45 +984,61 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 
 <section class="dark" id="feasible">
   <div class="wrap">
-    <div class="rv"><div class="kicker">13 · 구조 성립 검토 (벤치 전 계산)</div>
-    <h2>진짜 되나 — <b>16항목</b>.</h2>
-    <p class="lead">숫자로 따져 본 뒤 설계가 네 군데 바뀌었습니다. 아래 표의 「벤치에서 잴 것」이 1~4주 벤치의 측정 목록입니다.</p></div>
+    <div class="rv"><div class="kicker">14 · 구조 · 식품 성립 검토 (벤치 전 계산)</div>
+    <h2>진짜 되나 — <b>구조 16 · 식품 10.</b></h2>
+    <p class="lead">숫자로 따져 본 뒤 설계가 네 군데 바뀌었습니다. 먹는 것을 만드는 기계라 식품 쪽 10항목을 따로 검토했습니다. 「벤치에서 잴 것」이 1~4주 벤치의 측정 목록입니다.</p></div>
     <div class="grid4">
       <div class="card rv"><small>검토로 바뀐 것 1</small><strong>2~3mm 순간 개방 래치</strong><p>천천히만 열면 안 부풉니다. 순간은 상자 안에서, 천천히는 그다음에.</p></div>
       <div class="card rv"><small>검토로 바뀐 것 2</small><strong>단열 5mm + 모터 옆으로</strong><p>겉면 60°C를 공기층만으로는 못 지킵니다. 높이는 194mm로 맞춤.</p></div>
-      <div class="card rv"><small>검토로 바뀐 것 3</small><strong>물통 50mL · 펌프 0.5mL</strong><p>마른 쌀이 수분 14%에 못 미치면 안개 한 번. 세척 부품 +1.</p></div>
+      <div class="card rv"><small>검토로 바뀐 것 3</small><strong>아래 판만 움직임 · 물통 없음</strong><p>유리 · 위 열판은 고정, 모터는 바닥. 고인 물이 생기는 물통은 빼고 쌀을 불려 넣습니다.</p></div>
       <div class="card rv"><small>검토로 바뀐 것 4</small><strong>칩 = 곡물 + 찌꺼기 20~30%</strong><p>찌꺼기만으로는 바삭해지지 않습니다. 찌꺼기 100%는 말린 찌꺼기 별도 안.</p></div>
     </div>
     <div class="tblwrap"><table class="rv">
       <tr><th style="width:12%">항목</th><th>계산 · 근거</th><th style="width:12%">판정</th><th style="width:22%">벤치에서 잴 것</th></tr>
       <tr><td><b>전력</b></td><td>Ø8 몰드 1.3~1.5kW 업소 소형기 기준, Ø6은 면적 0.56배 → 0.73~0.84kW. 여유 두고 0.9~1kW. 가정 16A 회로에서 문제 없음(전자레인지 수준).</td><td>성립</td><td>예열 시간 · 10초 주기 유지</td></tr>
       <tr><td><b>예열 · 한 장 열량</b></td><td>열판 2장 알루미늄 약 0.5kg × 비열 0.9 × 210K ≈ 97kJ → 1kW로 100초 + 손실 → 예열 2.5~3분. 한 장은 쌀 3g 가열 1.1kJ + 수분 0.45g 증발 1.0kJ ≈ 2.2kJ = 1kW로 2.2초분 → 10초 주기 안에 회복.</td><td>성립</td><td>예열 실측 · 연속 10장 뒤 열판 온도 낙폭</td></tr>
-      <tr><td><b>팽화 수분</b></td><td>낟알 14~16%에서 부풉니다. 보통 백미 12~15% → 모자라면 한 장 0.5mL 안개(3g의 15%p ≈ 0.45g). 물통 50mL = 100장.</td><td>조건부</td><td>쌀 · 현미 · 귀리별 성공률 · 안개 뒤 대기 시간</td></tr>
-      <tr><td><b>순간 개방</b></td><td>부풀기는 압력이 한순간에 풀려야 일어납니다. 「천천히 열기」만으로는 부풀지 않음 → 래치 스프링이 2~3mm만 순간 개방(잠긴 열 상자 안), 그 뒤 모터가 천천히 전체 개방. 리밋 스위치 2개가 닫힘 · 열림 위치 확인.</td><td>성립(설계 변경)</td><td>틈 2 · 3 · 5mm 별 부풀기 · 래치 힘</td></tr>
+      <tr><td><b>팽화 수분</b></td><td>마른 백미(12~15%)는 덜 부풉니다 → 10분 불려 체에 10분 물기를 빼면 낟알 속 수분이 20% 안팎으로 올라 잘 부풉니다. 물통 · 펌프 없이 재료 준비로 해결.</td><td>조건부</td><td>불리는 시간 5 · 10 · 20분별 성공률 · 쌀 · 현미 · 귀리</td></tr>
+      <tr><td><b>순간 개방</b></td><td>부풀기는 압력이 한순간에 풀려야 일어납니다. 「천천히 열기」만으로는 부풀지 않음 → 래치 스프링이 아래 판을 2~3mm만 순간 하강(잠긴 열 상자 안), 그 뒤 모터가 천천히 끝까지 내림. 위 열판 · 유리는 고정이라 유리 쪽에 충격이 가지 않음. 리밋 스위치 2개가 닫힘 · 열림 위치 확인.</td><td>성립(설계 변경)</td><td>틈 2 · 3 · 5mm 별 부풀기 · 래치 힘</td></tr>
       <tr><td><b>몰드 내압 · 닫힘 힘</b></td><td>가정 내압 0.5~1.5MPa × Ø6 면적 28cm² → 1.4~4.2kN. 토글 사점 배력 15~20배 → 모터 쪽 100~300N. 웜 기어드 모터 20~30W는 자기 잠금이라 정전에도 열리지 않음.</td><td>조건부</td><td>내압 실측(로드셀) · 토글 핀 전단</td></tr>
       <tr><td><b>소음</b></td><td>「뻥」 소리는 2~3mm 틈에서 압력이 풀리는 소리. 잠긴 열 상자(강판 + 단열 5mm) + 이중벽 공기층이 흡음. 업소용 90dB+는 노출 개방 때문. 목표 70dB.</td><td><span class="tag">벤치 1순위</span></td><td>1m 거리 dB · 틈 · 래치 속도와의 관계</td></tr>
       <tr><td><b>겉면 온도</b></td><td>열 상자 230°C, 단열 5mm(세라믹 울 k≈0.05) 바깥 약 90°C 추정 → 공기층 10mm + 뒤 슬릿 대류 → 몸체 안쪽 70°C 이하, 옆 패널 55°C 이하 목표.</td><td>조건부</td><td>30분 연속 사용 뒤 겉면 · 터치 자리 실측</td></tr>
       <tr><td><b>유리 창</b></td><td>안쪽 붕규산 3mm(열 상자 윗판) + 바깥 강화유리 4mm, 사이 공기층 약 18mm → 바깥 창 60°C 이하 목표. 안쪽 유리는 100°C 이상이라 김 서림 없음. 창 가장자리 실리콘 가스켓으로 열 끊음.</td><td>조건부</td><td>창 테두리 온도 · 급열 급랭 300회</td></tr>
       <tr><td><b>김 · 증기</b></td><td>한 장 0.45g 증기 × 연속 10장 = 4.5g. 뒤 슬릿 80 × 8mm로 충분하고 앞으로는 나오지 않음. 슬릿 아래 물받이 홈.</td><td>성립</td><td>결로 생기는 자리 · 슬릿 온도</td></tr>
-      <tr><td><b>높이 적층</b></td><td>고무발 6 + 무게판 6 + 서랍 28 + 링크 공간 32 + 열 상자 100 + 공기층 18 + 유리 4 = 194mm → 200 안에 6mm 여유. 모터는 열 상자 옆 공기층 뒤에 둬 높이를 안 먹습니다.</td><td>성립(빠듯)</td><td>목업에서 배선 · 서랍 레일 두께</td></tr>
-      <tr><td><b>폭 · 깊이</b></td><td>열 상자 132 + 공기층 2 × 10 + 껍데기 2 × 8 = 168 < 220 → 양쪽 26mm 여유(보드 · 모터 · 배선). 깊이는 카세트 · 물통 46 + 열 상자 100 + 앞 가림판 · 트레이 60 = 206 < 220.</td><td>성립</td><td>—</td></tr>
-      <tr><td><b>계량</b></td><td>3g ≈ 3.7cm³(벌크 밀도 0.8) → 슬라이드 홈 Ø12 × 33mm. 현미 · 귀리는 낟알 크기가 달라 홈 2단. 낟알 끼임은 홈 모서리 R.</td><td>조건부</td><td>±10% 반복 정밀도 · 곡물별 끼임</td></tr>
+      <tr><td><b>높이 적층</b></td><td>고무발 6 + 무게판 6 + 서랍 · 모터 칸 60 + 열 상자 100 + 공기층 18 + 유리 4 = 194mm → 200 안에 6mm 여유. 모터(Ø28 × 40)는 서랍 옆 바닥 칸에 눕혀 두고 푸시 로드가 열 상자 바닥을 관통합니다.</td><td>성립(빠듯)</td><td>목업에서 배선 · 서랍 레일 두께</td></tr>
+      <tr><td><b>폭 · 깊이</b></td><td>열 상자 132 + 공기층 2 × 10 + 껍데기 2 × 8 = 168 < 220 → 양쪽 26mm 여유(보드 · 모터 · 배선). 깊이는 카세트 46 + 열 상자 100 + 앞 가림판 · 트레이 60 = 206 < 220. 폭은 서랍 110 + 모터 44 = 154 < 204.</td><td>성립</td><td>—</td></tr>
+      <tr><td><b>계량</b></td><td>3g ≈ 3.7cm³(벌크 밀도 0.8) → 슬라이드 홈 Ø12 × 33mm. 현미 · 귀리는 낟알 크기가 달라 홈 2단. 불린 쌀은 서로 붙기 쉬워 슬라이드가 한 번 톡 치는 진동 + 홈 모서리 R.</td><td>조건부</td><td>±10% 반복 정밀도 · 곡물별 끼임</td></tr>
       <tr><td><b>배출</b></td><td>부푼 떡뻥 Ø7~8 × 10mm. 밀대가 앞 슬롯(80 × 20mm)으로 밀어 가림판 뒤 트레이로. 아래 열판에 붙으면 세라믹 코팅 + 밀대 각도.</td><td>조건부</td><td>100장 중 붙음 · 깨짐 횟수</td></tr>
       <tr><td><b>넘어짐</b></td><td>바닥 220 × 220, 3.8kg, 무게중심 높이 약 85mm → 전도각 약 52°. 기울기 센서 15°에서 가열 차단.</td><td>성립</td><td>—</td></tr>
       <tr><td><b>칩 모드</b></td><td>찌꺼기 100%는 수분 80%라 김만 나고 바삭해지지 않음 → 곡물 70~80% + 찌꺼기 20~30% 반죽을 저온 눌러 굽기. 원리는 전병과 같음. 찌꺼기 100%는 말린 찌꺼기 별도 안.</td><td>조건부</td><td>비율 · 시간 · 타지 않는 상한 온도</td></tr>
       <tr><td><b>수명</b></td><td>하루 10장 × 5년 ≈ 1.8만 사이클. 토글 핀 · 래치 스프링은 10만 사이클급, 시즈 히터 2년 보증. 열판 코팅 마모는 몰드 교체로 해결.</td><td>성립</td><td>가속 1만 사이클 뒤 틈 · 코팅</td></tr>
+      </table></div>
+    <div class="rv" style="margin-top:56px"><h3 style="font-size:22px;font-weight:800">식품 안전 검토 — <b style="color:var(--acc)">10항목</b></h3>
+    <p class="cap">닿는 부품 · 코팅 · 탄 자국 · 고인 물 · 불린 쌀 · 찌꺼기 · 부스러기 · 금속 이물 · 윤활 · 먹는 순간. 기구 · 용기 재질은 식품위생법 「기구 및 용기 · 포장의 기준 및 규격」 용출 시험을 ODM 조건으로 둡니다.</p></div>
+    <div class="tblwrap"><table class="rv">
+      <tr><th style="width:12%">항목</th><th>검토 · 설계</th><th style="width:12%">판정</th><th style="width:22%">시험 · 벤치</th></tr>
+      <tr><td><b>닿는 부품</b></td><td>재료가 닿는 것은 몰드 · 열판 · 트레이 · 카세트 · 계량 슬라이드 · 밀대 · 서랍 일곱. 모두 떼어 씻을 수 있고(열판 · 밀대는 몰드 뒤라 마른 행주), 재질은 알루미늄 다이캐스트 + 세라믹 코팅 · 트라이탄 · 스테인리스 304 · PP만 씁니다.</td><td>성립</td><td>재질별 용출 시험 성적서(ODM)</td></tr>
+      <tr><td><b>코팅</b></td><td>몰드 · 열판은 PFAS 없는 세라믹(솔젤) 코팅. 230°C 연속 사용 가능. 테플론(PTFE)은 260°C 근처에서 분해 위험이 있고 PFAS 논란이 있어 쓰지 않습니다. 긁히면 몰드만 교체(소모품).</td><td>성립</td><td>1만 사이클 뒤 코팅 두께 · 긁힘</td></tr>
+      <tr><td><b>탄 자국 · 아크릴아마이드</b></td><td>쌀 떡뻥은 아스파라긴 · 환원당이 적어 위험이 낮습니다. 칩은 당근 · 사과 당분이 갈변하므로 열판 상한 190°C · 시간 상한 90초 · 시간이 지나면 자동 종료. 기준은 EU 2017/2158 벤치마크(과자류 350µg/kg).</td><td>조건부</td><td>칩 4종 색도 · 아크릴아마이드 분석 1회</td></tr>
+      <tr><td><b>고인 물</b></td><td>물통 · 펌프를 뺐습니다. 기계 안에 물이 고이는 자리가 없고, 김은 뒤 슬릿으로만 나가며 슬릿 아래 물받이 홈은 서랍과 같이 비웁니다.</td><td>성립(설계 변경)</td><td>연속 30장 뒤 결로 자리</td></tr>
+      <tr><td><b>불린 쌀</b></td><td>불린 쌀은 실온에 오래 두면 상합니다 → 카세트 분량은 당일 사용 기준(200g = 60장), 마지막 사용 뒤 2시간이 지나면 「비우세요」 불빛, 남은 쌀은 냉장. 카세트는 식기세척기.</td><td>조건부</td><td>실온 25°C에서 4 · 8 · 24시간 세균 수</td></tr>
+      <tr><td><b>찌꺼기</b></td><td>원액기 찌꺼기는 수분 80%라 빨리 상합니다 → 짠 뒤 2시간 안에 반죽, 냉장 24시간까지. 반죽은 그날 다 쓰고, 칩은 수분 5% 이하까지 구워야 바삭하고 하루 보관됩니다.</td><td>조건부</td><td>반죽 보관 시간별 세균 수 · 칩 최종 수분</td></tr>
+      <tr><td><b>부스러기 서랍</b></td><td>서랍은 열 상자 밖 바닥 칸(열선에서 50mm 이상)이라 불이 붙지 않고 60°C 이하. 가득 차면 불빛으로 알리고, 매일 비우도록 안내. 서랍 · 레일은 PP · 스테인리스로 식기세척기.</td><td>성립</td><td>서랍 안 온도 · 30장 뒤 부스러기 양</td></tr>
+      <tr><td><b>금속 이물</b></td><td>떡뻥 가장자리가 잘리는 자리는 몰드 테두리 R 처리 + 경질 아노다이징 15µm 이상 → 금속 가루가 나오지 않음. 밀대는 스테인리스 304 또는 PEEK.</td><td>조건부</td><td>1,000장 뒤 금속 검출 시험</td></tr>
+      <tr><td><b>윤활 · 기계 부분</b></td><td>토글 핀 · 모터 기어 윤활은 식품용(NSF H1) 그리스. 열 상자 바닥의 푸시 로드 구멍은 실리콘 벨로즈로 막아 기계 칸의 먼지 · 그리스가 재료 쪽으로 올라오지 않습니다.</td><td>성립</td><td>벨로즈 1만 사이클</td></tr>
+      <tr><td><b>먹는 순간</b></td><td>배출 직후 떡뻥은 100°C가 넘습니다 → 트레이에 떨어진 뒤 30초가 지나면 「먹어도 돼요」 흰 불빛. 레시피의 콩 · 견과 · 밀은 표시하고, Ø6 한 입 크기라 3세 이하는 쪼개서 주도록 안내.</td><td>성립</td><td>배출 뒤 10 · 30 · 60초 떡뻥 온도</td></tr>
       </table></div>
   </div>
 </section>
 
 <section class="light" id="risk">
   <div class="wrap">
-    <div class="rv"><div class="kicker">14 · 리스크 · 중단 기준</div>
+    <div class="rv"><div class="kicker">15 · 리스크 · 중단 기준</div>
     <h2>이 숫자가 나오면 <b>접습니다.</b></h2></div>
     <div class="tblwrap"><table class="rv">
       <tr><th>리스크</th><th>가능성</th><th>영향</th><th>대응</th><th>확인 시점</th></tr>
       <tr><td>개방 소음이 75dB를 넘는다</td><td>중</td><td>큼(아이 집)</td><td>래치 속도 · 틈 조정, 열 상자 단열 두께 · 흡음 이중벽</td><td>벤치 1~2주</td></tr>
-      <tr><td>0.5mL 안개로도 팽화 성공률이 낮다</td><td>중</td><td>중</td><td>물 양 · 안개 뒤 대기 시간 조정 · 적신 쌀 안내</td><td>벤치 1~2주</td></tr>
+      <tr><td>불린 쌀 수분이 안 맞아 덜 부푼다</td><td>중</td><td>중</td><td>불리는 시간 · 물기 빼는 시간 표 · 쌀 종류별 안내</td><td>벤치 1~2주</td></tr>
+      <tr><td>칩이 갈변 · 탄 맛이 난다</td><td>중</td><td>중(식품 안전)</td><td>상한 190°C · 90초 · 찌꺼기 비율 20%로 낮춤</td><td>벤치 2~4주</td></tr>
       <tr><td>2~3mm 틈으로는 덜 부푼다</td><td>중</td><td>큼(핵심 기능)</td><td>틈 3~5mm · 래치 스프링 힘 조정 · 열 상자 안 완충</td><td>벤치 1~2주</td></tr>
       <tr><td>겉면 · 유리 창 60°C 초과</td><td>중</td><td>큼(안전)</td><td>공기층 확대 · 창 축소 · 팬 추가(소음 상충)</td><td>목업 4주</td></tr>
       <tr><td>칩 모드가 「맛없다」</td><td>중</td><td>중(찌꺼기 이야기 약화)</td><td>레시피 5종 개발 · 떡뻥 단일 모드로 축소</td><td>설문 · 시식 6주</td></tr>
@@ -975,12 +1054,12 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 
 <section class="dark" id="plan">
   <div class="wrap">
-    <div class="rv"><div class="kicker">15 · 검증 12주</div>
+    <div class="rv"><div class="kicker">16 · 검증 12주</div>
     <h2>중국 소형기 한 대로 <b>4주 안에</b><br>소음 · 팽화 · 온도를 잽니다.</h2></div>
     <div class="grid4">
-      <div class="card rv"><small>1~4주 · 벤치</small><strong>소형기 1대 구매</strong><p>소음 · 팽화 성공률(쌀 · 현미 · 귀리) · 몰드 온도 · 칩 모드 반죽 5종.</p></div>
+      <div class="card rv"><small>1~4주 · 벤치</small><strong>소형기 1대 구매</strong><p>소음 · 팽화 성공률(쌀 · 현미 · 귀리 × 불리는 시간) · 몰드 온도 · 칩 반죽 4종 · 식품 안전 10항목 중 벤치 항목.</p></div>
       <div class="card rv"><small>3~8주 · 설문 · 시식</small><strong>N ≥ 300 + 시식 30가구</strong><p>떡뻥 구매 가구 · 원액기 가구. 가격 9.9 / 12.9 / 14.9만 · 옆 패널 색 선호.</p></div>
-      <div class="card rv"><small>5~10주 · 목업</small><strong>외형 목업 + 열 상자 시작품</strong><p>쿨터치 · 덮개 잠금 · 래치 틈 · 토글 개방 속도. 세척기 옆 실물 비교.</p></div>
+      <div class="card rv"><small>5~10주 · 목업</small><strong>외형 목업 + 열 상자 시작품</strong><p>쿨터치 · 덮개 잠금 · 래치 틈 · 아래 판 하강 속도. 원액기 옆 실물 비교.</p></div>
       <div class="card rv"><small>8~12주 · 견적</small><strong>ODM 3곳</strong><p>안전 8가지를 조건으로. 금형 · 유리 · 인증 일회성 비용 확정 → Go/Stop.</p></div>
     </div>
     <div class="grid4" style="margin-top:20px">
@@ -994,12 +1073,12 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 
 <section class="light" id="decide">
   <div class="wrap">
-    <div class="rv"><div class="kicker">16 · 결정 요청</div>
+    <div class="rv"><div class="kicker">17 · 결정 요청</div>
     <h2>승인해 주시면 <b>이번 주</b> 시작합니다.</h2></div>
     <div class="dec rv">
       <div><div><b>벤치용 중국 소형기 1대 구매</b><p>500위안급 야시장용 소형기 + 배송 · 변압. 소음 · 팽화 · 온도를 4주 안에 측정합니다.</p></div></div>
       <div><div><b>설문 N ≥ 300 + 시식 30가구</b><p>떡뻥 구매 가구와 원액기 가구를 나눠 가격 3안 · 칩 모드 · 옆 패널 색 선호를 봅니다.</p></div></div>
-      <div><div><b>외형 목업 1대 (세척기 디자인 언어)</b><p>검은 유리 상판 · 창 · 흰 띠 · 크림 패널. 세척기 · 원액기 옆에 두고 사진으로 판단합니다.</p></div></div>
+      <div><div><b>외형 목업 1대</b><p>검은 유리 상판 · 창 · 흰 띠 · 크림 패널. 원액기 옆에 두고 사진으로 판단합니다.</p></div></div>
     </div>
   </div>
 </section>
@@ -1013,7 +1092,7 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
 
 <section class="light2" id="sources" style="padding:72px 0">
   <div class="wrap">
-    <div class="kicker">출처 · 열람 2026-11-24</div>
+    <div class="kicker">출처</div>
     <ol class="sources">
       <li>쿠팡 떡뻥 카테고리 · 아이얌 30g×6 등 — 30g 2,250~2,800원(10g당 750~930원). 1차 · 가격은 날마다 바뀜.</li>
       <li>1688 「쌀과자 기계」 — 야시장용 소형기 500위안~. 2차.</li>
@@ -1023,12 +1102,14 @@ footer{padding:40px 0 60px;font-size:12.5px;color:var(--sub);background:var(--pa
       <li>열 계산(알루미늄 비열 0.9 · 물 증발열 2,260J/g · 세라믹 울 k≈0.05) — 일반 물성값 · 계산.</li>
       <li>쌀 소매가 1kg 약 3,000원 기준 30g ≈ 90원 — 계산.</li>
       <li>KC 전기용품 안전 기준 IEC 60335-1 · 60335-2-9(가열 조리 기구) — 국가기술표준원. 1차.</li>
-      <li>휴롬 식재료 세척기 — 디자인 언어 참고(검은 강화유리 상판 · 창 · 흰 띠 · 유리 아래 터치).</li>
+      <li>식품위생법 「기구 및 용기 · 포장의 기준 및 규격」(식약처 고시) — 식품 접촉 재질 용출 시험. 1차.</li>
+      <li>EU Regulation 2017/2158 — 아크릴아마이드 벤치마크(과자류 350 · 감자칩 750µg/kg). 1차.</li>
+      <li>NSF H1 — 식품 기계용 윤활제 등급. 2차.</li>
     </ol>
-    <p class="cap">실사 이미지는 모두 AI 생성 컨셉(Figma · gpt-image)입니다. 숫자는 벤치 전 목표치이며, TBD는 견적 · 조사 뒤 채웁니다.</p>
+    <p class="cap">실사 이미지는 모두 AI 생성 컨셉입니다. 숫자는 벤치 전 목표치이며, TBD는 견적 · 조사 뒤 채웁니다.</p>
   </div>
 </section>
-<footer><div class="wrap">휴롬 쌀참 · 신제품 기획 제안서 · <a href="https://www.figma.com/design/JeHF6ltyqlQTJdEbAcmmjv">디자인 보드(Figma)</a></div></footer>
+<footer><div class="wrap">휴롬 쌀참 · 신제품 기획 제안서 · <a href="https://www.figma.com/design/JeHF6ltyqlQTJdEbAcmmjv">디자인 보드(Figma)</a><span class="ver">r3 · 2026-11-24</span></div></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
