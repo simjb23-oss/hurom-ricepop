@@ -187,7 +187,8 @@ function frame() {
   const liftK = ease(THREE.MathUtils.clamp((s - .25) / .25, 0, 1));
   const ghostK = ease(THREE.MathUtils.clamp((s - .5) / .25, 0, 1));
   const expK = ease(THREE.MathUtils.clamp((s - .75) / .25, 0, 1));
-  ghostable.forEach(m => { m.opacity = 1 - ghostK * 0.78 + expK * 0.3; m.depthWrite = m.opacity > 0.9; });
+  ghostable.forEach(m => { m.opacity = 1 - ghostK * 0.78 + expK * 0.25; m.depthWrite = m.opacity > 0.9; });
+  M.inner.opacity = 1 - ghostK * 0.78 - expK * 0.1; M.inner.depthWrite = M.inner.opacity > 0.9;
   parts.forEach((p, i) => {
     let k = 0;
     if (p.showAt === 1) k = Math.max(liftK * 0.6, expK);
@@ -206,10 +207,11 @@ function frame() {
   washer.visible = !Q.has('nowasher') && liftK < 0.98;
     washer.position.x = -3.5 - liftK * 3.0;
   // 카메라: 처음엔 둘을 같이 보게 왼쪽으로 치우침, 분해 땐 메이커 중심
-  const cx = THREE.MathUtils.lerp(-2.0, 0, liftK), cd = THREE.MathUtils.lerp(17.5, 10.5, liftK) + expK * 4.0;
-  const cy = THREE.MathUtils.lerp(1.5, 1.0, liftK) + expK * 0.6;
+  const noW = Q.has('nowasher');
+  const cx = noW ? 0 : THREE.MathUtils.lerp(-2.0, 0, liftK), cd = (noW ? 10.5 : THREE.MathUtils.lerp(17.5, 10.5, liftK)) + expK * 6.5;
+  const cy = THREE.MathUtils.lerp(1.5, 1.0, liftK) + expK * 1.0;
   camera.position.set(cx + Math.sin(yaw) * Math.cos(pitch) * cd, cy + Math.sin(pitch) * cd, Math.cos(yaw) * Math.cos(pitch) * cd);
-  camera.lookAt(cx, cy - 0.2 + expK * 0.3, 0);
+  camera.lookAt(cx, cy - 0.2 + expK * 0.2, 0);
   renderer.render(scene, camera);
   requestAnimationFrame(frame);
 }
