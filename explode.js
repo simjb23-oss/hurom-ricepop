@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
-// 휴롬 쌀참 · 구조 3D v7 (2026-11-25) — 몰드 서랍 구조
+// 휴롬 쌀참 · 구조 3D v7b (2026-11-25) — 몰드 서랍 구조 · 윗보 12 × 80 · 개스킷 · 펴개 숟가락
 // 기준 구조: 검은 상판 · 위 열판 + 플러그 · ㅁ자 강철 틀 고정, 아래 피스톤만 바닥 모터가 20mm 올리고 내림(트레이째), 서랍은 사람이 당김.
 // 카세트 · 슬라이드 · 앞문 · 배출 슬롯 · 트레이 없음. 부품 번호 ①~⑭ = 2.5D 단면 · 층 분해와 같음. 단위 10cm. 22×22×20cm
 // 좌표: x 좌우 · y 위 · z 앞(+). 2.5D(mm) → 3D: x=(x−110)/100, y=z/100, z=(y−110)/100
@@ -91,8 +91,8 @@ add(glassG, V(0, H - 0.02, 0), V(0, H + 2.3, 0), '⑭ 검은 불투명 내열 �
 const frameG = new THREE.Group();
 const fBase = plain(1.2, 0.08, 0.92, M.frame); fBase.position.set(0, 0.18, 0); frameG.add(fBase);
 [-0.54, 0.54].forEach(x => { const c = plain(0.12, 1.10, 0.12, M.frame); c.position.set(x, 0.77, -0.06); frameG.add(c); });
-const fBeam = plain(1.2, 0.12, 0.40, M.frame); fBeam.position.set(0, 1.38, 0); frameG.add(fBeam);
-add(frameG, V(0, 0, 0), V(-2.3, 0.3, 0), '⑬ ㅁ자 강철 틀 — 바닥판 8t · 기둥 12 × 12 두 개 · 윗보 12 × 40: 누르는 힘 1.4~4.2kN이 이 안에서 닫힘(위 열판은 윗보에, 토글 핀은 바닥판에)', 2);
+const fBeam = plain(1.2, 0.12, 0.80, M.frame); fBeam.position.set(0, 1.38, 0); frameG.add(fBeam);
+add(frameG, V(0, 0, 0), V(-2.3, 0.3, 0), '⑬ ㅁ자 강철 틀 — 바닥판 8t · 기둥 12 × 12 두 개 · 윗보 12 × 80(눕힌 강판 · 굽힘 약 52MPa): 누르는 힘 1.4~4.2kN이 이 안에서 닫힘(위 열판은 윗보에, 토글 핀은 바닥판에)', 2);
 // ⑧ 열 상자(단열) — 앞 벽에 서랍 구멍(z 76..108) · 받침 구멍 · 뒤 벽 위 김 구멍 2
 const hbY = 0.97; // 열 상자 중심 높이(z 44..150)
 const heatBox = new THREE.Group();
@@ -119,9 +119,9 @@ const innerPl = plain(1.04, 0.32, 0.06, M.insul); innerPl.position.set(0, -0.02,
 [-0.4, 0.4].forEach(x => { const s = plain(0.04, 0.2, 0.46, M.dark); s.position.set(x, -0.02, 0.76); drawerG.add(s); });
 const outerPl = box(1.08, 0.44, 0.08, 0.012, M.panel); outerPl.position.set(0, 0.02, 1.06); drawerG.add(outerPl);
 const handle = box(0.68, 0.035, 0.03, 0.01, M.handle); handle.position.set(0, 0.02, 1.115); drawerG.add(handle);
-const spoonH = box(0.3, 0.015, 0.03, 0.005, M.steel); spoonH.position.set(-0.36, -0.1, 0.52); drawerG.add(spoonH);
-const spoonB = cyl(0.06, 0.06, 0.02, M.steel, 20); spoonB.position.set(-0.52, -0.1, 0.52); drawerG.add(spoonB);
-add(drawerG, V(0, 0.94, 0), V(0, 0.94, 1.6), '⑥ 몰드 서랍 — 겉 앞판 + 단열 손잡이 · 46mm 공기층 버팀 · 안쪽 단열판 · 레일 프레임 · 잠금(완료 뒤 해제) · ⑫ 계량 숟가락 클립', 1);
+const spoonH = box(0.3, 0.015, 0.03, 0.005, M.steel); spoonH.position.set(-0.3, -0.1, 0.52); drawerG.add(spoonH);
+const spoonB = box(0.36, 0.012, 0.16, 0.004, M.steel); spoonB.position.set(0.03, -0.1, 0.52); drawerG.add(spoonB);   // 납작한 펴개 끝(폭 = 틀 지름)
+add(drawerG, V(0, 0.94, 0), V(0, 0.94, 1.6), '⑥ 몰드 서랍 — 겉 앞판 + 단열 손잡이 · 46mm 공기층 버팀 · 안쪽 단열판(테두리 실리콘 개스킷) · 레일 프레임 · 잠금(완료 뒤 해제) · ⑫ 계량 겸 펴개 숟가락 클립', 1);
 // ⑥ 몰드 트레이 — Ø78 × 18 · 틀 Ø60 × 15 · 플랜지 Ø88 (서랍에서 들어서 분리)
 const trayG = new THREE.Group();
 const trayBody = cyl(0.39, 0.39, 0.18, M.mold); trayBody.position.y = -0.03; trayG.add(trayBody);

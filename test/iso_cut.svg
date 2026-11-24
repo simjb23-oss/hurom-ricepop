@@ -206,8 +206,8 @@
 <polygon points="645.7,248.5 653.5,253.0 643.1,259.0 635.3,254.5" fill="#d9ac5f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="482.1,190.0 637.9,280.0 637.9,262.0 482.1,172.0" fill="#4f5864" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="482.1,190.0 637.9,280.0 637.9,262.0 482.1,172.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
-<polygon points="663.9,265.0 637.9,280.0 637.9,262.0 663.9,247.0" fill="#404852" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="508.0,157.0 663.9,247.0 637.9,262.0 482.1,172.0" fill="#6e767f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="689.9,250.0 637.9,280.0 637.9,262.0 689.9,232.0" fill="#404852" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
+<polygon points="534.0,142.0 689.9,232.0 637.9,262.0 482.1,172.0" fill="#6e767f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="637.9,412.0 645.7,416.5 645.7,257.5 637.9,253.0" fill="#e7d9c2" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="637.9,412.0 645.7,416.5 645.7,257.5 637.9,253.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
 <polygon points="702.9,383.5 645.7,416.5 645.7,257.5 702.9,224.5" fill="#bdb19f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -285,8 +285,8 @@
 <text x="850.0" y="167.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >겉면 60°C 이하 · 몸체엔 힘이 걸리지 않음</text>
 <circle cx="612.0" cy="256.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="612.0,256.0 828.0,194.0 842.0,194.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="850.0" y="198.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑬ ㅁ자 강철 틀 — 윗보 12 × 40 · 기둥 12 × 12 두 개 · 바닥판 8t</text>
-<text x="850.0" y="213.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >누르는 힘 1.4~4.2kN이 이 틀 안에서 닫힘(회색 화살)</text>
+<text x="850.0" y="198.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑬ ㅁ자 강철 틀 — 윗보 12 × 80 · 기둥 12 × 12 두 개 · 바닥판 8t</text>
+<text x="850.0" y="213.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >누르는 힘 1.4~4.2kN이 이 틀 안에서 닫힘(회색 화살) · 윗보 굽힘 약 52MPa</text>
 <circle cx="640.5" cy="259.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="640.5,259.0 828.0,236.0 842.0,236.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="850.0" y="240.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑦ 위 열판 220°C + Ø59 플러그 — 윗보에 고정</text>
@@ -331,7 +331,7 @@
 <circle cx="465.2" cy="343.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="465.2,343.8 352.0,352.0 338.0,352.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="330.0" y="356.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >서랍 앞뒤 ↔ — 사람이 당김</text>
-<text x="330.0" y="371.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="end" >안쪽 단열판이 열 상자 앞 구멍을 막음</text>
+<text x="330.0" y="371.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="end" >안쪽 단열판 + 테두리 실리콘 개스킷이 앞 구멍을 막음</text>
 <circle cx="523.6" cy="274.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="523.6,274.0 352.0,406.0 338.0,406.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="330.0" y="410.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >움직임 ↕ 20mm — 피스톤만</text>
