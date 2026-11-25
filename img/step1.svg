@@ -7,60 +7,63 @@
 </defs>
 <g transform="translate(14,0)">
 <rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
-<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">① 서랍 빼서 쌀 넣기</text>
-<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">220°C 예열 뒤 · 5초</text>
+<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">① 뚜껑 열고 쌀 넣기</text>
+<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">예열 끝 · 5초</text>
 <g transform="translate(0,0)">
-<rect x="66" y="62" width="150" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
-<rect x="192" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
-<text x="56" y="74" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text>
-<rect x="66.0" y="73.0" width="9.0" height="69.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="66.0" y="190.0" width="9.0" height="27.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="207.0" y="94.0" width="9.0" height="9.0" fill="#15151a" />
-<rect x="141.0" y="106.0" width="18.0" height="132.0" fill="#4f5864" />
-<rect x="111.0" y="73.0" width="60.0" height="33.0" fill="#4f5864" />
-<text x="150.0" y="184.0" font-size="8.5" fill="#fff" text-anchor="middle">틀</text>
-<rect x="84.0" y="106.0" width="114.0" height="21.0" fill="#8a8f96" rx="2"/>
-<rect x="90.0" y="112.0" width="102.0" height="9.0" fill="#c8503c" rx="3"/>
-<rect x="96.8" y="127.0" width="88.5" height="20.2" fill="#8a8f96" />
-<rect x="96.8" y="145.8" width="88.5" height="1.5" fill="#d19a3c" />
-<rect x="93.0" y="107.5" width="9.0" height="7.5" fill="#15151a" />
-<text x="203.0" y="115.0" font-size="9" fill="#6a6a70">고정</text>
-<rect x="75.0" y="163.0" width="132.0" height="9.0" fill="#b9bec4" />
-<rect x="87.0" y="200.5" width="108.0" height="18.0" fill="#8a8f96" rx="2"/>
-<rect x="126.0" y="205.0" width="30.0" height="9.0" fill="#c8503c" rx="3"/>
-<rect x="88.5" y="188.5" width="105.0" height="12.0" fill="#8a8f96" />
-<rect x="88.5" y="187.8" width="105.0" height="1.5" fill="#d19a3c" />
-<rect x="168.0" y="203.5" width="12.0" height="12.0" fill="#e06c5a" />
-<rect x="21.0" y="163.0" width="132.0" height="9.0" fill="#4a4e55" />
-<rect x="12.0" y="142.0" width="9.0" height="48.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".8"/>
-<rect x="12.0" y="142.0" width="9.0" height="3.0" fill="#e06c5a" />
-<rect x="12.0" y="187.0" width="9.0" height="3.0" fill="#e06c5a" />
-<rect x="2.0" y="127.0" width="8" height="66.0" rx="2" fill="#ebe4d6" stroke="#b9b2a2"/>
-<rect x="-2.0" y="158.5" width="10" height="4" rx="2" fill="#8a5d12"/>
-<rect x="28.5" y="181.0" width="117.0" height="4.5" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<path d="M66.0 199.0 L66.0 193.0 L42.0 170.5 L42.0 199.0 Z" fill="#4f5864" opacity=".9"/>
-<rect x="42.8" y="176.5" width="88.5" height="4.5" fill="#cfd3d8" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="124.5" y="181.0" width="6.0" height="7.5" fill="#55585e" />
-<rect x="132.0" y="154.0" width="13.5" height="22.5" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="28.5" y="154.0" width="13.5" height="22.5" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="145.5" y="154.0" width="7.5" height="9.0" fill="#dfe3e6" />
-<rect x="21.0" y="154.0" width="7.5" height="9.0" fill="#dfe3e6" />
-<circle cx="48.0" cy="175.0" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="60.0" cy="175.0" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="72.0" cy="175.0" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="84.0" cy="175.0" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="96.0" cy="175.0" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="108.0" cy="175.0" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="120.0" cy="175.0" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<line x1="0.0" y1="199.0" x2="-22.0" y2="199.0" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/>
-<line x1="150.0" y1="214.0" x2="150.0" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<path d="M150.0 252 l-16 8 l16 8 M150.0 252 l16 8 l-16 8" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<rect x="81.0" y="276" width="135.0" height="5" fill="#4f5864"/>
-<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<rect x="58" y="62" width="134" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="170" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M175 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
+<text x="52" y="236" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text>
+<rect x="66.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="176.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="72.6" y="231.4" width="103.4" height="6.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="176.0" y="163.2" width="6.6" height="6.6" fill="#15151a" />
+<rect x="127.6" y="156.6" width="13.2" height="74.8" fill="#4f5864" />
+<rect x="121.0" y="132.4" width="26.4" height="24.2" fill="#4f5864" opacity=".9"/>
+<text x="134.2" y="196.2" font-size="8.5" fill="#fff" text-anchor="middle">틀</text>
+<rect x="169.4" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
+<rect x="72.6" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
+<rect x="160.6" y="174.2" width="8.8" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="79.2" y="174.2" width="15.4" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="160.6" y="178.6" width="6.6" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="88.0" y="178.6" width="6.6" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="77.0" y="227.0" width="99.0" height="2.2" fill="#b9bec4" />
+<rect x="88.0" y="205.0" width="79.2" height="13.2" fill="#8a8f96" rx="2"/>
+<rect x="116.6" y="208.3" width="22.0" height="6.6" fill="#9a9a9e" rx="3"/>
+<rect x="94.8" y="190.7" width="65.6" height="14.3" fill="#8a8f96" />
+<rect x="94.8" y="190.2" width="65.6" height="1.1" fill="#d19a3c" />
+<rect x="147.4" y="207.2" width="8.8" height="8.8" fill="#e06c5a" />
+<line x1="149.6" y1="231.4" x2="149.6" y2="218.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<line x1="105.6" y1="231.4" x2="105.6" y2="218.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<circle cx="99.0" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="107.8" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="116.6" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="125.4" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="134.2" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="143.0" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="151.8" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<path d="M118.8 184.1 l-22 -30 l-10 0" fill="none" stroke="#9aa3ad" stroke-width="3" stroke-linecap="round"/>
+<text x="64.0" y="141.2" font-size="9.5" fill="#6a6a70">⑫ 숟가락 3g</text>
+<rect x="66.0" y="99.4" width="116.6" height="11.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="61.6" y="68.6" width="125.4" height="30.8" fill="#2a2a2f" rx="3"/>
+<rect x="59.4" y="64.2" width="129.8" height="4.4" fill="#101014" rx="2"/>
+<rect x="85.8" y="134.6" width="83.6" height="15.4" fill="#8a8f96" rx="2"/>
+<rect x="90.2" y="139.0" width="74.8" height="6.6" fill="#9a9a9e" rx="3"/>
+<rect x="94.8" y="150.0" width="65.6" height="6.1" fill="#8a8f96" />
+<rect x="94.8" y="154.9" width="65.6" height="1.1" fill="#d19a3c" />
+<rect x="92.4" y="135.7" width="6.6" height="5.5" fill="#15151a" />
+<rect x="105.6" y="110.4" width="44.0" height="24.2" fill="#4f5864" />
+<text x="68.0" y="81.8" font-size="9" fill="#6a6a70">뚜껑</text>
+<text x="186.6" y="90.6" font-size="9.5" font-weight="800" fill="#8a5d12">열림 </text>
+<line x1="138.6" y1="218.2" x2="138.6" y2="251.2" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="138.6" y1="251.2" x2="178.6" y2="249.2" stroke="#55585e" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="158.6" cy="262.2" r="11.0" fill="#5a5e66" opacity=".9"/><circle cx="158.6" cy="262.2" r="2.2" fill="#15151a"/>
+<text x="174.6" y="266.6" font-size="9.5" fill="#6a6a70">④ 캠</text>
+<rect x="77.0" y="276" width="101.2" height="5" fill="#4f5864"/>
+<rect x="100" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="146" y="297" font-size="10" fill="#6a6a70">③ 모터</text>
 </g>
-<text x="16" y="318" font-size="11.5" fill="#6a6a70">완료 · 예열 불빛에서만 서랍이 빠짐</text>
-<text x="16" y="334" font-size="11.5" fill="#6a6a70">⑫ 펴개 숟가락에 마른 쌀 3g(불리지 않음)</text>
-<text x="16" y="350" font-size="11.5" fill="#6a6a70">넓적한 끝으로 쓸어 넣어 한 겹(바닥 2/3)</text>
-<text x="16" y="366" font-size="11.5" fill="#6a6a70">트레이는 서랍 프레임에 얹혀 있음</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">예열 불빛 → 열림 단추 → 뚜껑 젖힘(히터 꺼짐)</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">⑫ 숟가락에 마른 쌀 3g(불리지 않음)</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">틀에 쓸어 넣어 한 겹(바닥 2/3)</text>
+<text x="16" y="366" font-size="11.5" fill="#6a6a70">틀 바닥 = 피스톤 윗면 · 틀판은 고정</text>
 </g>
 </svg>

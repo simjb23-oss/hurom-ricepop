@@ -5,70 +5,72 @@
 <marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6a6a70"/></marker>
 <marker id="arrh" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c8503c"/></marker>
 </defs>
-<g transform="translate(30,50) scale(1.7) translate(-66,-62)">
-<rect x="66" y="62" width="150" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
-<rect x="192" y="50" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M197 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
-<text x="56" y="74" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text>
-<rect x="66.0" y="73.0" width="9.0" height="69.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="66.0" y="190.0" width="9.0" height="27.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="207.0" y="94.0" width="9.0" height="9.0" fill="#15151a" />
-<rect x="141.0" y="106.0" width="18.0" height="132.0" fill="#4f5864" />
-<rect x="111.0" y="73.0" width="60.0" height="33.0" fill="#4f5864" />
-<text x="150.0" y="184.0" font-size="8.5" fill="#fff" text-anchor="middle">틀</text>
-<rect x="84.0" y="106.0" width="114.0" height="21.0" fill="#8a8f96" rx="2"/>
-<rect x="90.0" y="112.0" width="102.0" height="9.0" fill="#c8503c" rx="3"/>
-<rect x="96.8" y="127.0" width="88.5" height="20.2" fill="#8a8f96" />
-<rect x="96.8" y="145.8" width="88.5" height="1.5" fill="#d19a3c" />
-<rect x="93.0" y="107.5" width="9.0" height="7.5" fill="#15151a" />
-<text x="203.0" y="115.0" font-size="9" fill="#6a6a70">고정</text>
-<rect x="75.0" y="163.0" width="132.0" height="9.0" fill="#b9bec4" />
-<rect x="87.0" y="170.5" width="108.0" height="18.0" fill="#8a8f96" rx="2"/>
-<rect x="126.0" y="175.0" width="30.0" height="9.0" fill="#c8503c" rx="3"/>
-<rect x="88.5" y="158.5" width="105.0" height="12.0" fill="#8a8f96" />
-<rect x="88.5" y="157.8" width="105.0" height="1.5" fill="#d19a3c" />
-<rect x="168.0" y="173.5" width="12.0" height="12.0" fill="#e06c5a" />
-<rect x="75.0" y="163.0" width="132.0" height="9.0" fill="#4a4e55" />
-<rect x="66.0" y="142.0" width="9.0" height="48.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".8"/>
-<rect x="66.0" y="142.0" width="9.0" height="3.0" fill="#e06c5a" />
-<rect x="66.0" y="187.0" width="9.0" height="3.0" fill="#e06c5a" />
-<rect x="56.0" y="127.0" width="8" height="66.0" rx="2" fill="#ebe4d6" stroke="#b9b2a2"/>
-<rect x="52.0" y="158.5" width="10" height="4" rx="2" fill="#8a5d12"/>
-<rect x="82.5" y="154.0" width="117.0" height="4.5" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<path d="M66.0 199.0 L66.0 193.0 L42.0 170.5 L42.0 199.0 Z" fill="#4f5864" opacity=".9"/>
-<rect x="96.8" y="149.5" width="88.5" height="4.5" fill="#cfd3d8" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="178.5" y="154.0" width="6.0" height="7.5" fill="#55585e" />
-<rect x="186.0" y="127.0" width="13.5" height="22.5" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="82.5" y="127.0" width="13.5" height="22.5" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="199.5" y="127.0" width="7.5" height="9.0" fill="#dfe3e6" />
-<rect x="75.0" y="127.0" width="7.5" height="9.0" fill="#dfe3e6" />
-<rect x="96.8" y="147.2" width="88.5" height="2.2" fill="#e9dcc0" stroke="#d19a3c" stroke-width=".6"/>
-<line x1="117.0" y1="154.0" x2="117.0" y2="170.5" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
-<line x1="117.0" y1="166.0" x2="117.0" y2="149.5" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
-<line x1="135.0" y1="154.0" x2="135.0" y2="170.5" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
-<line x1="135.0" y1="166.0" x2="135.0" y2="149.5" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
-<line x1="153.0" y1="154.0" x2="153.0" y2="170.5" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
-<line x1="153.0" y1="166.0" x2="153.0" y2="149.5" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
-<line x1="150.0" y1="184.0" x2="150.0" y2="252" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<path d="M150.0 252 v8 M150.0 260 l-14 14 M150.0 260 l14 14" fill="none" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<rect x="81.0" y="276" width="135.0" height="5" fill="#4f5864"/>
-<rect x="106" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="152" y="297" font-size="10" fill="#6a6a70">모터(바닥)</text>
+<g transform="translate(30,50) scale(1.75) translate(-58,-62)">
+<rect x="58" y="62" width="134" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="170" y="50" width="22" height="16" rx="3" fill="#d19a3c"/><path d="M175 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#d19a3c" stroke-width="2.4"/>
+<text x="52" y="236" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text>
+<rect x="66.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="176.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="72.6" y="231.4" width="103.4" height="6.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="176.0" y="163.2" width="6.6" height="6.6" fill="#15151a" />
+<rect x="127.6" y="156.6" width="13.2" height="74.8" fill="#4f5864" />
+<rect x="121.0" y="132.4" width="26.4" height="24.2" fill="#4f5864" opacity=".9"/>
+<text x="134.2" y="196.2" font-size="8.5" fill="#fff" text-anchor="middle">틀</text>
+<rect x="169.4" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
+<rect x="72.6" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
+<rect x="160.6" y="174.2" width="8.8" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="79.2" y="174.2" width="15.4" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="160.6" y="178.6" width="6.6" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="88.0" y="178.6" width="6.6" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="77.0" y="227.0" width="99.0" height="2.2" fill="#b9bec4" />
+<rect x="88.0" y="194.0" width="79.2" height="13.2" fill="#8a8f96" rx="2"/>
+<rect x="116.6" y="197.3" width="22.0" height="6.6" fill="#c8503c" rx="3"/>
+<rect x="94.8" y="179.7" width="65.6" height="14.3" fill="#8a8f96" />
+<rect x="94.8" y="179.2" width="65.6" height="1.1" fill="#d19a3c" />
+<rect x="147.4" y="196.2" width="8.8" height="8.8" fill="#e06c5a" />
+<line x1="149.6" y1="231.4" x2="149.6" y2="207.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<line x1="105.6" y1="231.4" x2="105.6" y2="207.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<rect x="94.8" y="178.1" width="65.6" height="1.7" fill="#e9dcc0" stroke="#d19a3c" stroke-width=".6"/>
+<rect x="66.0" y="121.4" width="116.6" height="11.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="61.6" y="90.6" width="125.4" height="30.8" fill="#2a2a2f" rx="3"/>
+<rect x="59.4" y="86.2" width="129.8" height="4.4" fill="#101014" rx="2"/>
+<rect x="85.8" y="156.6" width="83.6" height="15.4" fill="#8a8f96" rx="2"/>
+<rect x="90.2" y="161.0" width="74.8" height="6.6" fill="#c8503c" rx="3"/>
+<rect x="94.8" y="172.0" width="65.6" height="6.1" fill="#8a8f96" />
+<rect x="94.8" y="176.9" width="65.6" height="1.1" fill="#d19a3c" />
+<rect x="92.4" y="157.7" width="6.6" height="5.5" fill="#15151a" />
+<rect x="105.6" y="132.4" width="44.0" height="24.2" fill="#4f5864" />
+<rect x="101.2" y="142.3" width="52.8" height="4.4" fill="#15151a" />
+<text x="68.0" y="103.8" font-size="9" fill="#6a6a70">뚜껑</text>
+<line x1="110.0" y1="165.4" x2="110.0" y2="176.4" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="110.0" y1="194.0" x2="110.0" y2="181.9" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="123.2" y1="165.4" x2="123.2" y2="176.4" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="123.2" y1="194.0" x2="123.2" y2="181.9" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="136.4" y1="165.4" x2="136.4" y2="176.4" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="136.4" y1="194.0" x2="136.4" y2="181.9" stroke="#c8503c" stroke-width="1.4" marker-end="url(#arrh)"/>
+<line x1="138.6" y1="207.2" x2="138.6" y2="251.2" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="138.6" y1="251.2" x2="178.6" y2="249.2" stroke="#55585e" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="158.6" cy="262.2" r="16.5" fill="#5a5e66" opacity=".9"/><circle cx="158.6" cy="262.2" r="2.2" fill="#15151a"/>
+<text x="174.6" y="266.6" font-size="9.5" fill="#6a6a70">④ 캠</text>
+<rect x="77.0" y="276" width="101.2" height="5" fill="#4f5864"/>
+<rect x="100" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="146" y="297" font-size="10" fill="#6a6a70">③ 모터</text>
 </g>
-<text x="30.0" y="22.0" font-size="12" font-weight="800" fill="#15151a">누르는 중(③) · 열 상자 옆 단면 · 왼쪽 = 앞</text>
-<circle cx="183.0" cy="96.8" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="183.0,96.8 486.0,68.0 494.0,68.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="500" y="72" font-size="13.5" font-weight="800" fill="#15151a">⑬ 윗보 40 × 22 세움 — 위 열판을 받침 · 누르는 힘 1.4~4.2kN이 기둥 2로 내려가 바닥판에서 닫힘</text>
-<text x="500" y="87" font-size="11.5" font-weight="600" fill="#6a6a70">굽힘 약 31MPa · 처짐 0.01mm · 몸체 · 열 상자 벽엔 힘이 걸리지 않음</text>
-<circle cx="244.2" cy="142.6" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="244.2,142.6 486.0,124.0 494.0,124.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="500" y="128" font-size="13.5" font-weight="800" fill="#15151a">⑦ 위 열판 — 알루미늄 다이캐스트 · 속에 시즈 히터 450W(빨강) · NTC</text>
-<text x="500" y="143" font-size="11.5" font-weight="600" fill="#6a6a70">220°C 유지 · 상한 230°C · 틀 윗보에 볼트로 고정</text>
-<circle cx="183.0" cy="180.9" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="183.0,180.9 486.0,180.0 494.0,180.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="500" y="184" font-size="13.5" font-weight="800" fill="#15151a">⑦ 플러그 Ø59 — 틀 안으로 13.5mm 들어가 밀봉(틈 0.1~0.2mm)</text>
+<text x="30.0" y="22.0" font-size="12" font-weight="800" fill="#15151a">누르는 중(③) · 열 상자 옆 단면 · 왼쪽 = 앞 · 뚜껑 닫힘 · 잠김</text>
+<circle cx="171.1" cy="194.4" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="171.1,194.4 486.0,68.0 494.0,68.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="500" y="72" font-size="13.5" font-weight="800" fill="#15151a">⑬ 뚜껑 윗보 40 × 22 + 잠금 핀 Ø8 × 2 — 누르는 힘 1.4~4.2kN이 핀 → 기둥 2 → 바닥판으로 닫힘</text>
+<text x="500" y="87" font-size="11.5" font-weight="600" fill="#6a6a70">핀 전단 약 42MPa · 윗보 굽힘 약 31MPa · 몸체 · 뚜껑 껍데기엔 힘이 걸리지 않음</text>
+<circle cx="217.2" cy="229.0" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="217.2,229.0 486.0,124.0 494.0,124.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="500" y="128" font-size="13.5" font-weight="800" fill="#15151a">⑦ 위 열판 — 알루미늄 다이캐스트 · 속에 시즈 히터 450W(빨강) · NTC — 뚜껑 안</text>
+<text x="500" y="143" font-size="11.5" font-weight="600" fill="#6a6a70">220°C 유지 · 상한 230°C · 뚜껑 윗보에 볼트로 고정</text>
+<circle cx="171.1" cy="248.3" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="171.1,248.3 486.0,180.0 494.0,180.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="500" y="184" font-size="13.5" font-weight="800" fill="#15151a">⑦ 플러그 Ø59.6 — 닫으면 틀 안으로 3.5mm · 틈 0.2mm · 입구 모따기 1mm</text>
 <text x="500" y="199" font-size="11.5" font-weight="600" fill="#6a6a70">쌀 1.5mm 두께로 눌림 · 물기가 끓어 0.5~1.5MPa(틀 안)</text>
-<circle cx="254.4" cy="198.8" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="254.4,198.8 486.0,236.0 494.0,236.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="500" y="240" font-size="13.5" font-weight="800" fill="#15151a">⑥ 몰드 트레이 — Ø6 틀 15mm · 바닥은 밀판 Ø58 · 피스톤이 트레이째 밀어 올림</text>
-<text x="500" y="255" font-size="11.5" font-weight="600" fill="#6a6a70">마른 쌀 3g 한 겹 · 서랍 프레임에서 18mm 떠 있음</text>
-<circle cx="244.2" cy="242.1" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="244.2,242.1 486.0,292.0 494.0,292.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="500" y="296" font-size="13.5" font-weight="800" fill="#15151a">⑤ 피스톤 Ø70 + 받침 — 속에 시즈 히터 450W(빨강) · 온도 퓨즈 250°C</text>
-<text x="500" y="311" font-size="11.5" font-weight="600" fill="#6a6a70">20mm 올라간 상태 · 토글 사점 잠금</text>
+<circle cx="225.0" cy="250.2" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="225.0,250.2 486.0,236.0 494.0,236.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="500" y="240" font-size="13.5" font-weight="800" fill="#15151a">⑥ 틀판 — Ø60 × 16 틀 · 턱 + 자리 핀 2로 피스톤과 같은 강철 틀에 정렬</text>
+<text x="500" y="255" font-size="11.5" font-weight="600" fill="#6a6a70">마른 쌀 3g 한 겹 · 틀판은 움직이지 않음 · 들어서 씻음</text>
+<circle cx="217.2" cy="284.8" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="217.2,284.8 486.0,292.0 494.0,292.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="500" y="296" font-size="13.5" font-weight="800" fill="#15151a">⑤ 피스톤 Ø59.6 + 받침 — 속에 시즈 히터 450W(빨강) · 온도 퓨즈 250°C</text>
+<text x="500" y="311" font-size="11.5" font-weight="600" fill="#6a6a70">10mm 올라간 상태 · 캠 멈춤(일정 반지름)이라 모터엔 힘이 안 걸림</text>
 <rect x="500" y="330" width="214" height="64" rx="12" fill="#fff" stroke="#e6e1d7"/>
 <text x="514" y="356" font-size="13.5" font-weight="800" fill="#8a5d12">① 열 전달 · 8~10초</text><text x="514" y="378" font-size="11.5" fill="#6a6a70">220°C 판 두 장이 위 · 아래에서 바로 데움</text>
 <text x="722" y="368" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
@@ -76,11 +78,11 @@
 <text x="744" y="356" font-size="13.5" font-weight="800" fill="#8a5d12">② 압력 ↑</text><text x="744" y="378" font-size="11.5" fill="#6a6a70">틀이 플러그로 막혀 물기가 끓어 0.5~1.5MPa</text>
 <text x="952" y="368" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>
 <rect x="960" y="330" width="214" height="64" rx="12" fill="#fff" stroke="#e6e1d7"/>
-<text x="974" y="356" font-size="13.5" font-weight="800" fill="#8a5d12">③ 8~10mm 순간 하강</text><text x="974" y="378" font-size="11.5" fill="#6a6a70">압력이 한꺼번에 빠지며 「뻥」 · 두께 9~11mm</text>
+<text x="974" y="356" font-size="13.5" font-weight="800" fill="#8a5d12">③ 9mm 순간 하강</text><text x="974" y="378" font-size="11.5" fill="#6a6a70">캠 절벽 → 압력이 한꺼번에 빠지며 「뻥」 · 두께 약 10.5mm</text>
 <rect x="30" y="424" width="560" height="72" rx="12" fill="#fbe9e4"/>
-<text x="48" y="452" font-size="13.5" font-weight="800" fill="#c8503c">김 길 — 틀 → 열 상자 안 → 뒤 벽 위 구멍 Ø8 × 2 → 덕트 → 뒤 김 슬릿</text>
-<text x="48" y="474" font-size="11.5" fill="#6a6a70">순간 하강과 플러그가 빠질 때 김이 나옴(한 장 0.45g) · 앞(서랍 · 사람 쪽)으로는 길이 없음 · 덕트 아래 물받이 홈</text>
+<text x="48" y="452" font-size="13.5" font-weight="800" fill="#c8503c">김 길 — 틀 → 틀판 위 → 뒤 벽 위 구멍 Ø8 × 2 → 덕트 → 뒤 김 슬릿 (+ 뚜껑 열 때 조금)</text>
+<text x="48" y="474" font-size="11.5" fill="#6a6a70">순간 하강 때와 뚜껑이 10mm 들릴 때 김이 나옴(한 장 0.45g) · 사람이 젖히기 전 3초 · 덕트 아래 물받이 홈</text>
 <rect x="610" y="424" width="560" height="72" rx="12" fill="#f3efe6"/>
 <text x="628" y="452" font-size="13.5" font-weight="800" fill="#15151a">전기 — 220V 직결 · 약 1kW = 시즈 히터 450W × 2 + 모터 · 제어</text>
-<text x="628" y="474" font-size="11.5" fill="#6a6a70">켜고 약 3분 데우면 「예열 완료」 불빛 · 온도 제어 NTC 2 + 온도 퓨즈 250°C 2중 차단</text>
+<text x="628" y="474" font-size="11.5" fill="#6a6a70">켜고 약 3분 데우면 「예열 완료」 불빛 · 뚜껑 열리면 히터 꺼짐 · NTC 2 + 온도 퓨즈 250°C 2중 차단</text>
 </svg>
