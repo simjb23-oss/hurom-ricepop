@@ -10,59 +10,70 @@
 <text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">① 뚜껑 열고 쌀 넣기</text>
 <rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">예열 끝 · 5초</text>
 <g transform="translate(0,0)">
-<rect x="58" y="62" width="134" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
-<rect x="170" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M175 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
-<text x="52" y="236" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text>
-<rect x="66.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="176.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="72.6" y="231.4" width="103.4" height="6.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="176.0" y="163.2" width="6.6" height="6.6" fill="#15151a" />
-<rect x="127.6" y="156.6" width="13.2" height="74.8" fill="#4f5864" />
-<rect x="121.0" y="132.4" width="26.4" height="24.2" fill="#4f5864" opacity=".9"/>
-<text x="134.2" y="196.2" font-size="8.5" fill="#fff" text-anchor="middle">틀</text>
-<rect x="169.4" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
-<rect x="72.6" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
-<rect x="160.6" y="174.2" width="8.8" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="79.2" y="174.2" width="15.4" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="160.6" y="178.6" width="6.6" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="88.0" y="178.6" width="6.6" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="77.0" y="227.0" width="99.0" height="2.2" fill="#b9bec4" />
-<rect x="88.0" y="205.0" width="79.2" height="13.2" fill="#8a8f96" rx="2"/>
-<rect x="116.6" y="208.3" width="22.0" height="6.6" fill="#9a9a9e" rx="3"/>
-<rect x="94.8" y="190.7" width="65.6" height="14.3" fill="#8a8f96" />
-<rect x="94.8" y="190.2" width="65.6" height="1.1" fill="#d19a3c" />
-<rect x="147.4" y="207.2" width="8.8" height="8.8" fill="#e06c5a" />
-<line x1="149.6" y1="231.4" x2="149.6" y2="218.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
-<line x1="105.6" y1="231.4" x2="105.6" y2="218.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
-<circle cx="99.0" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="107.8" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="116.6" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="125.4" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="134.2" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="143.0" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<circle cx="151.8" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
-<path d="M118.8 184.1 l-22 -30 l-10 0" fill="none" stroke="#9aa3ad" stroke-width="3" stroke-linecap="round"/>
-<text x="64.0" y="141.2" font-size="9.5" fill="#6a6a70">⑫ 숟가락 3g</text>
-<rect x="66.0" y="99.4" width="116.6" height="11.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="61.6" y="68.6" width="125.4" height="30.8" fill="#2a2a2f" rx="3"/>
-<rect x="59.4" y="64.2" width="129.8" height="4.4" fill="#101014" rx="2"/>
-<rect x="85.8" y="134.6" width="83.6" height="15.4" fill="#8a8f96" rx="2"/>
-<rect x="90.2" y="139.0" width="74.8" height="6.6" fill="#9a9a9e" rx="3"/>
-<rect x="94.8" y="150.0" width="65.6" height="6.1" fill="#8a8f96" />
-<rect x="94.8" y="154.9" width="65.6" height="1.1" fill="#d19a3c" />
-<rect x="92.4" y="135.7" width="6.6" height="5.5" fill="#15151a" />
-<rect x="105.6" y="110.4" width="44.0" height="24.2" fill="#4f5864" />
-<text x="68.0" y="81.8" font-size="9" fill="#6a6a70">뚜껑</text>
-<text x="186.6" y="90.6" font-size="9.5" font-weight="800" fill="#8a5d12">열림 </text>
-<line x1="138.6" y1="218.2" x2="138.6" y2="251.2" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="138.6" y1="251.2" x2="178.6" y2="249.2" stroke="#55585e" stroke-width="3.5" stroke-linecap="round"/>
-<circle cx="158.6" cy="262.2" r="11.0" fill="#5a5e66" opacity=".9"/><circle cx="158.6" cy="262.2" r="2.2" fill="#15151a"/>
-<text x="174.6" y="266.6" font-size="9.5" fill="#6a6a70">④ 캠</text>
-<rect x="77.0" y="276" width="101.2" height="5" fill="#4f5864"/>
+<rect x="52" y="62" width="160" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="190" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M195 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
+<text x="46" y="236" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text>
+<rect x="60.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="198.6" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="66.6" y="231.4" width="132.0" height="6.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="198.6" y="163.2" width="6.6" height="6.6" fill="#15151a" />
+<rect x="130.4" y="156.6" width="13.2" height="74.8" fill="#4f5864" opacity=".35"/>
+<rect x="123.8" y="123.6" width="26.4" height="33.0" fill="#4f5864" opacity=".35"/>
+<text x="137.0" y="196.2" font-size="8.5" fill="#fff" text-anchor="middle">틀</text>
+<rect x="192.0" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
+<rect x="66.6" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
+<rect x="184.3" y="174.2" width="7.7" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="124.9" y="174.2" width="4.4" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="66.6" y="174.2" width="3.3" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="178.8" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="129.3" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="119.4" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="69.9" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
+<rect x="64.4" y="227.0" width="132.0" height="2.2" fill="#b9bec4" />
+<rect x="82.0" y="205.0" width="110.0" height="13.2" fill="#8a8f96" rx="2"/>
+<rect x="126.0" y="208.3" width="22.0" height="6.6" fill="#9a9a9e" rx="3"/>
+<rect x="135.0" y="190.7" width="43.6" height="14.3" fill="#8a8f96" />
+<rect x="135.0" y="190.2" width="43.6" height="1.1" fill="#d19a3c" />
+<rect x="75.6" y="190.7" width="43.6" height="14.3" fill="#8a8f96" />
+<rect x="75.6" y="190.2" width="43.6" height="1.1" fill="#d19a3c" />
+<rect x="174.4" y="207.2" width="6.6" height="8.8" fill="#e06c5a" />
+<line x1="187.6" y1="231.4" x2="187.6" y2="218.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<line x1="73.2" y1="231.4" x2="73.2" y2="218.2" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<circle cx="139.4" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="148.2" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="157.0" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="165.8" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="174.6" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="80.0" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="88.8" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="97.6" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="106.4" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<circle cx="115.2" cy="189.1" r="1.8" fill="#f3eedf" stroke="#b9b2a2" stroke-width=".6"/>
+<path d="M97.4 184.1 l-22 -30 l-10 0" fill="none" stroke="#9aa3ad" stroke-width="3" stroke-linecap="round"/>
+<text x="58.0" y="141.2" font-size="9.5" fill="#6a6a70">⑫ 숟가락 3g × 3</text>
+<rect x="60.0" y="90.6" width="145.2" height="11.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="55.6" y="68.6" width="154.0" height="22.0" fill="#2a2a2f" rx="3"/>
+<rect x="53.4" y="64.2" width="158.4" height="4.4" fill="#101014" rx="2"/>
+<rect x="75.4" y="134.6" width="123.2" height="15.4" fill="#8a8f96" rx="2"/>
+<rect x="79.8" y="139.0" width="114.4" height="6.6" fill="#9a9a9e" rx="3"/>
+<rect x="135.0" y="150.0" width="43.6" height="6.1" fill="#8a8f96" />
+<rect x="135.0" y="154.9" width="43.6" height="1.1" fill="#d19a3c" />
+<rect x="75.6" y="150.0" width="43.6" height="6.1" fill="#8a8f96" />
+<rect x="75.6" y="154.9" width="43.6" height="1.1" fill="#d19a3c" />
+<rect x="185.4" y="150.0" width="4.4" height="13.2" fill="#15151a" />
+<rect x="66.6" y="135.7" width="6.6" height="5.5" fill="#15151a" />
+<rect x="115.0" y="101.6" width="44.0" height="33.0" fill="#4f5864" />
+<text x="62.0" y="79.6" font-size="9" fill="#6a6a70">뚜껑</text>
+<text x="209.2" y="79.6" font-size="9.5" font-weight="800" fill="#8a5d12">열림 </text>
+<line x1="148.0" y1="218.2" x2="148.0" y2="251.2" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<line x1="148.0" y1="251.2" x2="188.0" y2="249.2" stroke="#55585e" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="168.0" cy="262.2" r="11.0" fill="#5a5e66" opacity=".9"/><circle cx="168.0" cy="262.2" r="2.2" fill="#15151a"/>
+<text x="184.0" y="266.6" font-size="9.5" fill="#6a6a70">④ 캠</text>
+<rect x="60.0" y="276" width="145.2" height="5" fill="#4f5864"/>
 <rect x="100" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="146" y="297" font-size="10" fill="#6a6a70">③ 모터</text>
 </g>
-<text x="16" y="318" font-size="11.5" fill="#6a6a70">예열 불빛 → 열림 단추 → 뚜껑 젖힘(히터 꺼짐)</text>
-<text x="16" y="334" font-size="11.5" fill="#6a6a70">⑫ 숟가락에 마른 쌀 3g(불리지 않음)</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">예열 불빛 → 앞 홈 당겨 뚜껑 젖힘(히터 꺼짐)</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">⑫ 숟가락으로 마른 쌀 3g씩 세 칸에</text>
 <text x="16" y="350" font-size="11.5" fill="#6a6a70">틀에 쓸어 넣어 한 겹(바닥 2/3)</text>
 <text x="16" y="366" font-size="11.5" fill="#6a6a70">틀 바닥 = 피스톤 윗면 · 틀판은 고정</text>
 </g>
