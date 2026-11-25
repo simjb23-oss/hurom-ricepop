@@ -7,63 +7,38 @@
 </defs>
 <g transform="translate(14,0)">
 <rect x="0" y="12" width="252" height="376" rx="16" fill="#fff" stroke="#e6e1d7"/>
-<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">⑥ 올려서 꺼내기</text>
-<rect x="36" y="45" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="95" y="55.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">열림 확인 · 5초</text>
-<g transform="translate(0,0)">
-<rect x="52" y="62" width="160" height="176" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
-<rect x="190" y="50" width="22" height="16" rx="3" fill="#9aa3ad"/><path d="M195 50 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#9aa3ad" stroke-width="2.4"/>
-<text x="46" y="236" font-size="9.5" fill="#6a6a70" text-anchor="middle">앞</text>
-<rect x="60.0" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="198.6" y="132.4" width="6.6" height="105.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="66.6" y="231.4" width="132.0" height="6.6" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="198.6" y="163.2" width="6.6" height="6.6" fill="#15151a" />
-<rect x="130.4" y="156.6" width="13.2" height="74.8" fill="#4f5864" opacity=".35"/>
-<rect x="123.8" y="123.6" width="26.4" height="33.0" fill="#4f5864" opacity=".35"/>
-<text x="137.0" y="196.2" font-size="8.5" fill="#fff" text-anchor="middle">틀</text>
-<rect x="192.0" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
-<rect x="66.6" y="178.6" width="6.6" height="4.4" fill="#4f5864" />
-<rect x="184.3" y="174.2" width="7.7" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="124.9" y="174.2" width="4.4" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="66.6" y="174.2" width="3.3" height="4.4" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="178.8" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="129.3" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="119.4" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="69.9" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="82.0" y="187.4" width="110.0" height="13.2" fill="#8a8f96" rx="2"/>
-<rect x="126.0" y="190.7" width="22.0" height="6.6" fill="#9a9a9e" rx="3"/>
-<rect x="135.0" y="173.1" width="43.6" height="14.3" fill="#8a8f96" />
-<rect x="135.0" y="172.6" width="43.6" height="1.1" fill="#d19a3c" />
-<rect x="75.6" y="173.1" width="43.6" height="14.3" fill="#8a8f96" />
-<rect x="75.6" y="172.6" width="43.6" height="1.1" fill="#d19a3c" />
-<rect x="174.4" y="189.6" width="6.6" height="8.8" fill="#e06c5a" />
-<line x1="187.6" y1="231.4" x2="187.6" y2="200.6" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
-<line x1="73.2" y1="231.4" x2="73.2" y2="200.6" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
-<rect x="135.0" y="161.6" width="43.6" height="11.6" fill="#fff3dc" rx="4" stroke="#d19a3c"/>
-<rect x="75.6" y="161.6" width="43.6" height="11.6" fill="#fff3dc" rx="4" stroke="#d19a3c"/>
-<rect x="60.0" y="90.6" width="145.2" height="11.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
-<rect x="55.6" y="68.6" width="154.0" height="22.0" fill="#2a2a2f" rx="3"/>
-<rect x="53.4" y="64.2" width="158.4" height="4.4" fill="#101014" rx="2"/>
-<rect x="75.4" y="134.6" width="123.2" height="15.4" fill="#8a8f96" rx="2"/>
-<rect x="79.8" y="139.0" width="114.4" height="6.6" fill="#9a9a9e" rx="3"/>
-<rect x="135.0" y="150.0" width="43.6" height="6.1" fill="#8a8f96" />
-<rect x="135.0" y="154.9" width="43.6" height="1.1" fill="#d19a3c" />
-<rect x="75.6" y="150.0" width="43.6" height="6.1" fill="#8a8f96" />
-<rect x="75.6" y="154.9" width="43.6" height="1.1" fill="#d19a3c" />
-<rect x="185.4" y="150.0" width="4.4" height="13.2" fill="#15151a" />
-<rect x="66.6" y="135.7" width="6.6" height="5.5" fill="#15151a" />
-<rect x="115.0" y="101.6" width="44.0" height="33.0" fill="#4f5864" />
-<text x="62.0" y="79.6" font-size="9" fill="#6a6a70">뚜껑</text>
-<text x="209.2" y="79.6" font-size="9.5" font-weight="800" fill="#8a5d12">열림 </text>
-<line x1="148.0" y1="200.6" x2="148.0" y2="251.2" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
-<line x1="148.0" y1="251.2" x2="188.0" y2="249.2" stroke="#55585e" stroke-width="3.5" stroke-linecap="round"/>
-<circle cx="168.0" cy="262.2" r="19.8" fill="#5a5e66" opacity=".9"/><circle cx="168.0" cy="262.2" r="2.2" fill="#15151a"/>
-<text x="184.0" y="266.6" font-size="9.5" fill="#6a6a70">④ 캠</text>
-<rect x="60.0" y="276" width="145.2" height="5" fill="#4f5864"/>
-<rect x="100" y="286" width="40" height="14" rx="4" fill="#5a5e66"/><text x="146" y="297" font-size="10" fill="#6a6a70">③ 모터</text>
+<text x="16" y="40" font-size="15" font-weight="800" fill="#15151a">⑤ 완료 · 열고 집기</text>
+<rect x="16" y="47" width="118" height="14" rx="7" fill="#fbe9e4"/><text x="75" y="57.5" font-size="10" font-weight="800" fill="#c8503c" text-anchor="middle">완료 불빛 · 3초</text>
+<g transform="translate(0,-8)">
+<rect x="22" y="84" width="214" height="196" rx="6" fill="#f7f2e8" stroke="#b9b2a2" stroke-width="1.5"/>
+<rect x="206" y="92" width="20" height="14" rx="3" fill="#9aa3ad"/><path d="M211 92 v-5 a5 5 0 0 1 10 0 v5" fill="none" stroke="#9aa3ad" stroke-width="2.2"/>
+<text x="30" y="274" font-size="9.5" fill="#6a6a70">앞</text>
+<rect x="32.0" y="192.2" width="6.3" height="57.8" fill="#ebe4d6" />
+<rect x="32.0" y="192.2" width="6.3" height="8.4" fill="#ffffff" stroke="#d8d2c4" stroke-width=".6"/>
+<rect x="176.9" y="192.2" width="6.3" height="57.8" fill="#ebe4d6" />
+<rect x="176.9" y="192.2" width="6.3" height="8.4" fill="#ffffff" stroke="#d8d2c4" stroke-width=".6"/>
+<rect x="170.6" y="192.2" width="6.3" height="42.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="38.3" y="192.2" width="6.3" height="42.0" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="44.6" y="227.9" width="126.0" height="6.3" fill="#e7d9c2" stroke="#b9b2a2" stroke-width=".6"/>
+<rect x="170.6" y="195.4" width="6.3" height="6.3" fill="#15151a" />
+<rect x="38.3" y="200.7" width="4.2" height="6.3" fill="#9aa3ad" />
+<rect x="46.7" y="209.1" width="121.8" height="12.6" fill="#8a8f96" rx="2"/>
+<rect x="126.5" y="212.2" width="16.8" height="6.3" fill="#9a9a9e" rx="3"/>
+<rect x="46.7" y="194.3" width="121.8" height="14.7" fill="#d5d9de" stroke="#9aa3ad" stroke-width=".6"/>
+<path d="M112.9 194.3 Q 139.1 211.2 165.3 194.3 Z" fill="#f7f2e8" stroke="#6a6f76" stroke-width=".7"/>
+<rect x="116.0" y="191.7" width="46.2" height="11.0" fill="#fff3dc" rx="5" stroke="#d19a3c"/>
+<path d="M56.2 194.3 Q 82.4 211.2 108.7 194.3 Z" fill="#f7f2e8" stroke="#6a6f76" stroke-width=".7"/>
+<rect x="59.3" y="191.7" width="46.2" height="11.0" fill="#fff3dc" rx="5" stroke="#d19a3c"/>
+<line x1="160.1" y1="227.9" x2="160.1" y2="221.7" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<line x1="55.1" y1="227.9" x2="55.1" y2="221.7" stroke="#d19a3c" stroke-width="1.4" stroke-dasharray="2 2"/>
+<rect x="185.2" y="88.2" width="42.5" height="104.0" rx="3" fill="#2a2a2f"/>
+<rect x="178.9" y="96.2" width="6.3" height="86.0" fill="#d5d9de" stroke="#9aa3ad" stroke-width=".6"/>
+<text x="181.2" y="84.2" font-size="9" fill="#6a6a70" text-anchor="end">뚜껑(젖힘) · 안쪽 ⑫</text>
+<line x1="107.6" y1="221.7" x2="107.6" y2="247.9" stroke="#55585e" stroke-width="4" stroke-linecap="round"/>
+<text x="113.9" y="245.8" font-size="9.5" fill="#6a6a70">④ 캠 · ③ 모터 ↓</text>
 </g>
-<line x1="50.0" y1="207.2" x2="50.0" y2="178.6" stroke="#d19a3c" stroke-width="2" marker-end="url(#arr)"/><text x="52.0" y="196.2" font-size="11" fill="#8a5d12">올림 16</text>
-<text x="16" y="318" font-size="11.5" fill="#6a6a70">열림 스위치 → 캠이 피스톤 3을 16mm 올림</text>
-<text x="16" y="334" font-size="11.5" fill="#6a6a70">떡뻥 3장이 틀 위로 → 집게 · 손끝</text>
-<text x="16" y="350" font-size="11.5" fill="#6a6a70">제자리 → 다음 3장 · 3장 약 35초 · 10장 약 2분</text>
+<text x="16" y="318" font-size="11.5" fill="#6a6a70">받침 제자리 · 김 3초 → 잠금 막대 풀림</text>
+<text x="16" y="334" font-size="11.5" fill="#6a6a70">앞 단추 → 뚜껑 2cm 들려 김이 뒤로</text>
+<text x="16" y="350" font-size="11.5" fill="#6a6a70">젖히고 세 칸에서 집기 · 3장 약 35초</text>
 </g>
 </svg>
