@@ -25,7 +25,6 @@
 <rect x="129.3" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
 <rect x="119.4" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
 <rect x="69.9" y="178.6" width="5.5" height="13.2" fill="#dfe3e6" stroke="#9aa3ad" stroke-width=".6"/>
-<rect x="64.4" y="227.0" width="132.0" height="2.2" fill="#b9bec4" />
 <rect x="82.0" y="194.0" width="110.0" height="13.2" fill="#8a8f96" rx="2"/>
 <rect x="126.0" y="197.3" width="22.0" height="6.6" fill="#c8503c" rx="3"/>
 <rect x="135.0" y="179.7" width="43.6" height="14.3" fill="#8a8f96" />
@@ -85,7 +84,7 @@
 <text x="500" y="255" font-size="11.5" font-weight="600" fill="#6a6a70">마른 쌀 3g 한 겹씩 · 틀판은 움직이지 않음 · 들어서 씻음</text>
 <circle cx="102.6" cy="264.7" r="3.4" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/><polyline points="102.6,264.7 486.0,292.0 494.0,292.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="500" y="296" font-size="13.5" font-weight="800" fill="#15151a">⑤ 피스톤 Ø49.6 × 3 + 받침 12t — 속에 시즈 히터 450W(빨강) · 온도 퓨즈 250°C</text>
-<text x="500" y="311" font-size="11.5" font-weight="600" fill="#6a6a70">받침째 10mm 올라간 상태 · 캠 멈춤(일정 반지름)이라 모터엔 힘이 안 걸림</text>
+<text x="500" y="311" font-size="11.5" font-weight="600" fill="#6a6a70">머리(위 1mm 금색)만 쌀에 닿고 빼서 씻음 · 받침째 10mm 올라간 상태 · 캠 멈춤(일정 반지름)이라 모터엔 힘이 안 걸림</text>
 <rect x="500" y="330" width="214" height="64" rx="12" fill="#fff" stroke="#e6e1d7"/>
 <text x="514" y="356" font-size="13.5" font-weight="800" fill="#8a5d12">① 열 전달 · 8~10초</text><text x="514" y="378" font-size="11.5" fill="#6a6a70">220°C 판 두 장이 위 · 아래에서 바로 데움</text>
 <text x="722" y="368" font-size="22" fill="#d19a3c" text-anchor="middle">›</text>

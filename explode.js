@@ -67,14 +67,14 @@ const W = 2.2, D = 2.2, H = 2.0;
 const CELLS = [[0, 0.32], [-0.312, -0.22], [0.312, -0.22]];   // 3칸 중심(x, z) · 앞 1 · 뒤 2 — 2.5D (110,142)(78.8,88)(141.2,88)
 const PR = 0.248, CR = 0.31, CRI = 0.25;
 const bodyH = 1.50, bandH = 0.08, lidY0 = 1.58, lidH = 0.42;
-// ⑪ 옆 패널(비스포크) — 4면 한 몸 (앞면 아래엔 ② 부스러기 서랍 앞판 자리를 비움)
+// ⑪ 옆 패널(비스포크) — 4면 한 몸 (앞면 맨 아래엔 ② 코드 보관함 덮개 자리를 비움)
 const panels = new THREE.Group();
 [[0, -D / 2, 0], [W / 2, 0, Math.PI / 2], [-W / 2, 0, Math.PI / 2]].forEach(([x, z, ry], i) => {
   const p = box(i < 1 ? W : D, bodyH, 0.04, 0.012, M.panel); p.position.set(x, bodyH / 2, z); p.rotation.y = ry; panels.add(p);
 });
-[[0.84, bodyH], [0, 0.62]].forEach(([y0, y1]) => { const p = box(W, y1 - y0, 0.04, 0.012, M.panel); p.position.set(0, (y0 + y1) / 2, D / 2); panels.add(p); });
-[-1, 1].forEach(sg => { const p = box(0.56, 0.22, 0.04, 0.012, M.panel); p.position.set(sg * 0.82, 0.73, D / 2); panels.add(p); });
-add(panels, V(0, 0, 0), V(0, 0, 2.6), '⑪ 옆 패널 4장 · 비스포크(블랙 · 화이트 · 크림 · 세이지 · 라벤더) · 부스러기 서랍 앞판도 같은 색', 3);
+[[0.30, bodyH], [0, 0.12]].forEach(([y0, y1]) => { const p = box(W, y1 - y0, 0.04, 0.012, M.panel); p.position.set(0, (y0 + y1) / 2, D / 2); panels.add(p); });
+[-1, 1].forEach(sg => { const p = box(0.36, 0.18, 0.04, 0.012, M.panel); p.position.set(sg * 0.92, 0.21, D / 2); panels.add(p); });
+add(panels, V(0, 0, 0), V(0, 0, 2.6), '⑪ 옆 패널 4장 · 비스포크(블랙 · 화이트 · 크림 · 세이지 · 라벤더) · 코드 보관함 덮개도 같은 색', 3);
 // ⑩ 몸체 · 흰 띠(뚜껑 밑 테) · 김 덕트 · 뒤 김 슬릿 · 뒤 경첩 받침
 const bodyG = new THREE.Group();
 // 몸체 속 껍데기: 벽 4 + 바닥 + 윗면 테(열 상자 자리 1.32 × 1.0 은 뚫림)
@@ -96,18 +96,18 @@ const pins = [];
 });
 const sol = box(0.10, 0.10, 0.12, 0.01, M.motor); sol.position.set(-0.97, 1.45, -0.08); frameG.add(sol);
 add(frameG, V(0, 0, 0), V(-2.3, 0.3, 0), '⑬ 강철 틀 — 바닥판 10t · 기둥 12 × 12 두 개(열 상자 밖) · 기둥 머리 + 잠금 핀 Ø10 × 2(솔레노이드 해제): 뚜껑을 닫으면 뚜껑 윗보가 핀에 걸려 ㅁ자가 되고, 누르는 힘 4.2~8.8kN이 이 안에서만 돎', 2);
-// ⑧ 열 상자(위 열림) — 앞 벽 아래 부스러기 서랍 구멍 · 뒤 벽 위 김 구멍 2 · 틀판 턱 + 자리 핀 2
+// ⑧ 열 상자(위 열림) — 앞 벽 막힘 · 뒤 벽 위 김 구멍 2 · 틀판 턱 + 자리 핀 2
 const hbY = 1.10; // 열 상자 중심 높이(z 62..158)
 const heatBox = new THREE.Group();
 {
   const w = 1.44, d = 1.32, h = 0.96, t = 0.06;
   const walls = [[0, 0, -d / 2 + t / 2, w, h, t], [-w / 2 + t / 2, 0, 0, t, h, d], [w / 2 - t / 2, 0, 0, t, h, d], [0, -h / 2 + t / 2, 0, w, t, d],
-    [0, 0.11, d / 2 - t / 2, w, 0.74, t], [-0.65, -0.37, d / 2 - t / 2, 0.14, 0.22, t], [0.65, -0.37, d / 2 - t / 2, 0.14, 0.22, t]];
+    [0, 0, d / 2 - t / 2, w, h, t]];
   walls.forEach(([x, y, z, bw, bh, bd]) => { const m = plain(bw, bh, bd, M.insul); m.position.set(x, y, z); heatBox.add(m); });
   [-0.1, 0.1].forEach(x => { const v = cyl(0.04, 0.04, 0.08, M.dark, 16); v.rotation.x = Math.PI / 2; v.position.set(x, 0.17, -d / 2 + t / 2); heatBox.add(v); });
   [[0, -0.60, 1.32, 0.06], [0, 0.60, 1.32, 0.06], [-0.63, 0, 0.06, 1.26], [0.63, 0, 0.06, 1.26]].forEach(([x, z, bw, bd]) => { const l = plain(bw, 0.04, bd, M.frame); l.position.set(x, 0.04, z); heatBox.add(l); });
 }
-add(heatBox, V(0, hbY, 0.0), V(0, hbY + 0.9, 0.0), '⑧ 열 상자 144 × 132 — 강판 1.5 + 단열 5mm · 위 열림(뚜껑 안 단열이 덮음) · 틀판 턱 · 뒤 벽 위 김 구멍 Ø8 × 2 · 앞 아래 서랍 구멍', 2);
+add(heatBox, V(0, hbY, 0.0), V(0, hbY + 0.9, 0.0), '⑧ 열 상자 144 × 132 — 강판 1.5 + 단열 5mm · 위 열림(뚜껑 안 단열이 덮음) · 틀판 턱 · 뒤 벽 위 김 구멍 Ø8 × 2 · 앞 벽 막힘', 2);
 // ⑥ 틀판 — 알루미늄 108 × 82 × 4 + Ø60 × 16 틀(아래로) · 앞 탭 · 자리 핀 구멍 2 (들어서 씻음)
 const trayG = new THREE.Group();
 const plateMesh = plain(1.24, 0.04, 1.08, M.mold); trayG.add(plateMesh);
@@ -145,13 +145,15 @@ add(lidPivot, V(0, lidY0, -PZ), V(0, lidY0 + 2.4, -PZ), '⑭ 뚜껑 — 검은 �
 // ⑤ 아래 열판 = 받침(속 히터 · 퓨즈) + 피스톤 Ø59.6 × 13 (10 · 9 · 16mm 오르내림) + 되돌림 스프링 2
 const lower = new THREE.Group(); lower.add(box(1.20, 0.12, 1.00, 0.02, M.plate));
 CELLS.forEach(([cx, cz]) => {
-  const piston = cyl(PR, PR, 0.13, M.plate); piston.position.set(cx, 0.125, cz); lower.add(piston);
+  const piston = cyl(PR, PR, 0.06, M.plate); piston.position.set(cx, 0.09, cz); lower.add(piston);
+  const wiper = cyl(PR + 0.012, PR + 0.012, 0.012, M.dark); wiper.position.set(cx, 0.115, cz); lower.add(wiper);   // 긁개 링
+  const head = cyl(PR, PR, 0.06, M.steel); head.position.set(cx, 0.155, cz); lower.add(head);   // 떼는 머리(1/4 돌려 끼움)
   const face = cyl(PR, PR, 0.012, M.heat); face.position.set(cx, 0.19, cz); lower.add(face);
 });
 const lRod = cyl(0.03, 0.03, 1.08, M.htr); lRod.rotation.z = Math.PI / 2; lRod.position.set(0, 0.0, -0.1); lower.add(lRod);
 const fuse = box(0.06, 0.08, 0.08, 0.005, M.htr); fuse.position.set(0.56, 0.0, -0.40); lower.add(fuse);
 [-0.50, 0.50].forEach(x => { const sp = cyl(0.025, 0.025, 0.12, M.heat); sp.position.set(x, -0.12, -0.06); lower.add(sp); });
-add(lower, V(0, 0.86, -0.04), V(0, 0.86, -0.04), '⑤ 아래 열판 = 피스톤 Ø49.6 × 3(틀 안 · 틈 0.2) + 받침 12t 속 시즈 히터 450W · 온도 퓨즈 250°C — 받침째 캠으로 오르내림(누름 10 · 뻥 9 · 꺼내기 16) · 되돌림 스프링 2', 2);
+add(lower, V(0, 0.86, -0.04), V(0, 0.86, -0.04), '⑤ 아래 열판 = 피스톤 Ø49.6 × 3(틀 안 · 틈 0.2 · 둘레 긁개 링 · 위에 스테인리스 머리 6t — 1/4 돌려 빼서 씻음) + 받침 12t 속 시즈 히터 450W · 온도 퓨즈 250°C — 받침째 캠으로 오르내림(누름 10 · 뻥 9 · 꺼내기 16) · 되돌림 스프링 2', 2);
 // ④ 달팽이 캠 + 레버(1:2) + 푸시 로드 + 캠 위치 센서 (바닥 칸)
 const camG = new THREE.Group();
 const camDisc = cyl(0.17, 0.17, 0.06, M.motor, 36); camDisc.rotation.z = Math.PI / 2; camDisc.position.set(0.2, 0.40, -0.1); camG.add(camDisc);
@@ -166,12 +168,13 @@ const motorG = new THREE.Group();
 const motor = cyl(0.11, 0.11, 0.34, M.motor); motor.rotation.z = Math.PI / 2; motorG.add(motor);
 const shaft = cyl(0.025, 0.025, 0.5, M.motor); shaft.rotation.z = Math.PI / 2; shaft.position.set(-0.42, 0, 0); motorG.add(shaft);
 add(motorG, V(0.79, 0.38, -0.1), V(2.3, 0.38, -0.1), '③ 모터(웜 기어드) — 바닥 오른쪽 · 캠 축 직결 · 정전에도 자기 잠금', 2);
-// ② 부스러기 서랍(열 상자 바닥 · 앞 아래로 당김)
+// ② 코드 보관함(바닥 앞 · 열 상자 밖 · 코드는 뒤 홈으로)
 const panG = new THREE.Group();
-const pan = plain(1.2, 0.02, 1.2, M.steel); panG.add(pan);
-const panFront = box(1.08, 0.18, 0.06, 0.012, M.panel); panFront.position.set(0, 0.04, 0.58); panG.add(panFront);
-const notch = box(0.28, 0.03, 0.02, 0.005, M.dark); notch.position.set(0, 0.04, 0.62); panG.add(notch);
-add(panG, V(0, 0.71, 0.46), V(0, 0.71, 2.2), '② 부스러기 서랍 — 열 상자 바닥 · 식은 뒤 앞 아래로 당겨 비움 · 앞판은 옆 패널과 같은 색', 1);
+const pan = plain(1.4, 0.02, 0.5, M.steel); panG.add(pan);
+const panFront = box(1.4, 0.18, 0.05, 0.012, M.panel); panFront.position.set(0, 0.09, 0.27); panG.add(panFront);
+const notch = box(0.28, 0.03, 0.02, 0.005, M.dark); notch.position.set(0, 0.09, 0.30); panG.add(notch);
+[0.20, 0.16, 0.12].forEach((r, k) => { const c = new THREE.Mesh(new THREE.TorusGeometry(r, 0.018, 8, 40), M.dark); c.rotation.x = Math.PI / 2; c.scale.set(2.2, 1, 1); c.position.set(0, 0.03 + k * 0.035, 0); panG.add(c); });
+add(panG, V(0, 0.13, 0.81), V(0, 0.13, 2.4), '② 코드 보관함 — 맨 아래 앞 · 열 상자 밖 가장 시원한 곳 · 코드를 감아 두고 쓸 땐 뒤 홈으로 · 덮개는 옆 패널과 같은 색', 1);
 // ⑨ 제어 보드 · ① 바닥 무게판
 add(box(0.03, 0.7, 1.0, 0.005, M.board), V(-0.95, 0.95, -0.1), V(-2.5, 0.95, -0.1), '⑨ 제어 보드 · 온도 · 기울기 · 뚜껑 잠금 · 캠 위치 · 자동 꺼짐', 3);
 add(box(W - 0.2, 0.05, D - 0.2, 0.01, M.weight), V(0, 0.09, 0), V(0, -1.1, 0), '① 바닥 무게판 + 미끄럼 방지 고무 · 기울기 센서', 3);
@@ -220,7 +223,7 @@ function frame() {
   resize();
   shown += (progress - shown) * 0.08;
   yaw += (targetYaw - yaw) * 0.1;
-  // 단계: 0~.25 겉모습 · .25~.5 떼는 것(뚜껑 열림 · 틀판 · 부스러기 서랍) · .5~.75 껍데기 투명(열 상자 · 틀 · 피스톤 움직임) · .75~1 분해
+  // 단계: 0~.25 겉모습 · .25~.5 떼는 것(뚜껑 열림 · 틀판 · 피스톤 머리 · 코드 보관함) · .5~.75 껍데기 투명(열 상자 · 틀 · 피스톤 움직임) · .75~1 분해
   const s = shown;
   const step = s < .25 ? 0 : s < .5 ? 1 : s < .75 ? 2 : 3;
   stepEls.forEach((e, i) => e.classList.toggle('on', i === step));

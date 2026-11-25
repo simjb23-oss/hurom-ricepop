@@ -84,10 +84,6 @@
 <polygon points="479.5,287.5 650.9,386.5 650.9,377.5 479.5,278.5" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
 <polygon points="723.7,344.5 650.9,386.5 650.9,377.5 723.7,335.5" fill="#bdb19f" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="552.2,236.5 723.7,335.5 650.9,377.5 479.5,278.5" fill="#d4c7b2" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
-<polygon points="487.3,280.0 643.1,370.0 643.1,367.0 487.3,277.0" fill="#b9bec4" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="487.3,280.0 643.1,370.0 643.1,367.0 487.3,277.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="0.9" />
-<polygon points="713.3,329.5 643.1,370.0 643.1,367.0 713.3,326.5" fill="#979ba0" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
-<polygon points="557.4,236.5 713.3,326.5 643.1,367.0 487.3,277.0" fill="#c5c9ce" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="0.9" />
 <polygon points="487.3,265.0 643.1,355.0 643.1,337.0 487.3,247.0" fill="#8a8f96" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
 <polygon points="487.3,265.0 643.1,355.0 643.1,337.0 487.3,247.0" fill="url(#hatch)" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="1" />
 <polygon points="708.1,317.5 643.1,355.0 643.1,337.0 708.1,299.5" fill="#71757b" stroke="#2b2b30" stroke-width="0.9" stroke-linejoin="round" opacity="1" />
@@ -339,8 +335,8 @@
 <polyline points="702.9,515.5 702.9,215.5" fill="none" stroke="#8a8a90" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" stroke-dasharray="5 5" />
 <polyline points="560.0,598.0 560.0,298.0" fill="none" stroke="#8a8a90" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" stroke-dasharray="5 5" />
 <polyline points="274.2,433.0 274.2,133.0" fill="none" stroke="#8a8a90" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" stroke-dasharray="5 5" />
-<polyline points="352.2,382.0 482.1,457.0 482.1,430.0 352.2,355.0 352.2,382.0" fill="none" stroke="#8a8a90" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="4 3" />
-<polyline points="397.6,396.2 434.0,417.2" fill="none" stroke="#8a8a90" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
+<polyline points="326.2,445.0 508.0,550.0 508.0,523.0 326.2,418.0 326.2,445.0" fill="none" stroke="#8a8a90" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="4 3" />
+<polyline points="397.6,474.2 434.0,495.2" fill="none" stroke="#8a8a90" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" />
 <polyline points="352.2,253.0 482.1,328.0 482.1,316.0 352.2,241.0 352.2,253.0" fill="none" stroke="#8a8a90" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="3 3" />
 <polyline points="398.9,259.0 435.3,280.0 435.3,268.0 398.9,247.0 398.9,259.0" fill="none" stroke="#8a8a90" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="3 3" />
 <polyline points="476.9,292.0 502.8,307.0 502.8,298.0 476.9,283.0 476.9,292.0" fill="none" stroke="#9aa3ad" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="3 3" />
@@ -375,11 +371,11 @@
 <text x="820.0" y="255.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >세라믹 코팅 · 앞 탭 잡고 들어 씻음 · 틀 바닥 = 피스톤 윗면 · 앞 칸은 점선</text>
 <circle cx="613.3" cy="298.8" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="613.3,298.8 798.0,282.0 812.0,282.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="820.0" y="286.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 피스톤 Ø49.6 × 3(틈 0.2) + 받침 12t 속 히터 450W · 퓨즈</text>
-<text x="820.0" y="301.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >받침째 +10 누름 → −9 뻥 → +16 꺼내기 · 되돌림 스프링 2(주황 점선)</text>
+<text x="820.0" y="286.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑤ 피스톤 Ø49.6 + 떼는 머리 6t(1/4 돌려 끼움) + 받침 12t 속 히터 450W</text>
+<text x="820.0" y="301.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="start" >머리만 쌀에 닿음 · 빼서 씻음 · 둘레 긁개 링이 가루 막음 · +10 누름 → −9 뻥 → +16 꺼내기</text>
 <circle cx="637.9" cy="356.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="637.9,356.5 798.0,326.0 812.0,326.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="820.0" y="330.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >② 부스러기 서랍 — 열 상자 바닥 · 앞 아래로 당겨 비움</text>
+<text x="820.0" y="330.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >열 상자 바닥 — 받을 것 없음(긁개 링이 가루를 위에서 막음)</text>
 <circle cx="578.2" cy="323.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="578.2,323.5 798.0,362.0 812.0,362.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="820.0" y="366.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >푸시 로드 — 열 상자 바닥 관통(벨로즈) · 받침 가운데</text>
@@ -418,9 +414,10 @@
 <circle cx="508.0" cy="218.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="508.0,218.5 352.0,416.0 338.0,416.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="330.0" y="420.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >움직임 ↕ — 받침 + 피스톤 3(10 · 9 · 16)</text>
-<circle cx="417.1" cy="406.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
-<polyline points="417.1,406.0 352.0,460.0 338.0,460.0" fill="none" stroke="#9a948a" stroke-width="1"/>
-<text x="330.0" y="464.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >② 부스러기 서랍 앞판 — 앞 아래 작은 서랍</text>
+<circle cx="417.1" cy="484.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
+<polyline points="417.1,484.0 352.0,460.0 338.0,460.0" fill="none" stroke="#9a948a" stroke-width="1"/>
+<text x="330.0" y="464.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >② 코드 보관함 — 맨 아래 앞 · 열 상자 밖 가장 시원한 곳</text>
+<text x="330.0" y="479.0" font-size="11.5" font-weight="600" fill="#6a6a70" text-anchor="end" >코드를 감아 두고 쓸 땐 뒤 홈으로 뺌</text>
 <circle cx="365.1" cy="149.5" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="365.1,149.5 352.0,516.0 338.0,516.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="330.0" y="520.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="end" >터치 · 상태 불빛(예열 · 굽는 중 · 완료 · 열어도 돼요) · 숫자 2</text>
