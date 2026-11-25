@@ -149,7 +149,6 @@ def cutaway():
         I.line([(cx + DR * math.cos(2 * math.pi * k / 24), cy + DR * math.sin(2 * math.pi * k / 24), 153) for k in range(25) if math.sin(2 * math.pi * k / 24) >= -0.05], '#9aa3ad', 1, '3 3')
     I.line([(200, 200, 200), (200, 170, 236)], HEAT, 1.6, '4 3', 1, marker='marker-end="url(#arr)"')
     # ---- 라벨
-    I.out.append('<rect x="790" y="34" width="470" height="300" rx="12" fill="#fff" opacity=".86"/>')
     R = 820; L = 330
     I.label((110, 110, 200), R, 56, '⑭ 뚜껑 45mm — 검은 유리 윗면 · 떠 있는 경첩(뒤)', '윗면엔 아무것도 없음 · 열림은 몸체 앞 단추 · 마지막 2cm는 수평으로 내려옴', 'r')
     I.label((160, 110, 190), R, 102, '⑬ 뚜껑 보 11t — 뒤는 경첩 축, 앞은 갈고리 2', '누르는 힘 2.9~8.8kN이 보 → 경첩 · 갈고리 → C자 틀 → 바닥판(회색 화살)', 'r')

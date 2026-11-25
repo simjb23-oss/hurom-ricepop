@@ -115,6 +115,7 @@ td b{font-weight:800}
 .cut{overflow-x:auto}
 @media(max-width:860px){.cut svg{min-width:760px}}
 .cut+.cut{margin-top:24px}
+.bom td,.bom th{font-size:13.5px;vertical-align:top}.bom td:nth-child(5),.bom td:nth-child(7){white-space:nowrap;text-align:right}.bom td:nth-child(6){text-align:center;color:var(--acc)}
 .legend{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 24px;margin-top:20px;font-size:13.5px;color:var(--sub)}
 @media(max-width:860px){.legend{grid-template-columns:1fr}}
 .legend b{color:var(--ink);font-weight:800;margin-right:6px}
@@ -165,7 +166,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 </head>
 <body>
 <nav><div class="wrap"><b>휴롬 쌀참 <span>신제품 기획 제안서</span></b>
-<ul><li><a href="#problem">문제</a></li><li><a href="#safety">안전</a></li><li><a href="#design">디자인</a></li><li><a href="#how">사용</a></li><li><a href="#modes">떡뻥</a></li><li><a href="#heat">가열</a></li><li><a href="#recipe">레시피</a></li><li><a href="#cutaway">구조</a></li><li><a href="#structure">3D</a></li><li><a href="#clean">세척</a></li><li><a href="#spec">사양</a></li><li><a href="#biz">사업성</a></li><li><a href="#decide">결정</a></li></ul></div></nav>
+<ul><li><a href="#problem">문제</a></li><li><a href="#safety">안전</a></li><li><a href="#design">디자인</a></li><li><a href="#how">사용</a></li><li><a href="#modes">떡뻥</a></li><li><a href="#heat">가열</a></li><li><a href="#recipe">레시피</a></li><li><a href="#cutaway">구조</a></li><li><a href="#structure">3D</a></li><li><a href="#drawings">설계도</a></li><li><a href="#clean">세척</a></li><li><a href="#spec">사양</a></li><li><a href="#biz">사업성</a></li><li><a href="#decide">결정</a></li></ul></div></nav>
 
 <header class="hero" id="top">
   <div class="wrap">
@@ -715,7 +716,6 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 <polyline points="520.8,216.9 511.3,221.1 500.2,223.7 488.3,224.6 476.4,223.7 465.3,221.1 455.8,216.9 448.5,211.4 443.9,205.0 442.4,198.1 443.9,191.2 448.5,184.8 455.8,179.4 520.8,216.9" fill="none" stroke="#9aa3ad" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="3 3" />
 <polyline points="601.8,263.6 592.3,267.9 581.2,270.5 569.4,271.4 557.5,270.5 546.4,267.9 536.9,263.6 529.6,258.2 525.0,251.8 523.4,244.9 525.0,238.0 529.6,231.6 536.9,226.1 601.8,263.6" fill="none" stroke="#9aa3ad" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="3 3" />
 <polyline points="560.0,268.0 599.0,191.5" fill="none" stroke="#d19a3c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="4 3" marker-end="url(#arr)"/>
-<rect x="790" y="34" width="470" height="300" rx="12" fill="#fff" opacity=".86"/>
 <circle cx="560.0" cy="133.0" r="3.2" fill="#d19a3c" stroke="#fff" stroke-width="1.2"/>
 <polyline points="560.0,133.0 798.0,52.0 812.0,52.0" fill="none" stroke="#9a948a" stroke-width="1"/>
 <text x="820.0" y="56.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >⑭ 뚜껑 45mm — 검은 유리 윗면 · 떠 있는 경첩(뒤)</text>
@@ -1079,8 +1079,628 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 </g>
 </svg>
     </div>
+  </div>
+</section>
+
+<section id="structure">
+  <div class="xv-sticky">
+    <div class="xv-text">
+      <div class="xv-step on"><div class="kicker">10 · 3D · 겉모습</div><h2>검은 유리 뚜껑 하나,<br>앞엔 단추 하나.</h2><p>약 23 × 23 × 20cm. 45mm 두께의 검은 유리 뚜껑(떠 있는 뒤 경첩), 그 밑 흰 띠, 앞면엔 단추 · 주황 불빛 · 숫자, 맨 아래 코드 보관함. 드래그로 돌려 보고, 아래 단추로 옆면 색을 바꿔 보세요. 스크롤을 내리면 뚜껑이 열립니다.</p></div>
+      <div class="xv-step"><div class="kicker">10 · 3D · 떼는 것</div><h2>씻는 건 둘뿐 — 위 판과 아래 판.</h2><p>뚜껑을 젖히면 얕은 칸 셋에 떡뻥이 놓여 있습니다. 아래 판은 손가락 홈 2개로 들어 빼고, 위 판은 뚜껑 안 앞 단추를 누르고 실리콘 손잡이로 당깁니다. 두 장 다 전선이 없어 물에 통째로 씻고, 몸체엔 물이 들어갈 틈이 없습니다.</p></div>
+      <div class="xv-step"><div class="kicker">10 · 3D · 열 상자</div><h2>뜨거운 것은 상자 하나에,<br>힘은 강철 틀 안에.</h2><p>위 열판은 뚜껑 안에 고정, 받침과 그 위 아래 판만 바닥 모터의 달팽이 캠으로 10mm 오르내립니다(그림에서 천천히 움직입니다). 뚜껑을 닫으면 앞 갈고리 2개를 잠금 막대가 잡고, 뚜껑 보가 뒤 경첩 축과 함께 양옆 C자 강철 틀에 걸립니다. 두 열판 속 빨간 막대가 시즈 히터 450W. 김은 뒤 벽 구멍으로 나갑니다.</p></div>
+      <div class="xv-step"><div class="kicker">10 · 3D · 분해</div><h2>부품 14개.</h2><p>① 무게판 · ② 코드 보관함 · ③ 모터 · ④ 달팽이 캠 · 레버 · ⑤ 받침(속 히터 · 판 감지) · ⑥ 아래 판(얕은 칸 3) · ⑦ 위 열판(속 히터 · 뚜껑 안) · ⑧ 열 상자 · 뚜껑 단열 · ⑨ 보드 · ⑩ 몸체 · 앞면 · 김 덕트 · ⑪ 옆 패널 · ⑫ 위 판(볼록 3) · ⑬ 강철 틀(C자 틀 · 뚜껑 보 · 갈고리 · 잠금 막대) · ⑭ 뚜껑. 번호는 2.5D 그림과 같습니다. 220V 직결이라 어댑터가 없습니다.</p></div>
+    </div>
+    <div class="xv-stage"><canvas id="xv-canvas" aria-label="쌀참 구조 3D"></canvas><div id="xv-labels"></div>
+      <div class="xv-colors" role="group" aria-label="옆면 패널 색"><button data-xv-color="cream" class="on"><i style="background:#eadfc9"></i>크림</button><button data-xv-color="black"><i style="background:#1c1c1f"></i>블랙</button><button data-xv-color="white"><i style="background:#f4f4f1"></i>화이트</button><button data-xv-color="sage"><i style="background:#a9b8a3"></i>세이지</button><button data-xv-color="lavender"><i style="background:#c3b6d6"></i>라벤더</button></div>
+      <div class="xv-hint">드래그: 돌리기 · 스크롤: 분해</div></div>
+  </div>
+  <div class="xv-spacer"></div>
+</section>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<script type="module" src="explode.js"></script>
+
+<section id="drawings" class="light2">
+  <div class="wrap">
+    <div class="rv"><div class="kicker">11 · 설계도 · 티어다운</div>
+    <h2>밖에서 안까지, <b>부품 하나하나</b>.</h2>
+    <p class="lead">3면도로 겉 치수를, 두 단면으로 안의 쌓임을, 상세도로 칸 하나가 「쉼 → 누름 → 뻥」 하는 틈을 봅니다. 번호 ①~⑭는 2.5D · 3D · 본문과 같습니다. 맨 아래 부품표는 뜯어 놓은 순서 그대로입니다.</p></div>
     <div class="cut rv">
-      <h3>층 분해 — 아래에서 위로 쌓는 순서 (부품 14개 · 번호는 단면 · 3D · 본문과 같음)</h3>
+      <h3>3면도 — 평면 · 정면 · 우측면 (3각법 · 점선 = 숨은선)</h3>
+      <svg viewBox="0 0 1240 1060" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
+<pattern id="d2-steel" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#c9ced6"/><line x1="0" y1="0" x2="0" y2="5" stroke="#3c434d" stroke-width="1.2"/></pattern>
+<pattern id="d2-alu" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e9ecef"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8b939d" stroke-width=".9"/></pattern>
+<pattern id="d2-ins" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4ead3"/><circle cx="2" cy="2" r=".9" fill="#b49a62"/><circle cx="6" cy="6" r=".9" fill="#b49a62"/></pattern>
+<pattern id="d2-plas" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="10" height="10" fill="#efe9dc"/><line x1="0" y1="0" x2="0" y2="10" stroke="#b9b0a0" stroke-width=".7"/></pattern>
+<pattern id="d2-rub" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#3a3a40"/></pattern>
+<marker id="d2-a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#1d1d22"/></marker>
+<marker id="d2-s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d0782a"/></marker>
+<marker id="d2-f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4f5864"/></marker>
+</defs><rect width="1240" height="1060" fill="#fbfaf6"/>
+<text x="280.5" y="900.0" font-size="14.0" font-weight="800" fill="#1d1d22" text-anchor="middle">정면도</text>
+<rect x="131.7" y="820.7" width="31.0" height="9.3" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<rect x="398.3" y="820.7" width="31.0" height="9.3" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<path d="M110.0 602.1 L110.0 805.2 Q110.0 820.7 125.5 820.7 L435.5 820.7 Q451.0 820.7 451.0 805.2 L451.0 602.1 Z" fill="#f1e9d8" stroke="#1d1d22" stroke-width="1.60"/>
+<rect x="110.0" y="589.8" width="341.0" height="12.4" rx="0.0" fill="#fff" stroke="#1d1d22" stroke-width="1.40" opacity="1.00"/>
+<path d="M110.0 589.8 L110.0 532.4 Q110.0 520.0 122.4 520.0 L438.6 520.0 Q451.0 520.0 451.0 532.4 L451.0 589.8 Z" fill="#24242a" stroke="#1d1d22" stroke-width="1.60"/>
+<polyline points="113.1,526.2 447.9,526.2" fill="none" stroke="#6c6c74" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="280.5" y="631.6" font-size="13.0" font-weight="800" fill="#6b6b72" text-anchor="middle">HUROM</text>
+<rect x="258.8" y="640.9" width="43.4" height="15.5" rx="7.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10" opacity="1.00"/>
+<text x="280.5" y="651.8" font-size="9.5" font-weight="800" fill="#55555c" text-anchor="middle">열림</text>
+<circle cx="258.8" cy="676.5" r="2.6" fill="#f0a23a" stroke="#1d1d22" stroke-width="0.60"/>
+<text x="280.5" y="682.0" font-size="13.0" font-weight="800" fill="#c8452f" text-anchor="middle">30</text>
+<rect x="172.0" y="783.5" width="217.0" height="27.9" rx="5.0" fill="#e9e0cc" stroke="#1d1d22" stroke-width="1.10" opacity="1.00"/>
+<rect x="265.0" y="792.8" width="31.0" height="6.2" rx="3.0" fill="#cfc5ae" stroke="#55555c" stroke-width="0.60" opacity="1.00"/>
+<rect x="184.4" y="592.9" width="192.2" height="21.7" rx="0.0" fill="none" stroke="#7d7d85" stroke-width="0.80" stroke-dasharray="4 3" opacity="1.00"/>
+<rect x="184.4" y="568.0" width="192.2" height="9.3" rx="0.0" fill="none" stroke="#7d7d85" stroke-width="0.80" stroke-dasharray="4 3" opacity="1.00"/>
+<rect x="165.8" y="589.8" width="9.3" height="21.7" rx="0.0" fill="none" stroke="#7d7d85" stroke-width="0.90" stroke-dasharray="3 2" opacity="1.00"/>
+<rect x="385.9" y="589.8" width="9.3" height="21.7" rx="0.0" fill="none" stroke="#7d7d85" stroke-width="0.90" stroke-dasharray="3 2" opacity="1.00"/>
+<polyline points="156.5,605.2 404.5,605.2" fill="none" stroke="#7d7d85" stroke-width="0.90" stroke-dasharray="8 3 2 3" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="280.5,510.7 280.5,839.3" fill="none" stroke="#55555c" stroke-width="0.60" stroke-dasharray="12 3 2 3" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,830.0 110.0,868.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="451.0,830.0 451.0,868.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,864.0 451.0,864.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<rect x="266.7" y="848.0" width="27.6" height="14" fill="#fbfaf6"/>
+<text x="280.5" y="860.0" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="middle">220</text>
+<polyline points="451.0,520.0 495.0,520.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="451.0,830.0 495.0,830.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="491.0,520.0 491.0,830.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="496.0" y="679.0" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">200</text>
+<polyline points="110.0,520.0 88.0,520.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,589.8 88.0,589.8" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="92.0,520.0 92.0,589.8" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="87.0" y="558.9" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="end">45</text>
+<polyline points="110.0,589.8 88.0,589.8" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,602.1 88.0,602.1" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="92.0,589.8 92.0,602.1" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="87.0" y="600.0" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="end">8</text>
+<polyline points="110.0,602.1 88.0,602.1" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,830.0 88.0,830.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="92.0,602.1 92.0,830.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="87.0" y="720.1" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="end">147</text>
+<polyline points="172.0,771.5 389.0,771.5" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<rect x="234.3" y="755.5" width="92.4" height="14" fill="#fbfaf6"/>
+<text x="280.5" y="767.5" font-size="10.5" font-weight="700" fill="#1d1d22" text-anchor="middle">140 (코드 보관함)</text>
+<polyline points="389.0,783.5 405.0,783.5" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="389.0,811.4 405.0,811.4" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="401.0,783.5 401.0,811.4" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="406.0" y="801.5" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">18</text>
+<polyline points="302.2,640.9 336.2,640.9" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="302.2,656.4 336.2,656.4" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="332.2,640.9 332.2,656.4" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="337.2" y="652.6" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">10 (단추)</text>
+<polyline points="390.6,597.5 358.0,551.0" fill="none" stroke="#c9c9cf" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<text x="354.9" y="547.9" font-size="10.5" font-weight="700" fill="#e8e8ec" text-anchor="end">앞 갈고리 2 · 잠금 막대(숨은선)</text>
+<text x="280.5" y="54.0" font-size="14.0" font-weight="800" fill="#1d1d22" text-anchor="middle">평면도</text>
+<rect x="110.0" y="110.0" width="341.0" height="341.0" rx="21.7" fill="#24242a" stroke="#1d1d22" stroke-width="1.60" opacity="1.00"/>
+<rect x="114.7" y="114.7" width="331.7" height="331.7" rx="17.1" fill="none" stroke="#6c6c74" stroke-width="0.80" opacity="1.00"/>
+<rect x="150.3" y="116.2" width="12.4" height="27.9" rx="2.0" fill="#e9e0cc" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="398.3" y="116.2" width="12.4" height="27.9" rx="2.0" fill="#e9e0cc" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="184.4" y="184.4" width="192.2" height="192.2" rx="0.0" fill="none" stroke="#b6b6bd" stroke-width="0.90" stroke-dasharray="5 3" opacity="1.00"/>
+<circle cx="280.5" cy="234.0" r="38.8" fill="none" stroke="#c9c9cf" stroke-width="1.00" stroke-dasharray="5 3"/>
+<polyline points="232.4,234.0 328.6,234.0" fill="none" stroke="#9a9aa2" stroke-width="0.60" stroke-dasharray="10 2 2 2" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="280.5,185.9 280.5,282.1" fill="none" stroke="#9a9aa2" stroke-width="0.60" stroke-dasharray="10 2 2 2" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="232.1" cy="317.7" r="38.8" fill="none" stroke="#c9c9cf" stroke-width="1.00" stroke-dasharray="5 3"/>
+<polyline points="184.1,317.7 280.2,317.7" fill="none" stroke="#9a9aa2" stroke-width="0.60" stroke-dasharray="10 2 2 2" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="232.1,269.6 232.1,365.8" fill="none" stroke="#9a9aa2" stroke-width="0.60" stroke-dasharray="10 2 2 2" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="328.9" cy="317.7" r="38.8" fill="none" stroke="#c9c9cf" stroke-width="1.00" stroke-dasharray="5 3"/>
+<polyline points="280.8,317.7 376.9,317.7" fill="none" stroke="#9a9aa2" stroke-width="0.60" stroke-dasharray="10 2 2 2" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="328.9,269.6 328.9,365.8" fill="none" stroke="#9a9aa2" stroke-width="0.60" stroke-dasharray="10 2 2 2" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="218.5,113.1 342.5,113.1" fill="none" stroke="#d0782a" stroke-width="2.00" stroke-dasharray="4 2" opacity="1.00" stroke-linejoin="round"/>
+<text x="280.5" y="104.0" font-size="10.5" font-weight="700" fill="#d0782a" text-anchor="middle">뒤 김 슬릿 80</text>
+<polyline points="110.0,110.0 110.0,80.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="451.0,110.0 451.0,80.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,84.0 451.0,84.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<rect x="266.7" y="68.0" width="27.6" height="14" fill="#fbfaf6"/>
+<text x="280.5" y="80.0" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="middle">220</text>
+<polyline points="110.0,110.0 84.0,110.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,451.0 84.0,451.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="88.0,110.0 88.0,451.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="83.0" y="284.5" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="end">220</text>
+<polyline points="451.0,110.0 477.0,110.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="451.0,234.0 477.0,234.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="473.0,110.0 473.0,234.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="478.0" y="176.0" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">80</text>
+<polyline points="473.0,234.0 473.0,317.7" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="478.0" y="279.9" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">54</text>
+<polyline points="473.0,317.7 473.0,451.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="478.0" y="388.4" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">86</text>
+<polyline points="232.1,367.7 328.9,367.7" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<rect x="263.1" y="351.7" width="34.8" height="14" fill="#fbfaf6"/>
+<text x="280.5" y="363.7" font-size="10.5" font-weight="700" fill="#1d1d22" text-anchor="middle">62.4</text>
+<polyline points="356.3,345.1 427.8,420.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<text x="429.3" y="426.7" font-size="10.5" font-weight="700" fill="#e8e8ec" text-anchor="end">Ø50 × 깊이 8 · 3칸(숨은선)</text>
+<text x="280.5" y="160.5" font-size="11.0" font-weight="700" fill="#9a9aa2" text-anchor="middle">검은 유리 윗면 — 아무것도 없음</text>
+<text x="751.5" y="900.0" font-size="14.0" font-weight="800" fill="#1d1d22" text-anchor="middle">우측면도</text>
+<rect x="869.3" y="820.7" width="31.0" height="9.3" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<rect x="602.7" y="820.7" width="31.0" height="9.3" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<path d="M581.0 602.1 L581.0 805.2 Q581.0 820.7 596.5 820.7 L906.5 820.7 Q922.0 820.7 922.0 805.2 L922.0 602.1 Z" fill="#f1e9d8" stroke="#1d1d22" stroke-width="1.60"/>
+<rect x="581.0" y="589.8" width="341.0" height="12.4" rx="0.0" fill="#fff" stroke="#1d1d22" stroke-width="1.40" opacity="1.00"/>
+<path d="M581.0 589.8 L581.0 532.4 Q581.0 520.0 593.4 520.0 L909.6 520.0 Q922.0 520.0 922.0 532.4 L922.0 554.1 L884.8 554.1 L884.8 589.8 Z" fill="#24242a" stroke="#1d1d22" stroke-width="1.60"/>
+<polyline points="584.1,526.2 918.9,526.2" fill="none" stroke="#6c6c74" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<rect x="887.9" y="554.1" width="34.1" height="43.4" rx="3.0" fill="#e9e0cc" stroke="#1d1d22" stroke-width="1.10" opacity="1.00"/>
+<rect x="901.0" y="566.5" width="8.0" height="21.7" rx="4.0" fill="#fff" stroke="#1d1d22" stroke-width="0.90" opacity="1.00"/>
+<circle cx="905.0" cy="572.7" r="4.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="0.80"/>
+<polyline points="905.0,566.5 968.5,541.7" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<text x="971.6" y="537.7" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="start">떠 있는 경첩 — 세로 홈 8</text>
+<polyline points="922.0,625.4 962.3,625.4" fill="none" stroke="#d0782a" stroke-width="1.60" stroke-dasharray="4 2" marker-end="url(#d2-s)" opacity="1.00" stroke-linejoin="round"/>
+<text x="965.4" y="641.4" font-size="10.5" font-weight="700" fill="#d0782a" text-anchor="start">김(뒤로만)</text>
+<rect x="593.4" y="783.5" width="31.0" height="27.9" rx="0.0" fill="none" stroke="#7d7d85" stroke-width="0.80" stroke-dasharray="4 3" opacity="1.00"/>
+<polyline points="581.0,830.0 581.0,868.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="922.0,830.0 922.0,868.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="581.0,864.0 922.0,864.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<rect x="737.7" y="848.0" width="27.6" height="14" fill="#fbfaf6"/>
+<text x="751.5" y="860.0" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="middle">220</text>
+<polyline points="922.0,554.1 952.0,554.1" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="922.0,597.5 952.0,597.5" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="948.0,554.1 948.0,597.5" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="953.0" y="579.8" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">28 (팔)</text>
+<text x="585.0" y="613.0" font-size="11.0" font-weight="800" fill="#d19a3c" text-anchor="start">앞</text>
+<text x="918.0" y="613.0" font-size="11.0" font-weight="800" fill="#d19a3c" text-anchor="end">뒤</text>
+<rect x="900.0" y="960.0" width="300.0" height="92.0" rx="0.0" fill="#fff" stroke="#1d1d22" stroke-width="1.40" opacity="1.00"/>
+<polyline points="900.0,994.0 1200.0,994.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="1050.0,994.0 1050.0,1052.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="900.0,1023.0 1200.0,1023.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<text x="912.0" y="984.0" font-size="15.0" font-weight="800" fill="#1d1d22" text-anchor="start">휴롬 쌀참 · 3면도</text>
+<text x="912.0" y="1014.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">단위 mm</text>
+<text x="1062.0" y="1014.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">척도 1:4 (화면)</text>
+<text x="912.0" y="1043.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">3각법</text>
+<text x="1062.0" y="1043.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">2026-11-25</text>
+<text x="30.0" y="1040.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">바깥 220 × 220 × 200 · 몸체 147 + 흰 띠 8 + 뚜껑 45 · 모서리 R14(평면) · 점선 = 숨은선(열 상자 · 판 · 칸 · 갈고리 · 잠금 막대) · 무게 약 7kg</text></svg>
+    </div>
+    <div class="cut rv">
+      <h3>단면 B-B — 앞 두 칸 중심을 좌우로 자름 (③ 누르는 상태)</h3>
+      <svg viewBox="0 0 1240 720" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
+<pattern id="d2-steel" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#c9ced6"/><line x1="0" y1="0" x2="0" y2="5" stroke="#3c434d" stroke-width="1.2"/></pattern>
+<pattern id="d2-alu" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e9ecef"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8b939d" stroke-width=".9"/></pattern>
+<pattern id="d2-ins" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4ead3"/><circle cx="2" cy="2" r=".9" fill="#b49a62"/><circle cx="6" cy="6" r=".9" fill="#b49a62"/></pattern>
+<pattern id="d2-plas" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="10" height="10" fill="#efe9dc"/><line x1="0" y1="0" x2="0" y2="10" stroke="#b9b0a0" stroke-width=".7"/></pattern>
+<pattern id="d2-rub" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#3a3a40"/></pattern>
+<marker id="d2-a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#1d1d22"/></marker>
+<marker id="d2-s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d0782a"/></marker>
+<marker id="d2-f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4f5864"/></marker>
+</defs><rect width="1240" height="720" fill="#fbfaf6"/>
+<rect x="150.0" y="190.8" width="10.4" height="366.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="150.0" y="170.0" width="10.4" height="20.8" rx="0.0" fill="#ffffff" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="150.0" y="63.4" width="10.4" height="106.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="711.6" y="190.8" width="10.4" height="366.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="711.6" y="170.0" width="10.4" height="20.8" rx="0.0" fill="#ffffff" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="711.6" y="63.4" width="10.4" height="106.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="150.0" y="549.6" width="572.0" height="7.8" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="144.8" y="53.0" width="582.4" height="10.4" rx="0.0" fill="#141418" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="186.4" y="557.4" width="52.0" height="15.6" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="633.6" y="557.4" width="52.0" height="15.6" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="186.4" y="541.8" width="499.2" height="7.8" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="212.4" y="515.8" width="447.2" height="26.0" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="217.6" y="484.6" width="20.8" height="31.2" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="217.6" y="162.2" width="20.8" height="322.4" rx="0.0" fill="none" stroke="#4f5864" stroke-width="1.00" stroke-dasharray="7 3" opacity="1.00"/>
+<rect x="633.6" y="484.6" width="20.8" height="31.2" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="633.6" y="162.2" width="20.8" height="322.4" rx="0.0" fill="none" stroke="#4f5864" stroke-width="1.00" stroke-dasharray="7 3" opacity="1.00"/>
+<rect x="186.4" y="287.0" width="7.8" height="130.0" rx="0.0" fill="#2f6b45" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="566.0" y="406.6" width="88.4" height="62.4" rx="0.0" fill="none" stroke="#5b6470" stroke-width="1.10" stroke-dasharray="5 3" opacity="1.00"/>
+<circle cx="488.0" cy="437.8" r="46.8" fill="none" stroke="#5b6470" stroke-width="1.10" stroke-dasharray="5 3"/>
+<polyline points="545.2,385.8 436.0,385.8" fill="none" stroke="#5b6470" stroke-width="2.00" stroke-dasharray="5 3" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="436.0,385.8 436.0,216.8" fill="none" stroke="#5b6470" stroke-width="2.40" stroke-dasharray="5 3" opacity="1.00" stroke-linejoin="round"/>
+<rect x="248.8" y="170.0" width="15.6" height="104.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="607.6" y="170.0" width="15.6" height="104.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="248.8" y="258.4" width="374.4" height="15.6" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="274.8" y="185.6" width="322.4" height="31.2" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20" opacity="1.00"/>
+<circle cx="311.2" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="389.2" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="482.8" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="560.8" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<path d="M274.8 185.6 L274.8 149.2 L597.2 149.2 L597.2 185.6 Z" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20"/>
+<polygon points="289.9,149.2 292.5,150.8 295.1,152.4 297.7,153.9 300.3,155.3 302.9,156.7 305.5,158.0 308.1,159.2 310.7,160.4 313.3,161.5 315.9,162.5 318.5,163.5 321.1,164.4 323.7,165.2 326.3,166.0 328.9,166.7 331.5,167.3 334.1,167.9 336.7,168.4 339.3,168.8 341.9,169.2 344.5,169.5 347.1,169.7 349.7,169.9 352.3,170.0 354.9,170.0 357.5,170.0 360.1,169.9 362.7,169.7 365.3,169.5 367.9,169.2 370.5,168.8 373.1,168.4 375.7,167.9 378.3,167.3 380.9,166.7 383.5,166.0 386.1,165.2 388.7,164.4 391.3,163.5 393.9,162.5 396.5,161.5 399.1,160.4 401.7,159.2 404.3,158.0 406.9,156.7 409.5,155.3 412.1,153.9 414.7,152.4 417.3,150.8 419.9,149.2" fill="#fbfaf6" stroke="#1d1d22" stroke-width="1.1"/>
+<polygon points="452.1,149.2 454.7,150.8 457.3,152.4 459.9,153.9 462.5,155.3 465.1,156.7 467.7,158.0 470.3,159.2 472.9,160.4 475.5,161.5 478.1,162.5 480.7,163.5 483.3,164.4 485.9,165.2 488.5,166.0 491.1,166.7 493.7,167.3 496.3,167.9 498.9,168.4 501.5,168.8 504.1,169.2 506.7,169.5 509.3,169.7 511.9,169.9 514.5,170.0 517.1,170.0 519.7,170.0 522.3,169.9 524.9,169.7 527.5,169.5 530.1,169.2 532.7,168.8 535.3,168.4 537.9,167.9 540.5,167.3 543.1,166.7 545.7,166.0 548.3,165.2 550.9,164.4 553.5,163.5 556.1,162.5 558.7,161.5 561.3,160.4 563.9,159.2 566.5,158.0 569.1,156.7 571.7,155.3 574.3,153.9 576.9,152.4 579.5,150.8 582.1,149.2" fill="#fbfaf6" stroke="#1d1d22" stroke-width="1.1"/>
+<rect x="274.8" y="157.0" width="7.8" height="13.0" rx="0.0" fill="#fbfaf6" stroke="#1d1d22" stroke-width="0.70" opacity="1.00"/>
+<rect x="589.4" y="157.0" width="7.8" height="13.0" rx="0.0" fill="#fbfaf6" stroke="#1d1d22" stroke-width="0.70" opacity="1.00"/>
+<rect x="274.8" y="133.6" width="322.4" height="15.6" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20" opacity="1.00"/>
+<polygon points="297.7,149.2 300.3,150.6 302.9,151.9 305.5,153.2 308.1,154.4 310.7,155.5 313.3,156.5 315.9,157.5 318.5,158.5 321.1,159.4 323.7,160.2 326.3,160.9 328.9,161.6 331.5,162.2 334.1,162.7 336.7,163.2 339.3,163.6 341.9,164.0 344.5,164.3 347.1,164.5 349.7,164.7 352.3,164.8 354.9,164.8 357.5,164.8 360.1,164.7 362.7,164.5 365.3,164.3 367.9,164.0 370.5,163.6 373.1,163.2 375.7,162.7 378.3,162.2 380.9,161.6 383.5,160.9 386.1,160.2 388.7,159.4 391.3,158.5 393.9,157.5 396.5,156.5 399.1,155.5 401.7,154.4 404.3,153.2 406.9,151.9 409.5,150.6 412.1,149.2" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<circle cx="308.1" cy="155.8" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="318.5" cy="160.1" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="328.9" cy="163.3" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="339.3" cy="165.4" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="349.7" cy="166.5" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="360.1" cy="166.5" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="370.5" cy="165.4" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="380.9" cy="163.3" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="391.3" cy="160.1" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="401.7" cy="155.8" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<polygon points="459.9,149.2 462.5,150.6 465.1,151.9 467.7,153.2 470.3,154.4 472.9,155.5 475.5,156.5 478.1,157.5 480.7,158.5 483.3,159.4 485.9,160.2 488.5,160.9 491.1,161.6 493.7,162.2 496.3,162.7 498.9,163.2 501.5,163.6 504.1,164.0 506.7,164.3 509.3,164.5 511.9,164.7 514.5,164.8 517.1,164.8 519.7,164.8 522.3,164.7 524.9,164.5 527.5,164.3 530.1,164.0 532.7,163.6 535.3,163.2 537.9,162.7 540.5,162.2 543.1,161.6 545.7,160.9 548.3,160.2 550.9,159.4 553.5,158.5 556.1,157.5 558.7,156.5 561.3,155.5 563.9,154.4 566.5,153.2 569.1,151.9 571.7,150.6 574.3,149.2" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<circle cx="470.3" cy="155.8" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="480.7" cy="160.1" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="491.1" cy="163.3" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="501.5" cy="165.4" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="511.9" cy="166.5" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="522.3" cy="166.5" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="532.7" cy="165.4" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="543.1" cy="163.3" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="553.5" cy="160.1" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="563.9" cy="155.8" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<rect x="264.4" y="107.6" width="343.2" height="26.0" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20" opacity="1.00"/>
+<circle cx="311.2" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="389.2" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="482.8" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="560.8" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<rect x="248.8" y="94.6" width="374.4" height="13.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="207.2" y="66.0" width="457.6" height="28.6" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<polyline points="274.8,149.2 597.2,149.2" fill="none" stroke="#d19a3c" stroke-width="2.20" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="436.0,177.8 436.0,157.0" fill="none" stroke="#4f5864" stroke-width="2.20" marker-end="url(#d2-f)" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="436.0,94.6 436.0,68.6" fill="none" stroke="#4f5864" stroke-width="2.20" marker-end="url(#d2-f)" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="228.0,89.4 228.0,469.0" fill="none" stroke="#4f5864" stroke-width="2.00" stroke-dasharray="8 4" marker-end="url(#d2-f)" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,573.0 110.0,53.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="105.0,573.0 115.0,573.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="577.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">0</text>
+<polyline points="105.0,557.4 115.0,557.4" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="561.4" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">6</text>
+<polyline points="105.0,541.8 115.0,541.8" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="545.8" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">12</text>
+<polyline points="105.0,515.8 115.0,515.8" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="519.8" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">22</text>
+<polyline points="105.0,274.0 115.0,274.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="278.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">115</text>
+<polyline points="105.0,258.4 115.0,258.4" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="262.4" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">121</text>
+<polyline points="105.0,216.8 115.0,216.8" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="220.8" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">137</text>
+<polyline points="105.0,185.6 115.0,185.6" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="189.6" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">149</text>
+<polyline points="105.0,170.0 115.0,170.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="174.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">155</text>
+<polyline points="105.0,149.2 115.0,149.2" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="153.2" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">163</text>
+<polyline points="105.0,133.6 115.0,133.6" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="137.6" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">169</text>
+<polyline points="105.0,107.6 115.0,107.6" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="111.6" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">179</text>
+<polyline points="105.0,94.6 115.0,94.6" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="98.6" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">184</text>
+<polyline points="105.0,66.0 115.0,66.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="70.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">195</text>
+<polyline points="105.0,53.0 115.0,53.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="57.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">200</text>
+<text x="110.0" y="39.0" font-size="10.5" font-weight="800" fill="#55555c" text-anchor="middle">z (mm)</text>
+<polyline points="462.0,58.2 1000.0,60.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="462.0" cy="58.2" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="60.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="64.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑭</text>
+<text x="1016.0" y="64.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">뚜껑 45 · 검은 유리 윗면 4</text>
+<polyline points="540.0,79.0 1000.0,100.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="540.0" cy="79.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="100.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="104.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑬</text>
+<text x="1016.0" y="104.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">뚜껑 보 11t — 힘을 경첩 · 갈고리로</text>
+<polyline points="540.0,101.1 1000.0,140.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="540.0" cy="101.1" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="140.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="144.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑧</text>
+<text x="1016.0" y="144.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">뚜껑 단열 5 · 열 상자 단열 6</text>
+<polyline points="540.0,115.4 1000.0,180.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="540.0" cy="115.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="180.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="184.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑦</text>
+<text x="1016.0" y="184.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">위 열판 10 · 시즈 히터 450W · NTC</text>
+<polyline points="579.0,141.4 1000.0,220.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="579.0" cy="141.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="220.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="224.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑫</text>
+<text x="1016.0" y="224.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">위 판 6 · 볼록 6 · 전선 없음</text>
+<polyline points="579.0,167.4 1000.0,260.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="579.0" cy="167.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="260.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="264.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑥</text>
+<text x="1016.0" y="264.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">아래 판 14 · 칸 Ø50 × 8 · 쌀 2mm</text>
+<polyline points="579.0,201.2 1000.0,300.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="579.0" cy="201.2" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="300.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="304.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑤</text>
+<text x="1016.0" y="304.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">받침 12 · 히터 450W · 판 감지</text>
+<polyline points="612.8,235.0 1000.0,340.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="612.8" cy="235.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="340.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="344.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑧</text>
+<text x="1016.0" y="344.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">열 상자 144 × 144 × 40 · 위 열림</text>
+<polyline points="644.0,500.2 1000.0,470.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="644.0" cy="500.2" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="470.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="474.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑬</text>
+<text x="1016.0" y="474.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">C자 틀 8t × 2 · 바닥판 10t</text>
+<polyline points="612.8,437.8 1000.0,420.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="612.8" cy="437.8" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="420.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="424.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">③</text>
+<text x="1016.0" y="424.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">모터(너머 · 점선)</text>
+<polyline points="659.6,547.0 1000.0,520.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="659.6" cy="547.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="520.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="524.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">①</text>
+<text x="1016.0" y="524.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">무게판 · 고무발 4</text>
+<polyline points="190.3,352.0 40.0,330.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="190.3" cy="352.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="40.0" cy="330.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="40.0" y="334.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑨</text>
+<polyline points="488.0,417.0 40.0,400.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="488.0" cy="417.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="40.0" cy="400.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="40.0" y="404.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">④</text>
+<polyline points="155.2,313.0 40.0,250.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="155.2" cy="313.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="40.0" cy="250.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="40.0" y="254.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑪</text>
+<polyline points="155.2,180.4 40.0,180.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="155.2" cy="180.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="40.0" cy="180.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="40.0" y="184.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑩</text>
+<rect x="150.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="184.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">강 · 스테인리스</text>
+<rect x="300.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="334.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">알루미늄</text>
+<rect x="450.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="484.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">단열재</text>
+<rect x="600.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="634.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">수지 껍데기</text>
+<rect x="750.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="#141418" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="784.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">강화유리</text>
+<rect x="900.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="934.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">시즈 히터</text>
+<polyline points="1050.0,593.0 1080.0,593.0" fill="none" stroke="#d19a3c" stroke-width="2.20" opacity="1.00" stroke-linejoin="round"/>
+<text x="1086.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">밀봉면</text>
+<rect x="900.0" y="616.0" width="300.0" height="92.0" rx="0.0" fill="#fff" stroke="#1d1d22" stroke-width="1.40" opacity="1.00"/>
+<polyline points="900.0,650.0 1200.0,650.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="1050.0,650.0 1050.0,708.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="900.0,679.0 1200.0,679.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<text x="912.0" y="640.0" font-size="15.0" font-weight="800" fill="#1d1d22" text-anchor="start">휴롬 쌀참 · 단면 B-B (y 134)</text>
+<text x="912.0" y="670.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">단위 mm</text>
+<text x="1062.0" y="670.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">척도 1:2 (화면)</text>
+<text x="912.0" y="699.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">3각법</text>
+<text x="1062.0" y="699.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">2026-11-25</text>
+<text x="150.0" y="640.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">③ 누르는 상태 · 앞 두 칸 중심을 좌우로 자름 · 회색 화살 = 힘(칸 → 위 판 → 위 열판 → 뚜껑 보 → C자 틀 → 바닥판) · 점선 = 단면 너머의 부품</text>
+<text x="150.0" y="660.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">쌀: 숟가락 3g → 칸 한 겹 → 볼록이 2mm로 누름 → 220°C 8~10초 → 절벽 −9 → 칸 안 떡뻥 9~11mm → 뚜껑 열고 집기</text></svg>
+    </div>
+    <div class="cut rv">
+      <h3>단면 A-A — 앞 왼쪽 칸 중심을 앞뒤로 자름 (③ 누르는 상태 · 왼쪽 = 앞)</h3>
+      <svg viewBox="0 0 1240 720" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
+<pattern id="d2-steel" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#c9ced6"/><line x1="0" y1="0" x2="0" y2="5" stroke="#3c434d" stroke-width="1.2"/></pattern>
+<pattern id="d2-alu" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e9ecef"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8b939d" stroke-width=".9"/></pattern>
+<pattern id="d2-ins" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4ead3"/><circle cx="2" cy="2" r=".9" fill="#b49a62"/><circle cx="6" cy="6" r=".9" fill="#b49a62"/></pattern>
+<pattern id="d2-plas" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="10" height="10" fill="#efe9dc"/><line x1="0" y1="0" x2="0" y2="10" stroke="#b9b0a0" stroke-width=".7"/></pattern>
+<pattern id="d2-rub" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#3a3a40"/></pattern>
+<marker id="d2-a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#1d1d22"/></marker>
+<marker id="d2-s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d0782a"/></marker>
+<marker id="d2-f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4f5864"/></marker>
+</defs><rect width="1240" height="720" fill="#fbfaf6"/>
+<rect x="711.6" y="190.8" width="10.4" height="366.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="711.6" y="170.0" width="10.4" height="20.8" rx="0.0" fill="#ffffff" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="711.6" y="63.4" width="10.4" height="106.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="150.0" y="190.8" width="10.4" height="366.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="150.0" y="170.0" width="10.4" height="20.8" rx="0.0" fill="#ffffff" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="150.0" y="63.4" width="10.4" height="106.6" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="150.0" y="549.6" width="572.0" height="7.8" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="144.8" y="53.0" width="582.4" height="10.4" rx="0.0" fill="#141418" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="633.6" y="557.4" width="52.0" height="15.6" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="186.4" y="557.4" width="52.0" height="15.6" rx="0.0" fill="#3a3a40" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="186.4" y="541.8" width="499.2" height="7.8" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="233.2" y="515.8" width="452.4" height="26.0" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="170.8" y="495.0" width="52.0" height="46.8" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="170.8" y="500.2" width="46.8" height="36.4" rx="0.0" fill="#fbfaf6" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<polyline points="425.6,406.6 540.0,406.6" fill="none" stroke="#5b6470" stroke-width="1.10" stroke-dasharray="5 3" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="425.6,469.0 540.0,469.0" fill="none" stroke="#5b6470" stroke-width="1.10" stroke-dasharray="5 3" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="482.8" cy="437.8" r="46.8" fill="none" stroke="#5b6470" stroke-width="1.10" stroke-dasharray="5 3"/>
+<polyline points="482.8,385.8 482.8,216.8" fill="none" stroke="#5b6470" stroke-width="2.40" stroke-dasharray="5 3" opacity="1.00" stroke-linejoin="round"/>
+<rect x="623.2" y="183.0" width="31.2" height="57.2" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<rect x="701.2" y="219.4" width="10.4" height="20.8" rx="0.0" fill="#fbfaf6" stroke="none" stroke-width="0.00" opacity="1.00"/>
+<rect x="664.8" y="110.2" width="46.8" height="72.8" rx="0.0" fill="none" stroke="#4f5864" stroke-width="1.00" stroke-dasharray="7 3" opacity="1.00"/>
+<circle cx="696.0" cy="141.4" r="6.2" fill="#3a3a40" stroke="#1d1d22" stroke-width="0.80"/>
+<rect x="692.0" y="125.8" width="8.0" height="31.2" rx="4.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<rect x="194.2" y="188.2" width="15.6" height="15.6" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<polyline points="194.2,170.0 194.2,206.4 204.6,206.4" fill="none" stroke="#4f5864" stroke-width="2.40" stroke-dasharray="5 3" opacity="1.00" stroke-linejoin="round"/>
+<rect x="607.6" y="170.0" width="15.6" height="104.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="248.8" y="170.0" width="15.6" height="104.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="248.8" y="258.4" width="374.4" height="15.6" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="606.6" y="177.8" width="2.0" height="15.6" rx="0.0" fill="#fbfaf6" stroke="none" stroke-width="0.00" opacity="1.00"/>
+<rect x="274.8" y="185.6" width="322.4" height="31.2" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20" opacity="1.00"/>
+<circle cx="566.0" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="488.0" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="384.0" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="306.0" cy="201.2" r="7.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<path d="M274.8 185.6 L274.8 149.2 L597.2 149.2 L597.2 185.6 Z" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20"/>
+<polygon points="438.6,149.2 436.0,150.8 433.4,152.4 430.8,153.9 428.2,155.3 425.6,156.7 423.0,158.0 420.4,159.2 417.8,160.4 415.2,161.5 412.6,162.5 410.0,163.5 407.4,164.4 404.8,165.2 402.2,166.0 399.6,166.7 397.0,167.3 394.4,167.9 391.8,168.4 389.2,168.8 386.6,169.2 384.0,169.5 381.4,169.7 378.8,169.9 376.2,170.0 373.6,170.0 371.0,170.0 368.4,169.9 365.8,169.7 363.2,169.5 360.6,169.2 358.0,168.8 355.4,168.4 352.8,167.9 350.2,167.3 347.6,166.7 345.0,166.0 342.4,165.2 339.8,164.4 337.2,163.5 334.6,162.5 332.0,161.5 329.4,160.4 326.8,159.2 324.2,158.0 321.6,156.7 319.0,155.3 316.4,153.9 313.8,152.4 311.2,150.8 308.6,149.2" fill="#fbfaf6" stroke="#1d1d22" stroke-width="1.1"/>
+<rect x="274.8" y="133.6" width="322.4" height="15.6" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20" opacity="1.00"/>
+<polygon points="430.8,149.2 428.2,150.6 425.6,151.9 423.0,153.2 420.4,154.4 417.8,155.5 415.2,156.5 412.6,157.5 410.0,158.5 407.4,159.4 404.8,160.2 402.2,160.9 399.6,161.6 397.0,162.2 394.4,162.7 391.8,163.2 389.2,163.6 386.6,164.0 384.0,164.3 381.4,164.5 378.8,164.7 376.2,164.8 373.6,164.8 371.0,164.8 368.4,164.7 365.8,164.5 363.2,164.3 360.6,164.0 358.0,163.6 355.4,163.2 352.8,162.7 350.2,162.2 347.6,161.6 345.0,160.9 342.4,160.2 339.8,159.4 337.2,158.5 334.6,157.5 332.0,156.5 329.4,155.5 326.8,154.4 324.2,153.2 321.6,151.9 319.0,150.6 316.4,149.2" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<circle cx="420.4" cy="155.8" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="410.0" cy="160.1" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="399.6" cy="163.3" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="389.2" cy="165.4" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="378.8" cy="166.5" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="368.4" cy="166.5" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="358.0" cy="165.4" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="347.6" cy="163.3" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="337.2" cy="160.1" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<circle cx="326.8" cy="155.8" r="2.9" fill="#f3eddc" stroke="#a89c80" stroke-width="0.60"/>
+<rect x="264.4" y="107.6" width="343.2" height="26.0" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.20" opacity="1.00"/>
+<circle cx="566.0" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="488.0" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="384.0" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<circle cx="306.0" cy="119.3" r="6.8" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80"/>
+<rect x="248.8" y="94.6" width="374.4" height="13.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<rect x="186.4" y="66.0" width="509.6" height="28.6" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="1.00" opacity="1.00"/>
+<polyline points="597.2,149.2 274.8,149.2" fill="none" stroke="#d19a3c" stroke-width="2.20" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="409.6,131.0 566.0,154.4 602.4,175.2 638.8,209.0 711.6,209.0 758.4,209.0" fill="none" stroke="#d0782a" stroke-width="1.80" stroke-dasharray="5 3" marker-end="url(#d2-s)" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="110.0,573.0 110.0,53.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="105.0,573.0 115.0,573.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="577.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">0</text>
+<polyline points="105.0,541.8 115.0,541.8" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="545.8" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">12</text>
+<polyline points="105.0,495.0 115.0,495.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="499.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">30</text>
+<polyline points="105.0,274.0 115.0,274.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="278.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">115</text>
+<polyline points="105.0,216.8 115.0,216.8" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="220.8" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">137</text>
+<polyline points="105.0,185.6 115.0,185.6" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="189.6" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">149</text>
+<polyline points="105.0,170.0 115.0,170.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="174.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">155</text>
+<polyline points="105.0,149.2 115.0,149.2" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="153.2" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">163</text>
+<polyline points="105.0,133.6 115.0,133.6" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="137.6" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">169</text>
+<polyline points="105.0,94.6 115.0,94.6" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="98.6" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">184</text>
+<polyline points="105.0,53.0 115.0,53.0" fill="none" stroke="#1d1d22" stroke-width="0.90" opacity="1.00" stroke-linejoin="round"/>
+<text x="101.0" y="57.0" font-size="10.5" font-weight="700" fill="#55555c" text-anchor="end">200</text>
+<text x="110.0" y="39.0" font-size="10.5" font-weight="800" fill="#55555c" text-anchor="middle">z (mm)</text>
+<polyline points="436.0,58.2 1000.0,60.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="436.0" cy="58.2" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="60.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="64.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑭</text>
+<text x="1016.0" y="64.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">뚜껑 · 뒤 = 떠 있는 경첩 축</text>
+<polyline points="410.0,79.0 1000.0,100.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="410.0" cy="79.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="100.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="104.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑬</text>
+<text x="1016.0" y="104.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">뚜껑 보 11t → 뒤 축 · 앞 갈고리</text>
+<polyline points="332.0,115.4 1000.0,150.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="332.0" cy="115.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="150.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="154.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑦</text>
+<text x="1016.0" y="154.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">위 열판 · 히터</text>
+<polyline points="332.0,141.4 1000.0,190.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="332.0" cy="141.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="190.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="194.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑫</text>
+<text x="1016.0" y="194.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">위 판 · 볼록 1(단면)</text>
+<polyline points="436.0,167.4 1000.0,230.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="436.0" cy="167.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="230.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="234.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑥</text>
+<text x="1016.0" y="234.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">아래 판 · 앞 칸 단면</text>
+<polyline points="488.0,201.2 1000.0,270.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="488.0" cy="201.2" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="270.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="274.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑤</text>
+<text x="1016.0" y="274.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">받침 · 히터(+10 올라간 상태)</text>
+<polyline points="618.0,235.0 1000.0,320.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="618.0" cy="235.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="320.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="324.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑧</text>
+<text x="1016.0" y="324.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">열 상자 · 뒤 벽 위 김 구멍 Ø8 × 2</text>
+<polyline points="202.0,196.0 1000.0,380.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="202.0" cy="196.0" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="380.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="384.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑬</text>
+<text x="1016.0" y="384.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">잠금 막대(단면) · 앞 갈고리(점선)</text>
+<polyline points="196.8,518.4 1000.0,440.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="196.8" cy="518.4" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="440.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="444.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">②</text>
+<text x="1016.0" y="444.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">코드 보관함 · 열 상자 밖</text>
+<polyline points="462.0,528.8 1000.0,490.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="462.0" cy="528.8" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="1000.0" cy="490.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="1000.0" y="494.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">⑬</text>
+<text x="1016.0" y="494.5" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">바닥판 10t</text>
+<polyline points="482.8,437.8 40.0,400.0" fill="none" stroke="#55555c" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<circle cx="482.8" cy="437.8" r="2.4" fill="#1d1d22" stroke="none" stroke-width="1.20"/>
+<circle cx="40.0" cy="400.0" r="11.0" fill="#fff" stroke="#1d1d22" stroke-width="1.10"/>
+<text x="40.0" y="404.5" font-size="13.0" font-weight="800" fill="#1d1d22" text-anchor="middle">④</text>
+<rect x="150.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-steel)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="184.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">강 · 스테인리스</text>
+<rect x="300.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="334.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">알루미늄</text>
+<rect x="450.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-ins)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="484.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">단열재</text>
+<rect x="600.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="url(#d2-plas)" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="634.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">수지 껍데기</text>
+<rect x="750.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="#141418" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="784.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">강화유리</text>
+<rect x="900.0" y="585.0" width="26.0" height="16.0" rx="0.0" fill="#c8452f" stroke="#1d1d22" stroke-width="0.80" opacity="1.00"/>
+<text x="934.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">시즈 히터</text>
+<polyline points="1050.0,593.0 1080.0,593.0" fill="none" stroke="#d19a3c" stroke-width="2.20" opacity="1.00" stroke-linejoin="round"/>
+<text x="1086.0" y="598.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">밀봉면</text>
+<rect x="900.0" y="616.0" width="300.0" height="92.0" rx="0.0" fill="#fff" stroke="#1d1d22" stroke-width="1.40" opacity="1.00"/>
+<polyline points="900.0,650.0 1200.0,650.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="1050.0,650.0 1050.0,708.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="900.0,679.0 1200.0,679.0" fill="none" stroke="#1d1d22" stroke-width="0.80" opacity="1.00" stroke-linejoin="round"/>
+<text x="912.0" y="640.0" font-size="15.0" font-weight="800" fill="#1d1d22" text-anchor="start">휴롬 쌀참 · 단면 A-A (x 78.8)</text>
+<text x="912.0" y="670.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">단위 mm</text>
+<text x="1062.0" y="670.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">척도 1:2 (화면)</text>
+<text x="912.0" y="699.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">3각법</text>
+<text x="1062.0" y="699.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">2026-11-25</text>
+<text x="150.0" y="640.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">③ 누르는 상태 · 앞 왼쪽 칸 중심을 앞뒤로 자름(왼쪽 = 앞) · 주황 점선 = 김(뻥 뒤 두 판 사이 → 뒤 벽 위 구멍 → 덕트 → 뒤 슬릿)</text>
+<text x="150.0" y="660.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">쌀: 숟가락 3g → 칸 한 겹 → 볼록이 2mm로 누름 → 220°C 8~10초 → 절벽 −9 → 칸 안 떡뻥 9~11mm → 뚜껑 열고 집기</text></svg>
+    </div>
+    <div class="cut rv">
+      <h3>상세 — 칸 하나의 세 상태 (볼록 끝은 고정 · 받침과 아래 판만 움직임)</h3>
+      <svg viewBox="0 0 1240 320" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
+<pattern id="d2-steel" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#c9ced6"/><line x1="0" y1="0" x2="0" y2="5" stroke="#3c434d" stroke-width="1.2"/></pattern>
+<pattern id="d2-alu" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e9ecef"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8b939d" stroke-width=".9"/></pattern>
+<pattern id="d2-ins" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4ead3"/><circle cx="2" cy="2" r=".9" fill="#b49a62"/><circle cx="6" cy="6" r=".9" fill="#b49a62"/></pattern>
+<pattern id="d2-plas" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="10" height="10" fill="#efe9dc"/><line x1="0" y1="0" x2="0" y2="10" stroke="#b9b0a0" stroke-width=".7"/></pattern>
+<pattern id="d2-rub" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#3a3a40"/></pattern>
+<marker id="d2-a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#1d1d22"/></marker>
+<marker id="d2-s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d0782a"/></marker>
+<marker id="d2-f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4f5864"/></marker>
+</defs><rect width="1240" height="320" fill="#fbfaf6"/>
+<text x="220.0" y="30.0" font-size="13.5" font-weight="800" fill="#1d1d22" text-anchor="middle">쉼 — 쌀 넣고 닫음</text>
+<rect x="52.0" y="65.2" width="336.0" height="25.2" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.10" opacity="1.00"/>
+<polygon points="127.6,90.4 131.8,92.6 136.0,94.8 140.2,96.8 144.4,98.7 148.6,100.6 152.8,102.3 157.0,103.9 161.2,105.4 165.4,106.8 169.6,108.1 173.8,109.3 178.0,110.4 182.2,111.4 186.4,112.3 190.6,113.0 194.8,113.7 199.0,114.3 203.2,114.8 207.4,115.1 211.6,115.4 215.8,115.5 220.0,115.6 224.2,115.5 228.4,115.4 232.6,115.1 236.8,114.8 241.0,114.3 245.2,113.7 249.4,113.0 253.6,112.3 257.8,111.4 262.0,110.4 266.2,109.3 270.4,108.1 274.6,106.8 278.8,105.4 283.0,103.9 287.2,102.3 291.4,100.6 295.6,98.7 299.8,96.8 304.0,94.8 308.2,92.6 312.4,90.4" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<polygon points="52.0,191.2 52.0,132.4 115.0,132.4 119.2,135.0 123.4,137.6 127.6,140.0 131.8,142.3 136.0,144.5 140.2,146.6 144.4,148.6 148.6,150.5 152.8,152.2 157.0,153.9 161.2,155.5 165.4,156.9 169.6,158.3 173.8,159.5 178.0,160.6 182.2,161.6 186.4,162.6 190.6,163.4 194.8,164.1 199.0,164.7 203.2,165.1 207.4,165.5 211.6,165.8 215.8,165.9 220.0,166.0 224.2,165.9 228.4,165.8 232.6,165.5 236.8,165.1 241.0,164.7 245.2,164.1 249.4,163.4 253.6,162.6 257.8,161.6 262.0,160.6 266.2,159.5 270.4,158.3 274.6,156.9 278.8,155.5 283.0,153.9 287.2,152.2 291.4,150.5 295.6,148.6 299.8,146.6 304.0,144.5 308.2,142.3 312.4,140.0 316.6,137.6 320.8,135.0 325.0,132.4 388.0,132.4 388.0,191.2" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<circle cx="152.8" cy="146.4" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="169.6" cy="152.4" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="186.4" cy="156.7" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="203.2" cy="159.3" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="220.0" cy="160.1" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="236.8" cy="159.3" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="253.6" cy="156.7" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="270.4" cy="152.4" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<circle cx="287.2" cy="146.4" r="5.5" fill="#f3eddc" stroke="#a89c80" stroke-width="0.70"/>
+<polyline points="220.0,115.6 350.0,115.6" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="220.0,166.0 350.0,166.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="346.0,115.6 346.0,166.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="351.0" y="144.8" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">틈 12</text>
+<polyline points="52.0,90.4 14.4,90.4" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="52.0,132.4 14.4,132.4" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="18.4,90.4 18.4,132.4" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="13.4" y="115.4" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="end">10</text>
+<rect x="52.0" y="191.2" width="336.0" height="16.8" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="0.80" opacity="0.60"/>
+<text x="58.0" y="202.0" font-size="11.0" font-weight="700" fill="#55555c" text-anchor="start">⑤ 받침</text>
+<text x="392.0" y="81.8" font-size="12.0" font-weight="800" fill="#1d1d22" text-anchor="start">⑫</text>
+<text x="392.0" y="165.8" font-size="12.0" font-weight="800" fill="#1d1d22" text-anchor="start">⑥</text>
+<text x="620.0" y="30.0" font-size="13.5" font-weight="800" fill="#1d1d22" text-anchor="middle">③ 누름 +10 — 밀봉 · 220°C 8~10초</text>
+<rect x="452.0" y="65.2" width="336.0" height="25.2" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.10" opacity="1.00"/>
+<polygon points="527.6,90.4 531.8,92.6 536.0,94.8 540.2,96.8 544.4,98.7 548.6,100.6 552.8,102.3 557.0,103.9 561.2,105.4 565.4,106.8 569.6,108.1 573.8,109.3 578.0,110.4 582.2,111.4 586.4,112.3 590.6,113.0 594.8,113.7 599.0,114.3 603.2,114.8 607.4,115.1 611.6,115.4 615.8,115.5 620.0,115.6 624.2,115.5 628.4,115.4 632.6,115.1 636.8,114.8 641.0,114.3 645.2,113.7 649.4,113.0 653.6,112.3 657.8,111.4 662.0,110.4 666.2,109.3 670.4,108.1 674.6,106.8 678.8,105.4 683.0,103.9 687.2,102.3 691.4,100.6 695.6,98.7 699.8,96.8 704.0,94.8 708.2,92.6 712.4,90.4" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<polygon points="452.0,149.2 452.0,90.4 515.0,90.4 519.2,93.0 523.4,95.6 527.6,98.0 531.8,100.3 536.0,102.5 540.2,104.6 544.4,106.6 548.6,108.5 552.8,110.2 557.0,111.9 561.2,113.5 565.4,114.9 569.6,116.3 573.8,117.5 578.0,118.6 582.2,119.6 586.4,120.6 590.6,121.4 594.8,122.1 599.0,122.7 603.2,123.1 607.4,123.5 611.6,123.8 615.8,123.9 620.0,124.0 624.2,123.9 628.4,123.8 632.6,123.5 636.8,123.1 641.0,122.7 645.2,122.1 649.4,121.4 653.6,120.6 657.8,119.6 662.0,118.6 666.2,117.5 670.4,116.3 674.6,114.9 678.8,113.5 683.0,111.9 687.2,110.2 691.4,108.5 695.6,106.6 699.8,104.6 704.0,102.5 708.2,100.3 712.4,98.0 716.6,95.6 720.8,93.0 725.0,90.4 788.0,90.4 788.0,149.2" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<polygon points="527.6,98.0 531.8,100.3 536.0,102.5 540.2,104.6 544.4,106.6 548.6,108.5 552.8,110.2 557.0,111.9 561.2,113.5 565.4,114.9 569.6,116.3 573.8,117.5 578.0,118.6 582.2,119.6 586.4,120.6 590.6,121.4 594.8,122.1 599.0,122.7 603.2,123.1 607.4,123.5 611.6,123.8 615.8,123.9 620.0,124.0 624.2,123.9 628.4,123.8 632.6,123.5 636.8,123.1 641.0,122.7 645.2,122.1 649.4,121.4 653.6,120.6 657.8,119.6 662.0,118.6 666.2,117.5 670.4,116.3 674.6,114.9 678.8,113.5 683.0,111.9 687.2,110.2 691.4,108.5 695.6,106.6 699.8,104.6 704.0,102.5 708.2,100.3 712.4,98.0 712.4,90.4 708.2,92.6 704.0,94.8 699.8,96.8 695.6,98.7 691.4,100.6 687.2,102.3 683.0,103.9 678.8,105.4 674.6,106.8 670.4,108.1 666.2,109.3 662.0,110.4 657.8,111.4 653.6,112.3 649.4,113.0 645.2,113.7 641.0,114.3 636.8,114.8 632.6,115.1 628.4,115.4 624.2,115.5 620.0,115.6 615.8,115.5 611.6,115.4 607.4,115.1 603.2,114.8 599.0,114.3 594.8,113.7 590.6,113.0 586.4,112.3 582.2,111.4 578.0,110.4 573.8,109.3 569.6,108.1 565.4,106.8 561.2,105.4 557.0,103.9 552.8,102.3 548.6,100.6 544.4,98.7 540.2,96.8 536.0,94.8 531.8,92.6 527.6,90.4" fill="#f3eddc" stroke="#a89c80" stroke-width=".8"/>
+<polyline points="452.0,90.4 788.0,90.4" fill="none" stroke="#d19a3c" stroke-width="2.40" opacity="1.00" stroke-linejoin="round"/>
+<text x="620.0" y="203.8" font-size="11.5" font-weight="800" fill="#c8452f" text-anchor="middle">칸이 막혀 물기가 끓음 · 칸 안 0.5~1.5MPa</text>
+<polyline points="620.0,115.6 750.0,115.6" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="620.0,124.0 750.0,124.0" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="746.0,115.6 746.0,124.0" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="751.0" y="123.8" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">쌀 2</text>
+<rect x="452.0" y="149.2" width="336.0" height="16.8" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="0.80" opacity="0.60"/>
+<text x="458.0" y="160.0" font-size="11.0" font-weight="700" fill="#55555c" text-anchor="start">⑤ 받침</text>
+<text x="792.0" y="81.8" font-size="12.0" font-weight="800" fill="#1d1d22" text-anchor="start">⑫</text>
+<text x="792.0" y="123.8" font-size="12.0" font-weight="800" fill="#1d1d22" text-anchor="start">⑥</text>
+<text x="1020.0" y="30.0" font-size="13.5" font-weight="800" fill="#1d1d22" text-anchor="middle">④ 뻥 −9 — 절벽</text>
+<rect x="852.0" y="65.2" width="336.0" height="25.2" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.10" opacity="1.00"/>
+<polygon points="927.6,90.4 931.8,92.6 936.0,94.8 940.2,96.8 944.4,98.7 948.6,100.6 952.8,102.3 957.0,103.9 961.2,105.4 965.4,106.8 969.6,108.1 973.8,109.3 978.0,110.4 982.2,111.4 986.4,112.3 990.6,113.0 994.8,113.7 999.0,114.3 1003.2,114.8 1007.4,115.1 1011.6,115.4 1015.8,115.5 1020.0,115.6 1024.2,115.5 1028.4,115.4 1032.6,115.1 1036.8,114.8 1041.0,114.3 1045.2,113.7 1049.4,113.0 1053.6,112.3 1057.8,111.4 1062.0,110.4 1066.2,109.3 1070.4,108.1 1074.6,106.8 1078.8,105.4 1083.0,103.9 1087.2,102.3 1091.4,100.6 1095.6,98.7 1099.8,96.8 1104.0,94.8 1108.2,92.6 1112.4,90.4" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<polygon points="852.0,187.0 852.0,128.2 915.0,128.2 919.2,130.8 923.4,133.4 927.6,135.8 931.8,138.1 936.0,140.3 940.2,142.4 944.4,144.4 948.6,146.3 952.8,148.0 957.0,149.7 961.2,151.3 965.4,152.7 969.6,154.1 973.8,155.3 978.0,156.4 982.2,157.4 986.4,158.4 990.6,159.2 994.8,159.9 999.0,160.5 1003.2,160.9 1007.4,161.3 1011.6,161.6 1015.8,161.7 1020.0,161.8 1024.2,161.7 1028.4,161.6 1032.6,161.3 1036.8,160.9 1041.0,160.5 1045.2,159.9 1049.4,159.2 1053.6,158.4 1057.8,157.4 1062.0,156.4 1066.2,155.3 1070.4,154.1 1074.6,152.7 1078.8,151.3 1083.0,149.7 1087.2,148.0 1091.4,146.3 1095.6,144.4 1099.8,142.4 1104.0,140.3 1108.2,138.1 1112.4,135.8 1116.6,133.4 1120.8,130.8 1125.0,128.2 1188.0,128.2 1188.0,187.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="1.1"/>
+<polygon points="919.2,130.8 923.4,133.4 927.6,135.8 931.8,138.1 936.0,140.3 940.2,142.4 944.4,144.4 948.6,146.3 952.8,148.0 957.0,149.7 961.2,151.3 965.4,152.7 969.6,154.1 973.8,155.3 978.0,156.4 982.2,157.4 986.4,158.4 990.6,159.2 994.8,159.9 999.0,160.5 1003.2,160.9 1007.4,161.3 1011.6,161.6 1015.8,161.7 1020.0,161.8 1024.2,161.7 1028.4,161.6 1032.6,161.3 1036.8,160.9 1041.0,160.5 1045.2,159.9 1049.4,159.2 1053.6,158.4 1057.8,157.4 1062.0,156.4 1066.2,155.3 1070.4,154.1 1074.6,152.7 1078.8,151.3 1083.0,149.7 1087.2,148.0 1091.4,146.3 1095.6,144.4 1099.8,142.4 1104.0,140.3 1108.2,138.1 1112.4,135.8 1116.6,133.4 1120.8,130.8 1120.8,91.7 1116.6,91.7 1112.4,91.7 1108.2,93.9 1104.0,96.0 1099.8,98.1 1095.6,100.0 1091.4,101.8 1087.2,103.5 1083.0,105.1 1078.8,106.7 1074.6,108.1 1070.4,109.4 1066.2,110.6 1062.0,111.7 1057.8,112.6 1053.6,113.5 1049.4,114.3 1045.2,115.0 1041.0,115.6 1036.8,116.0 1032.6,116.4 1028.4,116.7 1024.2,116.8 1020.0,116.9 1015.8,116.8 1011.6,116.7 1007.4,116.4 1003.2,116.0 999.0,115.6 994.8,115.0 990.6,114.3 986.4,113.5 982.2,112.6 978.0,111.7 973.8,110.6 969.6,109.4 965.4,108.1 961.2,106.7 957.0,105.1 952.8,103.5 948.6,101.8 944.4,100.0 940.2,98.1 936.0,96.0 931.8,93.9 927.6,91.7 923.4,91.7 919.2,91.7" fill="#f0e2bf" stroke="#a88a4a" stroke-width="1"/>
+<polyline points="910.8,109.3 860.4,109.3" fill="none" stroke="#d0782a" stroke-width="1.60" stroke-dasharray="4 2" marker-end="url(#d2-s)" opacity="1.00" stroke-linejoin="round"/>
+<text x="885.6" y="52.6" font-size="11.0" font-weight="800" fill="#d0782a" text-anchor="middle">김 → 두 판 사이 → 뒤</text>
+<polyline points="1020.0,115.6 1150.0,115.6" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="1020.0,161.8 1150.0,161.8" fill="none" stroke="#55555c" stroke-width="0.70" opacity="1.00" stroke-linejoin="round"/>
+<polyline points="1146.0,115.6 1146.0,161.8" fill="none" stroke="#1d1d22" stroke-width="0.80" marker-start="url(#d2-a)" marker-end="url(#d2-a)" opacity="1.00" stroke-linejoin="round"/>
+<text x="1151.0" y="142.7" font-size="11.5" font-weight="700" fill="#1d1d22" text-anchor="start">떡뻥 11</text>
+<rect x="852.0" y="187.0" width="336.0" height="16.8" rx="0.0" fill="url(#d2-alu)" stroke="#1d1d22" stroke-width="0.80" opacity="0.60"/>
+<text x="858.0" y="197.8" font-size="11.0" font-weight="700" fill="#55555c" text-anchor="start">⑤ 받침</text>
+<text x="1192.0" y="81.8" font-size="12.0" font-weight="800" fill="#1d1d22" text-anchor="start">⑫</text>
+<text x="1192.0" y="161.6" font-size="12.0" font-weight="800" fill="#1d1d22" text-anchor="start">⑥</text>
+<text x="40.0" y="300.0" font-size="11.5" font-weight="700" fill="#55555c" text-anchor="start">볼록 끝은 늘 z 157(뚜껑 안 고정) · 움직이는 건 받침 + 아래 판 한 덩어리 · 쉼 153 → 누름 163(두 판이 닿아 칸이 막힘) → 절벽 154 · 떡뻥 두께 = 볼록 끝 ↔ 칸 바닥 틈</text></svg>
+    </div>
+
+    <div class="cut rv">
+      <h3>2.5D 분해도 — 아래에서 위로 쌓는 순서 = 조립 순서 (부품 14개 · 번호는 단면 · 3D · 본문과 같음)</h3>
       <svg viewBox="0 0 1250 980" xmlns="http://www.w3.org/2000/svg" font-family="NanumSquare, Pretendard, sans-serif"><defs>
 <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#8a5d12" stroke-width="1.1" opacity=".55"/></pattern>
 <linearGradient id="glassT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset=".5" stop-color="#101014"/><stop offset="1" stop-color="#2c2c32"/></linearGradient>
@@ -1398,29 +2018,60 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 <text x="690.0" y="800.0" font-size="13.5" font-weight="800" fill="#15151a" text-anchor="start" >① 바닥 무게판 · 고무발 4</text>
 <text x="480.0" y="962.0" font-size="12.5" font-weight="600" fill="#6a6a70" text-anchor="middle" >아래에서 위로 쌓는 순서 = 조립 순서. 사람이 떼어 씻는 것은 ⑥ 아래 판과 ⑫ 위 판 두 장뿐입니다. 부품 14개, 번호는 단면 · 동작 · 3D · 본문과 같습니다.</text></svg>
     </div>
-  </div>
-</section>
-
-<section id="structure">
-  <div class="xv-sticky">
-    <div class="xv-text">
-      <div class="xv-step on"><div class="kicker">10 · 3D · 겉모습</div><h2>검은 유리 뚜껑 하나,<br>앞엔 단추 하나.</h2><p>약 23 × 23 × 20cm. 45mm 두께의 검은 유리 뚜껑(떠 있는 뒤 경첩), 그 밑 흰 띠, 앞면엔 단추 · 주황 불빛 · 숫자, 맨 아래 코드 보관함. 드래그로 돌려 보고, 아래 단추로 옆면 색을 바꿔 보세요. 스크롤을 내리면 뚜껑이 열립니다.</p></div>
-      <div class="xv-step"><div class="kicker">10 · 3D · 떼는 것</div><h2>씻는 건 둘뿐 — 위 판과 아래 판.</h2><p>뚜껑을 젖히면 얕은 칸 셋에 떡뻥이 놓여 있습니다. 아래 판은 손가락 홈 2개로 들어 빼고, 위 판은 뚜껑 안 앞 단추를 누르고 실리콘 손잡이로 당깁니다. 두 장 다 전선이 없어 물에 통째로 씻고, 몸체엔 물이 들어갈 틈이 없습니다.</p></div>
-      <div class="xv-step"><div class="kicker">10 · 3D · 열 상자</div><h2>뜨거운 것은 상자 하나에,<br>힘은 강철 틀 안에.</h2><p>위 열판은 뚜껑 안에 고정, 받침과 그 위 아래 판만 바닥 모터의 달팽이 캠으로 10mm 오르내립니다(그림에서 천천히 움직입니다). 뚜껑을 닫으면 앞 갈고리 2개를 잠금 막대가 잡고, 뚜껑 보가 뒤 경첩 축과 함께 양옆 C자 강철 틀에 걸립니다. 두 열판 속 빨간 막대가 시즈 히터 450W. 김은 뒤 벽 구멍으로 나갑니다.</p></div>
-      <div class="xv-step"><div class="kicker">10 · 3D · 분해</div><h2>부품 14개.</h2><p>① 무게판 · ② 코드 보관함 · ③ 모터 · ④ 달팽이 캠 · 레버 · ⑤ 받침(속 히터 · 판 감지) · ⑥ 아래 판(얕은 칸 3) · ⑦ 위 열판(속 히터 · 뚜껑 안) · ⑧ 열 상자 · 뚜껑 단열 · ⑨ 보드 · ⑩ 몸체 · 앞면 · 김 덕트 · ⑪ 옆 패널 · ⑫ 위 판(볼록 3) · ⑬ 강철 틀(C자 틀 · 뚜껑 보 · 갈고리 · 잠금 막대) · ⑭ 뚜껑. 번호는 2.5D 그림과 같습니다. 220V 직결이라 어댑터가 없습니다.</p></div>
+    <div class="rv" style="margin-top:56px"><h3 style="font-size:22px;font-weight:800">티어다운 — 부품표</h3>
+    <p class="lead" style="margin-top:10px">뜯으면 나오는 순서대로. 단가는 1만 대 기준 부품 단가 범위(원)이고, 조립 · 검사 · 포장 · 물류는 뺐습니다. ● = 쌀이 닿는 부품.</p></div>
+    <div class="tblwrap"><table class="rv bom">
+      <tr><th>번호</th><th>부품</th><th>재질 · 공정</th><th>수량</th><th>무게 g</th><th>닿음</th><th>단가 원</th></tr>
+      <tr><td><b>①</b></td><td><b>바닥 무게판 · 고무발 · 기울기 센서</b></td><td>SPCC 2t 프레스 · 고무발 4 · 기울기 스위치</td><td>1식</td><td>420</td><td></td><td>2,000~3,500</td></tr>
+      <tr><td><b>②</b></td><td><b>코드 보관함 덮개</b></td><td>PP 사출</td><td>1</td><td>60</td><td></td><td>600~1,200</td></tr>
+      <tr><td><b>③</b></td><td><b>모터</b></td><td>웜 기어드 DC 24V 8W · 자기 잠금</td><td>1</td><td>180</td><td></td><td>4,500~7,500</td></tr>
+      <tr><td><b>④</b></td><td><b>캠 모듈</b></td><td>달팽이 캠 S45C 가공 · 레버 SPCC 프레스 · 푸시 로드 SUS304 · 실리콘 벨로즈 · 되돌림 스프링 2 · 캠 위치 센서</td><td>1식</td><td>240</td><td></td><td>5,000~8,500</td></tr>
+      <tr><td><b>⑤</b></td><td><b>받침(아래 열판)</b></td><td>ADC12 다이캐스트 + 윗면 CNC · 시즈 히터 450W 매립 · 온도 퓨즈 250°C · 판 감지 자석 스위치</td><td>1식</td><td>520</td><td></td><td>7,500~12,000</td></tr>
+      <tr><td><b>⑥</b></td><td><b>아래 판(얕은 칸 3)</b></td><td>A6061 CNC · PFAS 없는 세라믹 코팅</td><td>1</td><td>510</td><td>●</td><td>6,000~10,000</td></tr>
+      <tr><td><b>⑦</b></td><td><b>위 열판</b></td><td>ADC12 다이캐스트 · 시즈 히터 450W · NTC</td><td>1식</td><td>470</td><td></td><td>7,000~11,000</td></tr>
+      <tr><td><b>⑧</b></td><td><b>열 상자 · 단열</b></td><td>SPCC 0.8 프레스 · 세라믹 섬유 단열 6(상자) · 5(뚜껑)</td><td>1식</td><td>380</td><td></td><td>3,000~5,000</td></tr>
+      <tr><td><b>⑨</b></td><td><b>제어 보드</b></td><td>MCU · 트라이악 2 · 숫자 2자리 · 주황 LED · 단추 · 솔레노이드 드라이버</td><td>1</td><td>60</td><td></td><td>8,000~13,000</td></tr>
+      <tr><td><b>⑩</b></td><td><b>몸체 · 흰 띠 · 앞면 · 김 덕트</b></td><td>PP-GF 내열 사출 · 흰 띠 PBT · 덕트 PPS</td><td>1식</td><td>620</td><td></td><td>5,000~8,500</td></tr>
+      <tr><td><b>⑪</b></td><td><b>옆 패널 4장</b></td><td>ABS 사출 + 도장(5색)</td><td>4</td><td>300</td><td></td><td>3,000~5,000</td></tr>
+      <tr><td><b>⑫</b></td><td><b>위 판(얕은 볼록 3)</b></td><td>A6061 CNC · 세라믹 코팅 · 실리콘 손잡이 2 · SUS 스프링 걸쇠</td><td>1식</td><td>260</td><td>●</td><td>5,000~8,500</td></tr>
+      <tr><td><b>⑬</b></td><td><b>바닥판 10t</b></td><td>SS400 레이저 절단 · 가운데 비움 · 전착 도장</td><td>1</td><td>700</td><td></td><td>3,000~5,000</td></tr>
+      <tr><td><b>⑬</b></td><td><b>C자 틀 8t × 2 · 경첩 축</b></td><td>SS400 레이저 절단 · 축 SUS304</td><td>2</td><td>600</td><td></td><td>3,500~6,000</td></tr>
+      <tr><td><b>⑬</b></td><td><b>뚜껑 보 11t · 앞 갈고리 2</b></td><td>SS400 레이저(리브 비움) · 갈고리 SUS304 프레스</td><td>1식</td><td>550</td><td></td><td>3,500~6,000</td></tr>
+      <tr><td><b>⑬</b></td><td><b>잠금 막대 · 솔레노이드</b></td><td>SUS 막대 · 솔레노이드 12V · 스프링</td><td>1식</td><td>90</td><td></td><td>2,500~4,000</td></tr>
+      <tr><td><b>⑭</b></td><td><b>검은 유리 윗면</b></td><td>강화유리 4t · 뒷면 인쇄</td><td>1</td><td>520</td><td></td><td>3,500~6,000</td></tr>
+      <tr><td><b>⑭</b></td><td><b>뚜껑 껍데기 · 위 판 떼는 단추</b></td><td>PBT 사출 · 단추 POM · 스프링</td><td>1식</td><td>160</td><td></td><td>2,500~4,000</td></tr>
+      <tr><td><b>⑭</b></td><td><b>떠 있는 경첩 팔 2 · 댐퍼</b></td><td>팔 ADC12 · 세로 홈 · 회전 댐퍼 · 들림 스프링</td><td>1식</td><td>120</td><td></td><td>3,000~5,000</td></tr>
+      <tr><td><b>—</b></td><td><b>전원 코드 · 내열 배선 · 커넥터 · 나사</b></td><td>220V 코드 1.2m · 실리콘 배선</td><td>1식</td><td>180</td><td></td><td>3,000~5,000</td></tr>
+      <tr><td><b>—</b></td><td><b>계량 숟가락 3g</b></td><td>PP 사출</td><td>1</td><td>15</td><td>●</td><td>300~700</td></tr>
+      <tr><td></td><td><b>합계</b></td><td>부품 21줄 · 움직이는 부품 2(캠 모듈 · 받침 덩어리)</td><td></td><td><b>6,955</b></td><td>3</td><td><b>81,400~135,400</b></td></tr>
+    </table></div>
+    <div class="grid2">
+      <div class="card rv"><small>조립 순서</small><strong>아래에서 위로, 열 번</strong><ol style="padding-left:20px;font-size:15px;line-height:1.75;color:var(--sub)">
+        <li>① 무게판 위에 ⑬ 바닥판 · ② 코드 보관함</li>
+        <li>③ 모터 · ④ 캠 모듈을 바닥판에 · 캠 위치 맞춤</li>
+        <li>⑬ C자 틀 2장 세움 · 잠금 막대 · 솔레노이드</li>
+        <li>⑧ 열 상자 얹고 푸시 로드 벨로즈 끼움</li>
+        <li>⑤ 받침(히터 · 퓨즈 · 판 감지) 로드에 물림</li>
+        <li>⑨ 보드 · 배선 · 앞면 단추 · 숫자 연결</li>
+        <li>⑩ 몸체 · 흰 띠 · 덕트 → ⑪ 옆 패널 4장 끼움</li>
+        <li>⑭ 뚜껑: 유리 + 뚜껑 보 + 단열 + ⑦ 위 열판 + 갈고리</li>
+        <li>뚜껑을 경첩 팔 축에 걸고 댐퍼 · 들림 스프링</li>
+        <li>⑥ 아래 판 · ⑫ 위 판 끼우고 내압 · 온도 · 잠금 검사</li>
+      </ol></div>
+      <div class="card rv"><small>분해 · 수리</small><strong>사람은 판 두 장, 서비스는 세 덩어리</strong><ul>
+        <li><b>사람이 떼는 것</b>: ⑥ 아래 판(손가락 홈) · ⑫ 위 판(단추 + 손잡이). 도구 없음.</li>
+        <li><b>뚜껑 히터</b>: 유리 아래 나사 4개 → ⑦ 위 열판을 커넥터째 교체. 뚜껑을 몸체에서 떼지 않음.</li>
+        <li><b>캠 모듈</b>: 바닥 무게판을 떼면 ③ 모터 + ④ 캠이 한 덩어리로 빠짐(나사 4).</li>
+        <li><b>보드</b>: 왼쪽 옆 패널을 밀어 빼면 ⑨ 보드가 바로 보임.</li>
+        <li>열 상자 · 강철 틀은 수리하지 않는 부품(수명 내내).</li>
+      </ul></div>
     </div>
-    <div class="xv-stage"><canvas id="xv-canvas" aria-label="쌀참 구조 3D"></canvas><div id="xv-labels"></div>
-      <div class="xv-colors" role="group" aria-label="옆면 패널 색"><button data-xv-color="cream" class="on"><i style="background:#eadfc9"></i>크림</button><button data-xv-color="black"><i style="background:#1c1c1f"></i>블랙</button><button data-xv-color="white"><i style="background:#f4f4f1"></i>화이트</button><button data-xv-color="sage"><i style="background:#a9b8a3"></i>세이지</button><button data-xv-color="lavender"><i style="background:#c3b6d6"></i>라벤더</button></div>
-      <div class="xv-hint">드래그: 돌리기 · 스크롤: 분해</div></div>
   </div>
-  <div class="xv-spacer"></div>
 </section>
-<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
-<script type="module" src="explode.js"></script>
 
 <section id="clean" class="dark">
   <div class="wrap">
-    <div class="rv"><div class="kicker">11 · 세척</div>
+    <div class="rv"><div class="kicker">12 · 세척</div>
     <h2>재료가 닿는 건 판 두 장.<br><b>씻을 게 둘</b>뿐입니다.</h2>
     <p class="lead">쌀은 위 판과 아래 판 사이에서만 열을 만나고, 기계 안에 물이 고이는 자리도, 쌀이 흐르는 길도 없습니다. 몸체와 뚜껑은 마른 행주로 닦고, 위 판 · 아래 판 두 장만 물로 씻습니다(둘 다 식기세척기). 히터와 전선은 판 뒤 고정 열판 · 받침 속에 있어 판에는 전기 접점이 없습니다.</p></div>
     <div class="photo rv"><img src="img/photo_wash.jpg" alt="씻는 건 판 두 장 — 얕은 칸 아래 판 · 볼록 위 판(전선 없음, 실리콘 손잡이)"></div>
@@ -1435,11 +2086,11 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 
 <section id="spec" class="light">
   <div class="wrap">
-    <div class="rv"><div class="kicker">12 · 사양 (목표치 · 벤치 전)</div>
+    <div class="rv"><div class="kicker">13 · 사양 (목표치 · 벤치 전)</div>
     <h2>220V 일반 콘센트에 꽂는<br><b>1kW</b> 작은 가전.</h2></div>
     <div class="tblwrap"><table class="rv">
       <tr><th style="width:22%">항목</th><th>목표 사양</th><th style="width:28%">왜</th></tr>
-      <tr><td><b>크기 · 무게</b></td><td>약 23 × 23 × 20cm(몸체 155 + 뚜껑 45) · 약 4.8kg(강철 틀 · 바닥 무게판 포함)</td><td>조리대 한 자리 · 넘어짐 방지</td></tr>
+      <tr><td><b>크기 · 무게</b></td><td>약 23 × 23 × 20cm(몸체 155 + 뚜껑 45) · 약 7kg(부품표 합 6,955 g · 강철 틀 2.4kg 포함)</td><td>조리대 한 자리 · 넘어짐 방지</td></tr>
       <tr><td><b>전원</b></td><td>220V 직결 · 약 1kW(시즈 히터 450W × 2 = 900W + 모터 · 제어) · 대기 0.5W 이하</td><td>3칸 35초 주기에 필요한 열량. 어댑터 없음</td></tr>
       <tr><td><b>뚜껑</b></td><td>45mm · 검은 강화 유리 윗면(아무것도 없음) · 떠 있는 뒤 경첩(팔의 세로 홈 8mm · 댐퍼 · 마지막 2cm 수평) · 열림 스위치(열리면 히터 꺼짐) · 안에 위 열판(고정) + 단열 5 + 뚜껑 보 11t + 떼는 위 판 · 앞 갈고리 2 · 위 판 떼는 단추(안쪽 앞 테)</td><td>볼록이 칸에 똑바로 내려옴 · 윗면은 늘 매끈</td></tr>
       <tr><td><b>앞면 · 조작</b></td><td>HUROM · 단추 1(닫고 누르면 시작 · 완료 뒤 누르면 열림 · 처음 켤 땐 3초) · 주황 불빛(예열 · 굽는 중 · 완료 · 열어도 돼요 · 뜨거움) · 숫자 2자리(남은 초) · 맨 아래 코드 보관함</td><td>단추 하나 · 앱 없음</td></tr>
@@ -1461,7 +2112,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 
 <section class="dark" id="gain">
   <div class="wrap">
-    <div class="rv"><div class="kicker">13 · 고객이 얻는 것</div>
+    <div class="rv"><div class="kicker">14 · 고객이 얻는 것</div>
     <h2>봉지 간식 → <b>쌀 한 숟가락.</b></h2></div>
     <div class="ba rv">
       <div><small>지금</small>
@@ -1481,7 +2132,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 
 <section id="biz" class="light">
   <div class="wrap">
-    <div class="rv"><div class="kicker">14 · 사업성 (모르는 숫자는 TBD)</div>
+    <div class="rv"><div class="kicker">15 · 사업성 (모르는 숫자는 TBD)</div>
     <h2>가정용 브랜드 제품이 없는 칸에<br><b>휴롬이 먼저</b> 들어갑니다.</h2></div>
     <div class="grid4">
       <div class="card rv"><small>목표 판매가</small><div class="num" style="font-size:40px">12.9<small>~14.9만</small></div><div class="numlbl">아이 간식 월 3만 원 쓰는 집이면 5개월에 회수.</div></div>
@@ -1501,7 +2152,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 
 <section class="dark" id="feasible">
   <div class="wrap">
-    <div class="rv"><div class="kicker">15 · 구조 · 식품 성립 검토 (벤치 전 계산)</div>
+    <div class="rv"><div class="kicker">16 · 구조 · 식품 성립 검토 (벤치 전 계산)</div>
     <h2>진짜 되나 — <b>구조 16 · 식품 10.</b></h2>
     <p class="lead">숫자로 따져 본 뒤 설계가 여러 번 바뀌었고, 마지막으로 「관통 틀 + 피스톤」을 버리고 와플기처럼 「위아래 판 두 장 + 얕은 칸」으로 왔습니다. 씻을 것이 판 두 장으로 줄고, 판엔 전선이 없습니다. 먹는 것을 만드는 기계라 식품 쪽 10항목을 따로 검토했습니다. 「벤치에서 잴 것」이 1~4주 벤치의 측정 목록입니다.</p></div>
     <div class="grid3">
@@ -1527,7 +2178,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
       <tr><td><b>높이 적층</b></td><td>고무발 6 + 무게판 6 + 바닥판 10 + 캠 · 모터 칸 93 + 열 상자 40 + 뚜껑 45 = 200mm. 열 상자 안: 받침 127~139 · 아래 판 139~153(칸 바닥 145) · 몸체 테 155 · 뚜껑 안: 위 판 163~169(볼록 끝 157) · 위 열판 169~179 · 단열 179~184 · 뚜껑 보 184~195 · 유리 196~200. 누름: 아래 판 윗면 153 → 163 · 뻥: 154. 아래 칸은 캠 · 레버 · 모터 · 보드 · 코드 보관함이 나눠 씀.</td><td>성립</td><td>목업에서 배선 · 경첩 · 뚜껑 열림 각</td></tr>
       <tr><td><b>닫힘 · 맞물림</b></td><td>볼록은 경첩 쪽 1 · 먼 쪽 2 → 닫으면 뒤 1 · 앞 2, 칸도 뒤 1 · 앞 2라 그대로 맞물림. 떠 있는 경첩으로 마지막 2cm는 수평 하강이라 볼록이 칸 테두리를 긁지 않음. 위 판은 뒤 걸이 2 + 앞 걸쇠로, 아래 판은 받침 둘레 턱으로 자리를 잡고, 맞물림 여유는 볼록 Ø44 ↔ 칸 Ø50(한쪽 3mm).</td><td>성립</td><td>목업에서 1,000번 닫기 · 일부러 1mm 어긋난 채 닫기</td></tr>
       <tr><td><b>계량 · 넣기</b></td><td>3g ≈ 3.7cm³ 숟가락 하나, 세 칸에 한 번씩. 기계 안에 계량 · 이송 장치가 없어 막힘 · 끼임이 없습니다. 한 칸만 많이 넣으면(5g+) 받침이 기울어 고르지 않게 눌립니다 → 받침은 가운데 로드 + 양옆 안내 기둥 2로 수평을 잡고, 캠 위치 · 모터 전류로 감지해 「쌀이 많아요」.</td><td>성립</td><td>2 · 3 · 4 · 5g별 결과 · 전류 감지</td></tr>
-      <tr><td><b>넘어짐</b></td><td>바닥 230 × 230, 4.8kg(강철 틀 포함), 무게중심 높이 약 85mm → 전도각 약 53°. 뚜껑(약 1.1kg)을 젖혀도 무게중심은 뒤로 25mm 가는 정도라 바닥 안. 기울기 센서 15°에서 가열 차단.</td><td>성립</td><td>뚜껑 젖힌 채 뒤로 미는 힘</td></tr>
+      <tr><td><b>넘어짐</b></td><td>바닥 230 × 230, 약 7kg(강철 틀 포함), 무게중심 높이 약 85mm → 전도각 약 53°. 뚜껑(약 2kg)을 70° 젖혀도 전체 무게중심은 뒤로 약 18mm 가는 정도라 바닥 안. 기울기 센서 15°에서 가열 차단.</td><td>성립</td><td>뚜껑 젖힌 채 뒤로 미는 힘</td></tr>
       <tr><td><b>수명</b></td><td>하루 10장 × 5년 ≈ 1.8만 사이클. 캠 · 롤러 · 베어링은 강철로 10만 사이클급(절벽 충격은 스프링이 받음), 시즈 히터 2년 보증. 판 코팅 마모는 판 교체(소모품). 경첩 · 갈고리 · 잠금 막대 5만 회.</td><td>성립</td><td>가속 1만 사이클 뒤 테두리 밀봉 · 코팅 · 캠 절벽 마모 · 경첩</td></tr>
       </table></div>
     <div class="rv" style="margin-top:56px"><h3 style="font-size:22px;font-weight:800">식품 안전 검토 — <b style="color:var(--acc)">10항목</b></h3>
@@ -1550,7 +2201,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 
 <section class="light" id="risk">
   <div class="wrap">
-    <div class="rv"><div class="kicker">16 · 리스크 · 중단 기준</div>
+    <div class="rv"><div class="kicker">17 · 리스크 · 중단 기준</div>
     <h2>이 숫자가 나오면 <b>접습니다.</b></h2></div>
     <div class="tblwrap"><table class="rv">
       <tr><th>리스크</th><th>가능성</th><th>영향</th><th>대응</th><th>확인 시점</th></tr>
@@ -1576,7 +2227,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 
 <section class="dark" id="plan">
   <div class="wrap">
-    <div class="rv"><div class="kicker">17 · 검증 12주</div>
+    <div class="rv"><div class="kicker">18 · 검증 12주</div>
     <h2>중국 소형기 한 대로 <b>4주 안에</b><br>소음 · 팽화 · 온도를 잽니다.</h2></div>
     <div class="grid4">
       <div class="card rv"><small>1~4주 · 벤치</small><strong>소형기 1대 구매</strong><p>소음 · 팽화 성공률(마른 쌀 · 현미 · 귀리 × 8 · 10 · 12초) · 틈 6 · 8 · 10mm별 두께 · 판 온도 · 칸 테두리 밀봉 압력 · 찌꺼기 칩 칸에 펴 넣기 맛 보기 · 식품 안전 10항목 중 벤치 항목.</p></div>
@@ -1595,7 +2246,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
 
 <section class="light" id="decide">
   <div class="wrap">
-    <div class="rv"><div class="kicker">18 · 결정 요청</div>
+    <div class="rv"><div class="kicker">19 · 결정 요청</div>
     <h2>승인해 주시면 <b>이번 주</b> 시작합니다.</h2></div>
     <div class="dec rv">
       <div><div><b>벤치용 중국 소형기 1대 구매</b><p>500위안급 야시장용 소형기 + 배송 · 변압. 소음 · 팽화 · 온도 · 틈별 두께를 4주 안에 측정합니다.</p></div></div>
@@ -1631,7 +2282,7 @@ footer .ver{font-size:9.5px;color:#b8b2a6;margin-left:10px}
     <p class="cap">실사 이미지는 모두 AI 생성 컨셉이고, 구조 그림은 2.5D · 3D입니다. 숫자는 벤치 전 목표치이며, TBD는 견적 · 조사 뒤 채웁니다.</p>
   </div>
 </section>
-<footer><div class="wrap">휴롬 쌀참 · 신제품 기획 제안서 · <a href="https://www.figma.com/design/JeHF6ltyqlQTJdEbAcmmjv">디자인 보드(Figma)</a><span class="ver">r12 · 2026-11-25</span></div></footer>
+<footer><div class="wrap">휴롬 쌀참 · 신제품 기획 제안서 · <a href="https://www.figma.com/design/JeHF6ltyqlQTJdEbAcmmjv">디자인 보드(Figma)</a><span class="ver">r12a · 2026-11-25</span></div></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
